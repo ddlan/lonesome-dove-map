@@ -1,0 +1,17 @@
+{
+  "chapter": 93,
+  "places": [
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "event", "characters": ["Call", "Augustus", "Newt", "Pea Eye", "Po Campo"], "note": "The herd enters tall-grass, game-rich country with deep skies; an early snow falls, and while scouting Augustus tells Newt that Call is his father.", "fictional": false, "location_hint": "Montana Territory, entered from the Wyoming plains along the east side of the Bighorn Mountains, still south of the Yellowstone", "confidence": "high"},
+    {"raw_name": "the barren Wyoming plain", "name": "Wyoming", "kind": "region", "type": "event", "characters": ["Call", "Augustus"], "note": "Dry, sage-covered plain the outfit leaves behind as it crosses into Montana.", "fictional": false, "location_hint": "Wyoming Territory, south of Montana", "confidence": "high"},
+    {"raw_name": "the Bighorn Mountains", "name": "Bighorn Mountains", "kind": "mountain", "type": "event", "characters": ["Call", "Augustus", "Newt"], "note": "The outfit rides for days alongside the cloud-capped range; an early snowstorm sweeps down from it overnight.", "fictional": false, "location_hint": "west of the herd's route into southern Montana", "confidence": "high"},
+    {"raw_name": "the Yellowstone", "name": "Yellowstone River", "kind": "river", "type": "mention", "characters": ["Call", "Augustus"], "note": "Call wants to cross it first, hoping for the first ranch north of the river.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Miles City", "name": "Miles City", "kind": "town", "type": "mention", "characters": ["Call", "Augustus"], "note": "Call says it is somewhere up ahead, where Augustus can buy whiskey.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Augustus", "Newt", "Call"], "note": "Augustus misses it and its whiskey; Newt, upset by the news about his father, longs to be back there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": [], "note": "Its skies seem shallower to the cowboys than Montana's.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Newt"], "note": "Newt lost his jacket somewhere there and now suffers in the cold.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Tennessee", "name": "Tennessee", "kind": "state", "type": "mention", "characters": ["Augustus", "Newt"], "note": "Augustus describes his genteel horse-and-hound father there and leaving home at thirteen.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Newt", "Pea Eye", "Po Campo"], "at": "Montana", "hint": "on the grassy plains of southern Montana beside the Bighorn Mountains, south of the Yellowstone; Augustus and Newt returning from a scout fifteen miles ahead of the herd"}
+  ]
+}

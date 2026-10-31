@@ -1,0 +1,14 @@
+{
+  "chapter": 38,
+  "places": [
+    {"raw_name": "the Red", "name": "Red River", "kind": "river", "type": "event", "characters": ["July Johnson", "Joe", "Sedgwick"], "note": "July and Joe ford the boggy river where deer cross, then rope out a bug-studying traveler stuck midstream who had been tossing his gear into the water.", "fictional": false, "location_hint": "reached after several days riding southwest from Fort Smith through rainy pine woods; broad and muddy, curving down from the north", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "event", "characters": ["July Johnson", "Joe", "Sedgwick"], "note": "July and Joe reach its edge on the south bank of the Red; Sedgwick plans to preach the Gospel there.", "fictional": false, "location_hint": "south bank of the Red River", "confidence": "medium"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson"], "note": "July fights a nagging worry about Elmira that tempts him to turn back there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Little Rock", "name": "Little Rock", "kind": "city", "type": "mention", "characters": ["Sedgwick"], "note": "Sedgwick says he left about a thousand insect specimens there.", "fictional": false, "location_hint": "Arkansas", "confidence": "high"},
+    {"raw_name": "the pine woods", "name": "Arkansas", "kind": "state", "type": "event", "characters": ["July Johnson", "Joe"], "note": "July and Joe push hard southwest through dripping, mosquito-ridden pine woods, asking farmers about Jake, who had stayed with some.", "fictional": false, "location_hint": "pine woods between Fort Smith and the Red River", "confidence": "medium"}
+  ],
+  "groups": [
+    {"label": "July Johnson and Joe", "members": ["July Johnson", "Joe"], "at": "Red River", "hint": "just across to the south (Texas) bank of the Red River"},
+    {"label": "Sedgwick", "members": ["Sedgwick"], "at": "Red River", "hint": "walking down the south bank of the Red, headed into Texas"}
+  ]
+}

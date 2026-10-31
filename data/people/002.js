@@ -1,0 +1,1 @@
+LD_PEOPLE.add({"n":2,"b":{"Lorena":{"text":"Lorena Wood lives above the Dry Bean, the saloon in Lonesome Dove, where she earns her living as a prostitute after a gambler abandoned her in town a few months back. Thought to have the most beautiful face the town has ever seen, she is silently adored by young Newt, who has never yet dared to speak to her.","kind":"intro"}}});

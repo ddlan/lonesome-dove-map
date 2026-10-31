@@ -1,0 +1,16 @@
+{
+  "chapter": 49,
+  "places": [
+    {"raw_name": "Lorena's camp", "name": "Lorena's camp", "kind": "camp", "type": "event", "characters": ["Lorena", "Blue Duck"], "note": "Blue Duck slips in at night, ties Lorena to her saddle and leads her away.", "fictional": true, "location_hint": "east of the Hat Creek herd's bed-ground; the cow camp lay to the west", "confidence": "medium"},
+    {"raw_name": "the cow camp", "name": "Hat Creek outfit's cow camp", "kind": "camp", "type": "event", "characters": ["Lorena", "Blue Duck"], "note": "Blue Duck rides with his captive straight through the stampeding herd without being seen.", "fictional": true, "location_hint": "west of Lorena's camp", "confidence": "medium"},
+    {"raw_name": "rocky hills and ridges", "name": "Blue Duck's route through empty hill country", "kind": "region", "type": "event", "characters": ["Lorena", "Blue Duck"], "note": "Several days of hard riding through empty rocky ridges, crossing many creeks, while horses give out and Lorena suffers thirst.", "fictional": true, "location_hint": "rough, empty country crossed by many creeks, travelled several days and nights from the herd; trees thinning as they go", "confidence": "low"},
+    {"raw_name": "a sizable stream", "name": "Stream where Blue Duck rested", "kind": "creek", "type": "event", "characters": ["Lorena", "Blue Duck"], "note": "After a full night and day riding, they stop here until dark; Lorena finally drinks and Blue Duck threatens her.", "fictional": true, "location_hint": "about a day's hard ride beyond the herd, through rocky ridge country", "confidence": "low"},
+    {"raw_name": "a broad riverbed", "name": "Red-sand river crossing", "kind": "crossing", "type": "event", "characters": ["Lorena", "Blue Duck", "Ermoke"], "note": "Wide riverbed of boggy reddish sand with a thin brown stream; Ermoke and three renegades wait on the far side.", "fictional": true, "location_hint": "several days' ride from the herd, where the country flattens into tall grass and long views", "confidence": "low"},
+    {"raw_name": "the high grass", "name": "Grassland beyond the sand river", "kind": "region", "type": "event", "characters": ["Lorena", "Blue Duck", "Ermoke"], "note": "Past the river the party stops at sundown and Ermoke's men assault Lorena before riding on by moonlight.", "fictional": true, "location_hint": "flat tall-grass country a short ride beyond the red-sand river crossing", "confidence": "low"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Lorena", "Jake Spoon"], "note": "Lorena supposes Jake is still there playing cards.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Lorena despairs of ever seeing it.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Blue Duck's party with Lorena", "members": ["Blue Duck", "Lorena", "Ermoke"], "at": "Grassland beyond the sand river", "hint": "a short ride past a broad red-sand river, several days from the herd, waiting for moonrise"}
+  ]
+}

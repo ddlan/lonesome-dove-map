@@ -1,0 +1,19 @@
+{
+  "chapter": 43,
+  "places": [
+    {"raw_name": "the Red", "name": "Red River", "kind": "river", "type": "event", "characters": ["Roscoe Brown"], "note": "Roscoe, sick drunk in an army wagon, is told Texas lies just across this wide shallow river and is hoisted onto his horse to cross.", "fictional": false, "location_hint": "reached travelling with soldiers bound for Buffalo Springs, east of Indian Territory", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "event", "characters": ["Roscoe Brown", "Janey"], "note": "Roscoe worried he'd never find it; once there he finds the settlers unfriendly and heads southwest.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Buffalo Springs", "name": "Buffalo Springs", "kind": "other", "type": "mention", "characters": ["Roscoe Brown"], "note": "Destination of the drunken Missouri soldiers who guide Roscoe to the Red; they turn west toward it after crossing.", "fictional": false, "location_hint": "in north Texas, west of where Roscoe crossed the Red River", "confidence": "medium"},
+    {"raw_name": "the Territory", "name": "Indian Territory", "kind": "region", "type": "mention", "characters": ["Roscoe Brown"], "note": "Soldiers warn Roscoe that heading west into it would have meant gruesome death at Indian hands.", "fictional": false, "location_hint": "west of Roscoe's route, north of the Red River", "confidence": "high"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": [], "note": "Home of the soldiers, who know little of Indians beyond lurid tales.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "old Sam's cabin", "name": "Old Sam's cabin", "kind": "other", "type": "event", "characters": ["Roscoe Brown", "Janey"], "note": "A surly old man takes Roscoe's whiskey, gives him no supper and beats the girl he bought for skunk hides during the night.", "fictional": true, "location_hint": "wooded clearing in north Texas, about a day and a half south-southwest of the Red River crossing, on Roscoe's course toward San Antonio", "confidence": "low"},
+    {"raw_name": "a creek", "name": "Creek where Janey joins Roscoe", "kind": "creek", "type": "event", "characters": ["Roscoe Brown", "Janey"], "note": "Runaway Janey packs mud on Roscoe's wasp stings, catches a rabbit and a frog for lunch, and rides on with him.", "fictional": true, "location_hint": "about six miles past old Sam's cabin, in heavily wooded north Texas country", "confidence": "low"},
+    {"raw_name": "San Antone", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Roscoe Brown", "Janey"], "note": "Soldiers tell Roscoe to hold southwest to reach it; Janey says she walked all the way from there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Roscoe Brown"], "note": "Roscoe fears being mocked there if he misses Texas, and worries how bringing a runaway girl would look back home.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Janey"], "note": "A man called Bill was taking Janey there before trading her away.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Waco", "name": "Waco", "kind": "town", "type": "mention", "characters": ["Janey"], "note": "Near there Bill got drunk with old Sam and traded Janey to him.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Roscoe Brown and Janey", "members": ["Roscoe Brown", "Janey"], "at": "Creek where Janey joins Roscoe", "hint": "riding double southwest toward San Antonio, a few miles past old Sam's cabin in north Texas"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 48,
+  "places": [
+    {"raw_name": "camp", "name": "Hat Creek outfit's cow camp", "kind": "camp", "type": "event", "characters": ["Call", "Augustus", "Pea Eye", "Newt", "Po Campo", "Deets", "Jasper Fant", "Dish Boggett", "Lippy", "Allen O'Brien", "Jake Spoon", "Soupy Jones", "Needle Nelson"], "note": "Po Campo wins the crew with plover-egg omelet and fried grasshoppers; Jake arrives saying Lorena is gone, and Augustus rides off alone after Blue Duck.", "fictional": true, "location_hint": "on the trail north through Texas, a day's move beyond the stampede site; Austin is within reach to buy a horse; the plains still lie ahead", "confidence": "medium"},
+    {"raw_name": "my own dern camp", "name": "Lorena's camp", "kind": "camp", "type": "mention", "characters": ["Jake Spoon", "Augustus", "Newt"], "note": "Jake returns to find the camp gear left but Lorena and both animals gone; Augustus concludes Blue Duck took her.", "fictional": true, "location_hint": "a couple of miles east of the herd's previous night's bed-ground", "confidence": "medium"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Call"], "note": "Jake stayed there gambling two nights instead of one; Call tells him he can buy a horse there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "north of the Canadian", "name": "Canadian River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Augustus repeats Blue Duck's threat about coming north of it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake heard talk there of Blue Duck's gang murdering travelers along the trails.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Nueces", "name": "Nueces River", "kind": "river", "type": "mention", "characters": ["Lippy"], "note": "Since the snake incident there, Lippy is terrified of snakes and keeps to the wagon.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Augustus", "Po Campo"], "note": "Augustus guesses Po Campo's wife lives there; the cook says she is in hell instead.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Call"], "note": "Call reminds the crew they are not there yet and should start the cattle.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "the plains", "name": "High Plains", "kind": "region", "type": "mention", "characters": ["Call"], "note": "Call expects water to grow scarcer once the drive reaches the plains, so keeps Deets as scout.", "fictional": false, "location_hint": "plains country north of central Texas, ahead of the drive", "confidence": "low"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Pea Eye", "Newt", "Po Campo", "Deets", "Dish Boggett", "Jasper Fant", "Lippy", "Allen O'Brien", "Soupy Jones", "Needle Nelson"], "at": "Hat Creek outfit's cow camp", "hint": "herd moving north; a day passes with no sign of Augustus or Jake"},
+    {"label": "Augustus", "members": ["Augustus"], "at": "Hat Creek outfit's cow camp", "hint": "rode off alone at night to track Blue Duck and recover Lorena"},
+    {"label": "Jake Spoon", "members": ["Jake Spoon"], "at": "Hat Creek outfit's cow camp", "hint": "rode out angrily on a worn-out horse, perhaps toward Austin"}
+  ]
+}

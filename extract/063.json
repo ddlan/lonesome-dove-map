@@ -1,0 +1,20 @@
+{
+  "chapter": 63,
+  "places": [
+    {"raw_name": "the Canadian", "name": "Canadian River", "kind": "river", "type": "event", "characters": ["Augustus", "Call", "Dish Boggett", "Pea Eye", "Jasper Fant", "Po Campo", "Newt", "Bert Borum", "Needle Nelson", "Lippy"], "note": "Gus rejoins the outfit as it finishes crossing; the wagon is swum over, Po serves molasses hailstones, and the crew camps on the north bank.", "fictional": false, "location_hint": "trail-herd crossing in Indian Territory", "confidence": "high"},
+    {"raw_name": "the tent", "name": "Augustus and Lorena's ridge camp", "kind": "camp", "type": "event", "characters": ["Lorena", "Augustus"], "note": "Lorena stays hidden in Wilbarger's tent within sight of the herd camp, watching for Gus; he returns to her at dusk.", "fictional": true, "location_hint": "a short distance north of the Canadian River crossing, within sight of the outfit's wagon but too far to see detail", "confidence": "low"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Augustus", "Call"], "note": "Augustus jokes the crew looks scattered all the way back there; Call says Jake was gambling there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Augustus", "Call"], "note": "Augustus and Lorena plan to travel with the herd as far as Nebraska.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Colorado", "name": "Colorado", "kind": "state", "type": "mention", "characters": ["Augustus", "Call"], "note": "Augustus thinks Blue Duck is west, likely in Colorado.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Purgatory River", "name": "Purgatoire River", "kind": "river", "type": "mention", "characters": ["Augustus", "Call"], "note": "Augustus suggests Call, Pea and Deets ride up it to hunt Blue Duck.", "fictional": false, "location_hint": "southeastern Colorado", "confidence": "high"},
+    {"raw_name": "the Nueces", "name": "Nueces River", "kind": "river", "type": "mention", "characters": ["Newt"], "note": "Newt remembers Sean O'Brien lying buried far back on it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Canady", "name": "Canada", "kind": "country", "type": "mention", "characters": ["Bert Borum"], "note": "Bert asks if the treeless plain runs all the way there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Powder River", "name": "Powder River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Augustus jokes the hungry hands will eat the herd before reaching it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Augustus", "Call"], "note": "Call is determined to reach it first and pick the best land; Augustus predicts losses on the way.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "China", "name": "China", "kind": "country", "type": "mention", "characters": ["Augustus"], "note": "Augustus muses he might go there once the outfit settles.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Pea Eye", "Deets", "Newt", "Dish Boggett", "Po Campo", "Jasper Fant", "Needle Nelson", "Bert Borum", "Allen O'Brien", "Lippy"], "at": "Canadian River", "hint": "camped on the north bank after crossing; Call camps alone a mile or two west"},
+    {"label": "Augustus and Lorena", "members": ["Augustus", "Lorena"], "at": "Augustus and Lorena's ridge camp", "hint": "at Wilbarger's tent a short way from the herd camp north of the Canadian"}
+  ]
+}

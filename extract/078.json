@@ -1,0 +1,16 @@
+{
+  "chapter": 78,
+  "places": [
+    {"raw_name": "a plain of grass", "name": "Hat Creek herd camp on the plains", "kind": "camp", "type": "event", "characters": ["Augustus", "Lorena", "Dish Boggett"], "note": "Augustus returns to the herd after three days, tells of the hangings, and spends the night outdoors in the grass with Lorena.", "fictional": true, "location_hint": "endless grass plain, still south of the Republican River, roughly three weeks' drive from Nebraska; west of where Wilbarger's horses were recovered", "confidence": "low"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena dreads reaching it, fearing Augustus will be drawn to the woman there; he guesses three weeks yet.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Republican River", "name": "Republican River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Augustus says Nebraska lies north of it and the herd hasn't reached it yet.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Tennessee", "name": "Tennessee", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus grew up in its mountains.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Smokies", "name": "Great Smoky Mountains", "kind": "mountain", "type": "mention", "characters": ["Augustus"], "note": "Augustus has heard the Rockies are far higher than these.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "them Rockies", "name": "Rocky Mountains", "kind": "mountain", "type": "mention", "characters": ["Augustus"], "note": "Augustus keeps hoping to sight them and has heard of their year-round snow.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Dry Bean", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena"], "note": "Lorena dreams of Xavier Wanz in his saloon, the Dry Bean, there.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Galveston", "name": "Galveston", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Xavier once offered to take her there.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit with the herd", "members": ["Augustus", "Lorena", "Dish Boggett", "Call"], "at": "Hat Creek herd camp on the plains", "hint": "on open grassland south of the Republican River; the herd moved on at dawn while Augustus and Lorena slept"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "chapter": 40,
+  "places": [
+    {"raw_name": "a little clearing", "name": "Jake and Lorena's camp near San Antonio", "kind": "camp", "type": "event", "characters": ["Lorena", "Jake Spoon"], "note": "Lorena enjoys the open-air life while a jealous, drunken Jake sulks, gossips about Call and Maggie, and toys with abandoning her in Austin.", "fictional": true, "location_hint": "small clearing about a mile from the Hat Creek herd, roughly an hour's ride from San Antonio and two days short of Austin", "confidence": "medium"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "event", "characters": ["Jake Spoon", "Lorena"], "note": "Lorena refuses to go in, angering Jake; he rides to town alone at night for whiskey and races back.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Jake Spoon"], "note": "Two days ahead; Jake considers slipping away and leaving Lorena there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena", "Jake Spoon"], "note": "Lorena's mare no longer looks back toward it; Jake wishes he had left Lorena there.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Jake Spoon"], "note": "Where Jake had dallied with Elmira before she married July.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Jake and Lorena", "members": ["Jake Spoon", "Lorena"], "at": "Jake and Lorena's camp near San Antonio", "hint": "camped a mile from the herd, about an hour from San Antonio"},
+    {"label": "Hat Creek outfit", "members": ["Allen O'Brien", "Deets"], "at": "", "hint": "herd bedded about a mile from Jake and Lorena's camp, near San Antonio"}
+  ]
+}

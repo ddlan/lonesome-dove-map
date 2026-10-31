@@ -1,0 +1,18 @@
+{
+  "chapter": 95,
+  "places": [
+    {"raw_name": "the creek / the cave under the riverbank", "name": "Augustus and Pea Eye's creek dugout", "kind": "creek", "type": "event", "characters": ["Augustus"], "note": "Feverish and delirious, Augustus watches the flooded creek all night; at dawn the Indians have gone and he climbs out by a game trail on a makeshift crutch.", "fictional": true, "location_hint": "prairie creek in Montana north of the Yellowstone, a little over forty miles northwest of Miles City", "confidence": "low"},
+    {"raw_name": "the plain", "name": "Montana", "kind": "region", "type": "event", "characters": ["Augustus", "Hugh Auld"], "note": "Augustus hobbles southeast across open prairie and collapses; old trapper Hugh Auld finds him, warns the leg must come off, and lends his horse.", "fictional": false, "location_hint": "plains north of the Yellowstone, about forty miles northwest of Miles City", "confidence": "high"},
+    {"raw_name": "Miles City", "name": "Miles City", "kind": "town", "type": "event", "characters": ["Augustus"], "note": "Tied onto the borrowed horse, Augustus reaches a saloon at dusk and asks for a doctor; the horse bucks him into the street.", "fictional": false, "location_hint": "on the Yellowstone, seen from a slope north of the river", "confidence": "high"},
+    {"raw_name": "the Yellowstone", "name": "Yellowstone River", "kind": "river", "type": "event", "characters": ["Augustus"], "note": "Augustus rides over a slope north of it and sights Miles City.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Clara's", "name": "Clara's ranch", "kind": "ranch", "type": "mention", "characters": ["Augustus", "Clara"], "note": "In fever, Augustus imagines himself back with Clara there.", "fictional": true, "location_hint": "Allen horse ranch on the North Platte in Nebraska", "confidence": "medium"},
+    {"raw_name": "the hot Kansas plains", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "Augustus dreams of lying with Lorena in their tent there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Augustus", "Hugh Auld"], "note": "Augustus tells the trapper he hails from this small town on the Rio Grande.", "fictional": true, "location_hint": "south Texas, on the Rio Grande", "confidence": "high"},
+    {"raw_name": "the Rio Grande", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Named as the river beside his home town.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "south Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus introduces himself in town as a Texas Ranger captain.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Augustus", "members": ["Augustus"], "at": "Miles City", "hint": "thrown into the street in front of a saloon at dusk, townsmen seeking a doctor"},
+    {"label": "Hugh Auld", "members": ["Hugh Auld"], "at": "Montana", "hint": "on foot somewhere on the plains northwest of Miles City, following Augustus"}
+  ]
+}

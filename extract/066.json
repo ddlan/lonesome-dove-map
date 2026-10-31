@@ -1,0 +1,14 @@
+{
+  "chapter": 66,
+  "places": [
+    {"raw_name": "the Republican River", "name": "Republican River", "kind": "river", "type": "event", "characters": ["Elmira", "Zwey", "Luke"], "note": "The hide wagon eventually reaches it after weeks of rain, hail and bogging on the open plain.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "northern Kansas", "name": "Kansas", "kind": "state", "type": "event", "characters": ["Elmira", "Zwey", "Luke"], "note": "Elmira drives a mule wagon of hides across its northern plains; Luke harasses her until Zwey smashes his head on a wheel.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Fort", "name": "Fort where Elmira joined the hide hunters", "kind": "fort", "type": "mention", "characters": ["Luke", "Elmira"], "note": "Starting point of the trip; Luke won card money there, and they have seen nobody since leaving it.", "fictional": true, "location_hint": "a fort in Kansas, south of the Republican River, some weeks' wagon travel from Ogallala", "confidence": "low"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["Elmira"], "note": "Elmira imagines Dee Boot telling her she should have gone back there and found work through the girls.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Luke"], "note": "Luke complains it is still a long way off and he can't wait that long.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Elmira"], "note": "Their destination; frightened by the unknown rifleman, Elmira longs to get there.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Elmira with the hide hunters", "members": ["Elmira", "Zwey", "Luke"], "at": "Kansas", "hint": "on the plains of northern Kansas, around the Republican River, travelling north toward Ogallala"}
+  ]
+}

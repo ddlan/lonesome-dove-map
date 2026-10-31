@@ -1,0 +1,18 @@
+{
+  "chapter": 67,
+  "places": [
+    {"raw_name": "the Territory", "name": "Indian Territory", "kind": "region", "type": "event", "characters": ["Newt", "Dish Boggett", "Pea Eye", "Lippy", "Jasper", "Deets", "Po Campo", "Call"], "note": "The herd crosses it amid talk of Indians; near its northern edge Call gives a lame steer to hungry Wichitas led by an old acquaintance.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "event", "characters": ["Augustus", "Lorena", "Call", "Newt", "Dish Boggett", "Soupy Jones", "Deets", "Po Campo", "Lippy", "Jasper"], "note": "On its southern edge a grasshopper cloud strips the grass; Gus and Lorena shelter in their tent, and young Indians guide a lost Newt back.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Blue Mounds", "name": "Blue Mounds", "kind": "mountain", "type": "event", "characters": ["Augustus", "Call", "Lorena", "Dish Boggett"], "note": "Low rolling hills to the north that look bluish at dusk and dawn but turn out plain brown by daylight.", "fictional": true, "location_hint": "humped low hills just north of the herd, near the southern edge of Kansas after leaving Indian Territory", "confidence": "low"},
+    {"raw_name": "west of Santa Fe", "name": "Santa Fe", "kind": "town", "type": "mention", "characters": ["Lippy"], "note": "Lippy says he traded west of there, learned piano, and got the hole in his stomach from an Apache.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Republican River", "name": "Republican River", "kind": "river", "type": "mention", "characters": ["Jasper"], "note": "Jasper refuses a fortune for fear of learning he will drown in it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "New Orleans", "name": "New Orleans", "kind": "city", "type": "mention", "characters": ["Augustus"], "note": "Old women there told Augustus's fortune several times, always the same dull one.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus reflects that one card-game shot there set off a chain of deaths and troubles.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Augustus"], "note": "The drive's goal, still nowhere in sight.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena frets because Gus has told her a woman he cares for is there.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek herd", "members": ["Call", "Deets", "Newt", "Dish Boggett", "Soupy Jones", "Pea Eye", "Po Campo", "Lippy", "Jasper", "Jimmy Rainey", "Ben Rainey"], "at": "Kansas", "hint": "on grasshopper-stripped plain just inside southern Kansas near the Blue Mounds; Indians say it is sixty miles to water due north"},
+    {"label": "Augustus and Lorena", "members": ["Augustus", "Lorena"], "at": "Kansas", "hint": "in their tent camp a few miles behind the herd on the southern edge of Kansas"}
+  ]
+}

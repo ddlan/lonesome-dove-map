@@ -1,0 +1,18 @@
+{
+  "chapter": 64,
+  "places": [
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "event", "characters": ["Jake Spoon", "Sally Skull"], "note": "Jake wins at cards in Bill's Saloon and pays to stay with the hard-living Sally Skull, who dies in a jailhouse shootout; he takes her money and leaves.", "fictional": false, "location_hint": "Bill's Saloon, a two-story clapboard place on the Trinity River bluffs with a view of passing herds", "confidence": "high"},
+    {"raw_name": "the Trinity River bluffs", "name": "Trinity River", "kind": "river", "type": "event", "characters": ["Jake Spoon"], "note": "Bill's Saloon stands on its bluffs, overlooking herds trailing north.", "fictional": false, "location_hint": "at Fort Worth", "confidence": "high"},
+    {"raw_name": "Dallas", "name": "Dallas", "kind": "city", "type": "event", "characters": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Ed Suggs", "Frog Lip"], "note": "Jake hears the Arkansas sheriff is in Texas, meets the Suggs brothers' regulating and bank-robbing schemes, and rides north with them.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Jake Spoon"], "note": "Trail foremen try to hire Jake on learning he has been there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake thinks Lorena could have lived with him in a decent hotel there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Georgia", "name": "Georgia", "kind": "state", "type": "mention", "characters": ["Sally Skull"], "note": "Sally says she was run out of a town there after a lynching.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Jake Spoon"], "note": "A soldier reports meeting an Arkansas deputy hunting his sheriff, who hunts a brother's killer.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake worries Dallas is too close to it, with July Johnson possibly near.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake learns the Arkansas sheriff is somewhere in it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Dan Suggs", "Jake Spoon"], "note": "The Suggs plan to tax trail herds at its river crossings and rob its banks; Jake means to leave them at a Kansas saloon.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Jake and the Suggs brothers", "members": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Ed Suggs", "Frog Lip"], "at": "Dallas", "hint": "riding north from Dallas toward Kansas, at least a day out"}
+  ]
+}

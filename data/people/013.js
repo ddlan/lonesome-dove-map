@@ -1,0 +1,1 @@
+LD_PEOPLE.add({"n":13,"b":{"Jasper Fant":{"text":"Jasper Fant is a skinny cowboy working along the Rio Grande who comes into the Dry Bean in Lonesome Dove to seek Lorena's company. When she simply stares him down in silence, he backs away embarrassed, and through him word spreads among the river cowboys that she no longer takes customers.","kind":"intro"}}});

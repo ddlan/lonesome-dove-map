@@ -1,0 +1,1 @@
+LD_PEOPLE.add({"n":6,"b":{"July Johnson":{"text":"July Johnson is the young but determined sheriff of Fort Smith, Arkansas. His brother, the town's dentist and mayor, was recently killed by a stray shot from Jake Spoon while July was away in Missouri testifying against stage robbers. Jake, who fled, hopes the sheriff stays too busy to follow him.","kind":"intro"}}});

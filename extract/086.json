@@ -1,0 +1,15 @@
+{
+  "chapter": 86,
+  "places": [
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "event", "characters": ["Augustus", "Newt", "Ben Rainey", "Jimmy Rainey", "Pete Spettle", "Pea Eye", "Lippy", "Allen O'Brien"], "note": "Augustus tips the boys ten dollars each; Lippy gets them drunk behind the livery, and they visit two whores upstairs over a saloon.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "camp", "name": "Hat Creek herd camp near Ogallala", "kind": "camp", "type": "event", "characters": ["Newt", "Po Campo"], "note": "After a spooked horse throws him, Newt walks the last two miles back and falls asleep holding cold beef.", "fictional": true, "location_hint": "a few miles out of Ogallala, north of the Platte, Nebraska", "confidence": "medium"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Lippy"], "note": "Lippy hopes the boys get drunk enough to forget Ogallala, even Nebraska.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Newt"], "note": "Newt tells the whore Buf he has come up from Texas.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montany", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Lippy", "Augustus"], "note": "Lippy vows to master his new accordion before reaching it; Augustus calls it the far north.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lippy", "Newt"], "note": "Lippy still wears his shabby bowler from there; Newt recalls Lorena working at the Dry Bean.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Augustus", "Newt", "Po Campo", "Ben Rainey", "Jimmy Rainey", "Pea Eye"], "at": "Hat Creek herd camp near Ogallala", "hint": "north of the Platte a few miles from town; Pete Spettle's whereabouts unknown after his horse bolted"},
+    {"label": "Lippy and the Irishman", "members": ["Lippy", "Allen O'Brien"], "at": "Ogallala", "hint": "last seen on the saloon steps in town at night"}
+  ]
+}

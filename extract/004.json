@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Augustus", "Dish Boggett", "Lorena", "Lippy", "Xavier Wanz"], "note": "Augustus walks past the Pumphreys' store to the Dry Bean, plays cards late, and lends Dish two dollars before the cowboy heads up to Lorena.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande, roughly a hundred miles upriver from Matamoros", "confidence": "high"},
+    {"raw_name": "Hat Creek", "name": "Hat Creek", "kind": "creek", "type": "event", "characters": ["Augustus"], "note": "Augustus pauses on its dry sandy bed to buckle on his pistol on the way into town.", "fictional": true, "location_hint": "between the Hat Creek outfit's wagon yard and the main street of Lonesome Dove", "confidence": "medium"},
+    {"raw_name": "Tennessee", "name": "Tennessee", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus compares its misty nights to dry border nights and remembers card games with his sisters there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Republican River", "name": "Republican River", "kind": "river", "type": "mention", "characters": [], "note": "The Pumphrey daughter's young husband drowned in it the previous fall.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the capital of Mexico", "name": "Mexico City", "kind": "city", "type": "mention", "characters": ["Lippy"], "note": "Lippy plays his favorite song so loudly he seems to want it heard there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "New Orleans", "name": "New Orleans", "kind": "city", "type": "mention", "characters": ["Xavier Wanz", "Dish Boggett"], "note": "Xavier's birthplace, where he once worked in a restaurant with tablecloths; Shanghai Pierce goes there to take the train north.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Xavier Wanz", "Augustus"], "note": "Xavier came believing it a land of opportunity; cowhands argue whether Augustus or Shanghai Pierce is louder.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the road to San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Lippy"], "note": "Lippy found his battered bowler hat lying on the road there years ago.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Philadelphia", "name": "Philadelphia", "kind": "city", "type": "mention", "characters": ["Lippy", "Augustus"], "note": "Lippy's hat bears a Philadelphia maker's label, which he takes as proof of quality.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Matamoros", "name": "Matamoros", "kind": "city", "type": "mention", "characters": ["Dish Boggett"], "note": "Dish delivered horses there and lost a month's pay gambling before riding about a hundred miles upriver.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Abilene", "name": "Abilene", "kind": "town", "type": "mention", "characters": ["Dish Boggett"], "note": "Trail town where Dish imagines buying Lorena a present.", "fictional": false, "location_hint": "Kansas cattle town", "confidence": "high"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["Dish Boggett"], "note": "Dish usually brings back ribbons and combs from there for Mexican girls.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "St. Louis", "name": "St. Louis", "kind": "city", "type": "mention", "characters": ["Lippy", "Augustus"], "note": "Lippy grew up there and wishes he could go back.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Augustus"], "at": "Lonesome Dove", "hint": "back at the outfit's house"},
+    {"label": "Dry Bean regulars", "members": ["Lorena", "Dish Boggett", "Lippy", "Xavier Wanz"], "at": "Lonesome Dove", "hint": "at the Dry Bean saloon; Dish upstairs with Lorena, about to leave with a trail outfit next week"}
+  ]
+}

@@ -1,0 +1,184 @@
+{
+ "chapter": 101,
+ "places": [
+  {
+   "raw_name": "Miles City",
+   "name": "Miles City",
+   "kind": "town",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "An animal broke into the shed and carried off Gus's severed leg; Call has the coffin rebuilt and buys an old buggy to haul it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Montana",
+   "name": "Montana",
+   "kind": "region",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Heading south from Miles City, Call rides a while with a band of friendly Crow curious about the coffin.",
+   "fictional": false,
+   "location_hint": "south of Miles City toward Wyoming",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Wyoming",
+   "name": "Wyoming",
+   "kind": "region",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call travels eleven days across it without meeting anyone; the mule loses flesh at his pace.",
+   "fictional": false,
+   "location_hint": "Wyoming Territory",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Powder River",
+   "name": "Powder River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "The reinforced coffin takes hard jolts in the gullies nearby but holds together.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Nebraska",
+   "name": "Nebraska",
+   "kind": "state",
+   "type": "event",
+   "characters": [
+    "Call",
+    "July Johnson"
+   ],
+   "note": "Nearing it, Call meets five drunk young Indians who beg food and briefly threaten him.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Platte",
+   "name": "North Platte River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call rides a mile off it, hearing ducks and geese all day.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "Clara's house",
+   "name": "Clara's ranch",
+   "kind": "ranch",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Clara",
+    "Lorena",
+    "Dish Boggett",
+    "July Johnson",
+    "Sally",
+    "Betsey",
+    "Martin",
+    "Cholo"
+   ],
+   "note": "Call delivers Gus's letters; Lorena stands by the coffin all night and faints, while Clara angrily berates Call as he leaves.",
+   "fictional": true,
+   "location_hint": "Allen horse ranch near the Platte in Nebraska; a ridge there holds Clara's sons' graves",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "up on the Milk",
+   "name": "Milk River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "Dish Boggett"
+   ],
+   "note": "Call keeps thinking of the men and the boy he left there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Texas",
+   "name": "Texas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "Clara"
+   ],
+   "note": "Gus wanted burial at a picnic spot there where he and Clara once courted; Clara calls the plan foolish.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Arkansas",
+   "name": "Arkansas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "July Johnson"
+   ],
+   "note": "July is noted as the young sheriff from there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Lonesome Dove",
+   "name": "Lonesome Dove",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Dish Boggett"
+   ],
+   "note": "Dish regrets ever coming to the town.",
+   "fictional": true,
+   "location_hint": "south Texas border town on the Rio Grande",
+   "confidence": "high"
+  }
+ ],
+ "groups": [
+  {
+   "label": "Call with Gus's coffin",
+   "members": [
+    "Call"
+   ],
+   "at": "Clara's ranch",
+   "hint": "just leaving the Nebraska ranch with the coffin in a buggy, headed for Texas"
+  },
+  {
+   "label": "Clara's household",
+   "members": [
+    "Clara",
+    "Lorena",
+    "Dish Boggett",
+    "July Johnson",
+    "Sally",
+    "Betsey",
+    "Martin",
+    "Cholo"
+   ],
+   "at": "Clara's ranch",
+   "hint": "Lorena carried upstairs after fainting"
+  }
+ ]
+}

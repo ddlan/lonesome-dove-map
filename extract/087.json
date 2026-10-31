@@ -1,0 +1,226 @@
+{
+ "chapter": 87,
+ "places": [
+  {
+   "raw_name": "the ranch",
+   "name": "Clara's ranch",
+   "kind": "ranch",
+   "type": "event",
+   "characters": [
+    "Clara",
+    "July Johnson",
+    "Cholo",
+    "Betsey",
+    "Sally",
+    "Augustus",
+    "Call",
+    "Lorena",
+    "Newt"
+   ],
+   "note": "Clara kisses Augustus, cares for her injured husband and July's baby, and sells Call horses at a stiff price, gifting Newt a sorrel.",
+   "fictional": true,
+   "location_hint": "horse ranch on the Platte in Nebraska, near Ogallala; the riders approach from the north side of the river",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Platte",
+   "name": "North Platte River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Clara",
+    "Augustus",
+    "Call",
+    "Lorena",
+    "Newt",
+    "July Johnson",
+    "Betsey",
+    "Sally"
+   ],
+   "note": "The visitors cross it to Clara's; the party picnics under cottonwoods three miles west along it, and the girls and Newt wade.",
+   "fictional": false,
+   "location_hint": "picnic spot about three miles west of Clara's ranch",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "sixty miles east of town",
+   "name": "Place where Ellie Johnson was killed",
+   "kind": "other",
+   "type": "mention",
+   "characters": [
+    "July Johnson",
+    "Clara"
+   ],
+   "note": "A soldier tells of a woman and a hide hunter slain by Indians here; July believes the woman was his wife.",
+   "fictional": true,
+   "location_hint": "about sixty miles east of Ogallala, Nebraska, on the plains",
+   "confidence": "low"
+  },
+  {
+   "raw_name": "Ogallala",
+   "name": "Ogallala",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Clara",
+    "Call",
+    "Augustus"
+   ],
+   "note": "Clara says Augustus could have done his drinking there and been a friend to her; Call's horses there were inferior to hers.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Nebraska",
+   "name": "Nebraska",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Clara",
+    "Newt"
+   ],
+   "note": "Clara feels she has earned some liveliness after years there; Newt thinks it has plenty of room for cattle.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Lonesome Dove",
+   "name": "Lonesome Dove",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Clara",
+    "Lorena"
+   ],
+   "note": "Augustus says Lorena came all the way from there, and that he spent most of fifteen years there drinking.",
+   "fictional": true,
+   "location_hint": "south Texas border town on the Rio Grande",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Montana",
+   "name": "Montana",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "Clara",
+    "Newt"
+   ],
+   "note": "Clara warns it is unsafe and urges waiting; she tells Newt he can come back to work if it doesn't suit him.",
+   "fictional": false,
+   "location_hint": "Montana Territory",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Texas",
+   "name": "Texas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call reckons Montana can't be rougher than Texas once was.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Guadalupe",
+   "name": "Guadalupe River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Clara",
+    "Augustus"
+   ],
+   "note": "Clara and Augustus once picnicked at a spot on it they called her orchard.",
+   "fictional": false,
+   "location_hint": "central Texas river",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Arkansas",
+   "name": "Arkansas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "July Johnson"
+   ],
+   "note": "Call asks July if he came from there, and whether he will go back.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Fort Smith",
+   "name": "Fort Smith",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "July Johnson",
+    "Call"
+   ],
+   "note": "July's hometown, where he set out long ago chasing Jake Spoon.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Kansas",
+   "name": "Kansas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "July Johnson"
+   ],
+   "note": "Call tells July they caught and hanged Jake there among a bad gang.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Dodge",
+   "name": "Dodge City",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "July Johnson"
+   ],
+   "note": "July had horse trouble near there while pursuing Jake.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  }
+ ],
+ "groups": [
+  {
+   "label": "Clara's household",
+   "members": [
+    "Clara",
+    "July Johnson",
+    "Cholo",
+    "Betsey",
+    "Sally"
+   ],
+   "at": "Clara's ranch",
+   "hint": "at the ranch house and horse lots on the Platte"
+  },
+  {
+   "label": "Visitors from the herd",
+   "members": [
+    "Augustus",
+    "Call",
+    "Lorena",
+    "Newt"
+   ],
+   "at": "Clara's ranch",
+   "hint": "Call and Newt at the lots collecting the bought horses"
+  }
+ ]
+}

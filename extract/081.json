@@ -1,0 +1,15 @@
+{
+  "chapter": 81,
+  "places": [
+    {"raw_name": "the ranch", "name": "Clara's ranch", "kind": "ranch", "type": "event", "characters": ["July Johnson", "Clara", "Sally", "Betsey", "Cholo", "Bob Allen", "Martin"], "note": "Despondent July helps Clara tend Bob; she offers to raise Martin and to hire July, then comforts him after Elmira leaves.", "fictional": true, "location_hint": "frame house by the Platte, about twenty miles from Ogallala, Nebraska", "confidence": "high"},
+    {"raw_name": "the river", "name": "North Platte River", "kind": "river", "type": "event", "characters": ["Cholo"], "note": "Cholo splashes out of it late at night returning to the corrals.", "fictional": false, "location_hint": "river beside Clara's ranch", "confidence": "medium"},
+    {"raw_name": "town", "name": "Ogallala", "kind": "town", "type": "event", "characters": ["July Johnson", "Patrick Arandel"], "note": "July returns to find Elmira gone; the doctor, delivering a baby at a whorehouse, says she left, and the livery man warns of Sioux to the east.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "event", "characters": ["Clara"], "note": "Clara says living there has made her blunt.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson"], "note": "July doubts he'll ever get Elmira back there and wonders if they've hired a new sheriff.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["July Johnson"], "note": "July has always lived there and never thought of settling elsewhere.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Clara's household with July", "members": ["Clara", "July Johnson", "Sally", "Betsey", "Cholo", "Bob Allen", "Martin"], "at": "Clara's ranch", "hint": "at the ranch house on the Platte"},
+    {"label": "Elmira and Big Zwey", "members": ["Elmira", "Big Zwey"], "at": "Ogallala", "hint": "a day's start east of Ogallala by wagon, toward Sioux country"}
+  ]
+}

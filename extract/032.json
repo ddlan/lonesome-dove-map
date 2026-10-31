@@ -1,0 +1,9 @@
+{
+  "chapter": 32,
+  "places": [
+    {"raw_name": "the river", "name": "Nueces River", "kind": "river", "type": "event", "characters": ["Jake Spoon", "Lorena"], "note": "In the lightning storm Lorena's mare bolts; Jake drags her from the mesquite to shelter under the bank as lightning splits their first-camp tree across the water.", "fictional": false, "location_hint": "north bank of the Nueces where Jake and Lorena camped after crossing", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Jake and Lorena", "members": ["Jake Spoon", "Lorena"], "at": "Nueces River", "hint": "huddled under a tarp beneath the north bank during the storm; Lorena's mare has run off"}
+  ]
+}

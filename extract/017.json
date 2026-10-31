@@ -1,0 +1,17 @@
+{
+  "chapter": 17,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Lorena", "Jake Spoon", "Augustus", "Lippy", "Xavier Wanz", "Dish Boggett", "Jasper Fant", "Needle Nelson", "Bert Borum"], "note": "Jake lives with Lorena above the Dry Bean while new hands play cards there; on a hot day Augustus wins a cut of cards and buys Lorena's favors.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande; Lorena's room is above the Dry Bean saloon", "confidence": "high"},
+    {"raw_name": "the cow camp", "name": "Hat Creek cow camp", "kind": "camp", "type": "mention", "characters": ["Jake Spoon", "Call", "Augustus"], "note": "The outfit has been gathering and branding cattle for about ten days; Call has put Jake to work there.", "fictional": true, "location_hint": "somewhere near Lonesome Dove, location not given", "confidence": "low"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Xavier Wanz"], "note": "Xavier has gone fishing there, leaving the saloon nearly empty.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena", "Jake Spoon", "Augustus"], "note": "Lorena means to hold Jake to his promise to take her there; Augustus doubts Jake will follow through.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Needle Nelson", "Lorena"], "note": "Needle Nelson comes from north of it; Lorena considers ordering new dresses from there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Brownsville", "name": "Brownsville", "kind": "town", "type": "mention", "characters": ["Bert Borum"], "note": "Hometown of the cheerful new hand Bert Borum.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Yellowstone", "name": "Yellowstone River", "kind": "river", "type": "mention", "characters": ["Needle Nelson", "Jasper Fant"], "note": "Needle frets they'll cross it on ice if they don't start soon; Jasper expects drownings before then.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena cites the man Jake killed there; Augustus calls it a stray shot that hit a dentist.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Dry Bean saloon", "members": ["Lorena", "Augustus", "Lippy"], "at": "Lonesome Dove", "hint": "in Lorena's room and the saloon at the Dry Bean"},
+    {"label": "Cattle crew", "members": ["Call", "Jake Spoon", "Dish Boggett", "Jasper Fant", "Needle Nelson", "Bert Borum"], "at": "Hat Creek cow camp", "hint": "gathering and branding cattle near Lonesome Dove ahead of the drive"}
+  ]
+}

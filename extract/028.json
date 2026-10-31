@@ -1,0 +1,13 @@
+{
+  "chapter": 28,
+  "places": [
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "event", "characters": ["July Johnson", "Joe", "Elmira", "Roscoe Brown", "Peach"], "note": "Before dawn July and Joe arm themselves at the jail, Roscoe gives Joe an old hat, and the two ride out leaving Roscoe in charge.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the river", "name": "Arkansas River", "kind": "river", "type": "event", "characters": ["July Johnson", "Roscoe Brown", "Joe"], "note": "Shining at the end of the street as July leaves; old Darton lives across it and keeps falling off the ferry.", "fictional": false, "location_hint": "runs past Fort Smith, with a ferry to the north bank", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Roscoe Brown", "July Johnson"], "note": "Roscoe grumbles that July must mean to reach it in a day, leaving so early.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "July and Joe", "members": ["July Johnson", "Joe"], "at": "Fort Smith", "hint": "just riding out of town away from the river, bound south toward Texas after Jake Spoon"},
+    {"label": "Roscoe Brown", "members": ["Roscoe Brown"], "at": "Fort Smith", "hint": "left in charge at the jail"},
+    {"label": "Elmira", "members": ["Elmira"], "at": "Fort Smith", "hint": "at the cabin on the edge of town"}
+  ]
+}

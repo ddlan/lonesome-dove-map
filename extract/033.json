@@ -1,0 +1,14 @@
+{
+  "chapter": 33,
+  "places": [
+    {"raw_name": "wet thickets where the herd ended the night", "name": "Stampede ground south of the Nueces", "kind": "other", "type": "event", "characters": ["Call", "Deets", "Newt", "Dish Boggett", "Jasper Fant", "Lippy", "Bolivar", "Sean O'Brien", "Pea Eye", "Needle Nelson", "Bert Borum", "Soupy Jones", "Bill Spettle"], "note": "At dawn the herd is gathered with few losses, the wagon is pulled from a gully, and hands dry out while Deets goes to look for the missing Gus.", "fictional": true, "location_hint": "puddled mesquite brush a short distance south of the Nueces crossing; part of the herd a mile or two east", "confidence": "medium"},
+    {"raw_name": "the river", "name": "Nueces River", "kind": "river", "type": "mention", "characters": ["Call", "Dish Boggett", "Needle Nelson", "Pea Eye", "Jasper Fant", "Lippy"], "note": "Call wants to cross soon; Dish scorns it as barely a creek while Jasper fears being trampled in it.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "San Antone", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Dish Boggett", "Augustus"], "note": "Dish jokes the missing Gus has gone there for a shave.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Yellowstone", "name": "Yellowstone River", "kind": "river", "type": "mention", "characters": ["Bert Borum", "Needle Nelson"], "note": "The hands argue over how many rivers lie between them and it; Needle says the bull won't live to cross it if he charges again.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Newt", "Dish Boggett", "Jasper Fant", "Lippy", "Bolivar", "Sean O'Brien", "Pea Eye", "Needle Nelson", "Bert Borum", "Soupy Jones", "Bill Spettle"], "at": "Stampede ground south of the Nueces", "hint": "breakfasting by the wagon before crossing the Nueces"},
+    {"label": "Deets", "members": ["Deets"], "at": "Stampede ground south of the Nueces", "hint": "riding off to look for Gus, perhaps toward Jake's camp"},
+    {"label": "Augustus", "members": ["Augustus"], "at": "Stampede ground south of the Nueces", "hint": "missing; last seen just after dawn riding east"}
+  ]
+}

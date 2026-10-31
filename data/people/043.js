@@ -1,0 +1,1 @@
+LD_PEOPLE.add({"n":43,"b":{"Janey":{"text":"Janey is a skinny, barefoot runaway girl in north Texas, orphaned and passed from hand to hand until a man named Bill traded her to cruel old Sam for skunk hides. Fleeing Sam's cabin, she catches up with Roscoe Brown, treats his wasp stings with mud, catches their lunch, and rides double with him toward San Antonio.","kind":"intro"}}});

@@ -1,0 +1,20 @@
+{
+  "chapter": 42,
+  "places": [
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "event", "characters": ["Call", "Augustus", "Ned Tym", "Tobe Walker"], "note": "Call and Gus buy a wagon and mules north of the river; at the Buckhorn saloon Gus bloodies a rude bartender, sheriff Tobe vouches for them, and they leave past the neglected Alamo.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "two settlements", "name": "Settlements south of San Antonio", "kind": "town", "type": "event", "characters": ["Call", "Augustus"], "note": "Two tiny new hamlets with a church and a few stores prompt Augustus to complain that settlement is ruining the country.", "fictional": true, "location_hint": "on the ride from the herd into San Antonio, under ten miles apart, south of the city", "confidence": "low"},
+    {"raw_name": "Tennessee", "name": "Tennessee", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus says had he wanted civilization he would have stayed there writing poetry.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "New Orleans", "name": "New Orleans", "kind": "city", "type": "mention", "characters": ["Augustus"], "note": "Augustus jokes San Antonio may rival it if it keeps growing.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Ned Tym"], "note": "Former Buckhorn owner Willie Montgomery now lives there with the woman he chased.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Canadian", "name": "Canadian River", "kind": "river", "type": "mention", "characters": ["Call", "Augustus", "Jake Spoon"], "note": "The Rangers once chased Kicking Wolf's band all the way to it, earning brief fame and a photograph.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Brazos", "name": "Brazos River", "kind": "river", "type": "mention", "characters": ["Call"], "note": "Kicking Wolf had raided settlers down along it before the Rangers drove him off.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mobile, Alabama", "name": "Mobile", "kind": "city", "type": "mention", "characters": ["Tobe Walker", "Augustus"], "note": "Hometown of John, the hot-tempered new Buckhorn owner.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Augustus", "Tobe Walker"], "note": "Tobe wistfully says he might have joined the drive there if not married.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Washington, D.C.", "name": "Washington, D.C.", "kind": "city", "type": "mention", "characters": ["Call"], "note": "Call scoffs that a thousand Comanches together could have taken it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Augustus", "Call"], "note": "When they first came in the Forties, everyone still talked of Travis and the Alamo.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Call and Augustus", "members": ["Call", "Augustus"], "at": "San Antonio", "hint": "leaving town at night with a new wagon, heading back to the herd"},
+    {"label": "Hat Creek outfit", "members": ["Pea Eye", "Jasper Fant", "Lippy"], "at": "Wagon-wreck creek near San Antonio", "hint": "with the herd south of San Antonio, waiting for a new wagon"}
+  ]
+}

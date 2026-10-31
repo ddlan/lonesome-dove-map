@@ -1,0 +1,207 @@
+{
+  "chapter": 44,
+  "places": [
+    {
+      "raw_name": "north of San Antonio",
+      "name": "Hat Creek herd camp west of Austin",
+      "kind": "camp",
+      "type": "event",
+      "characters": [
+        "Newt",
+        "Augustus",
+        "Call",
+        "Jasper Fant",
+        "Bert Borum",
+        "Pea Eye",
+        "Lippy",
+        "Allen O'Brien",
+        "Dish Boggett"
+      ],
+      "note": "Country opens into better grass; the cookless crew grumbles over Augustus's scrambled eggs while Call rides off alone each night.",
+      "fictional": true,
+      "location_hint": "on the trail north of San Antonio after two weeks of mesquite, about twenty miles west of Austin",
+      "confidence": "medium"
+    },
+    {
+      "raw_name": "San Antonio",
+      "name": "San Antonio",
+      "kind": "city",
+      "type": "mention",
+      "characters": [],
+      "note": "Beyond it the brush finally thins out for the herd.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Clara's orchard",
+      "name": "Clara's orchard",
+      "kind": "other",
+      "type": "event",
+      "characters": [
+        "Augustus",
+        "Call"
+      ],
+      "note": "Augustus detours to a live-oak grove by a spring-fed pool where he and Clara picnicked, and weeps remembering her refusal of his proposal.",
+      "fictional": true,
+      "location_hint": "small spring-fed creek feeding the Guadalupe, live oaks on a sizable hill, just north of the wagon road from the herd into Austin, west of Austin",
+      "confidence": "medium"
+    },
+    {
+      "raw_name": "the Guadalupe",
+      "name": "Guadalupe River",
+      "kind": "river",
+      "type": "mention",
+      "characters": [
+        "Call"
+      ],
+      "note": "The little creek at Clara's orchard drains into it.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "a little camp at the foot of a limestone bluff",
+      "name": "Lorena's camp by the limestone bluff",
+      "kind": "camp",
+      "type": "event",
+      "characters": [
+        "Lorena",
+        "Augustus",
+        "Call"
+      ],
+      "note": "Bruised Lorena waits alone by a pool; Jake left in anger two days ago, so Augustus stays to keep her company.",
+      "fictional": true,
+      "location_hint": "about three miles beyond Clara's orchard toward Austin, by a pool and trees at the foot of a limestone bluff, west of Austin",
+      "confidence": "medium"
+    },
+    {
+      "raw_name": "Austin",
+      "name": "Austin",
+      "kind": "city",
+      "type": "mention",
+      "characters": [
+        "Call",
+        "Augustus",
+        "Lorena"
+      ],
+      "note": "Call rides on alone to hire a cook and buy horsehair reins; Jake has evidently gone there to gamble.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "the high plains",
+      "name": "High Plains",
+      "kind": "region",
+      "type": "mention",
+      "characters": [
+        "Augustus",
+        "Call"
+      ],
+      "note": "As Rangers there, Augustus's keen eyes told sage bushes from Indians in the mirages.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "the Pecos country",
+      "name": "Pecos River",
+      "kind": "region",
+      "type": "mention",
+      "characters": [
+        "Augustus",
+        "Call"
+      ],
+      "note": "Another Ranger haunt where Augustus's eyesight proved itself.",
+      "fictional": false,
+      "location_hint": "country along the Pecos River, west Texas",
+      "confidence": "medium"
+    },
+    {
+      "raw_name": "Kentucky",
+      "name": "Kentucky",
+      "kind": "state",
+      "type": "mention",
+      "characters": [
+        "Augustus"
+      ],
+      "note": "Home of the horse trader Clara married instead of Augustus.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Texas",
+      "name": "Texas",
+      "kind": "state",
+      "type": "event",
+      "characters": [
+        "Newt"
+      ],
+      "note": "The herd grazes so slowly Newt fears they will never get out of it.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Montana",
+      "name": "Montana",
+      "kind": "region",
+      "type": "mention",
+      "characters": [
+        "Newt"
+      ],
+      "note": "The far destination that seems endless to Newt.",
+      "fictional": false,
+      "location_hint": "Montana Territory",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "the Yellowstone",
+      "name": "Yellowstone River",
+      "kind": "river",
+      "type": "mention",
+      "characters": [
+        "Call"
+      ],
+      "note": "Call tells the bucking mare he means to ride her across it.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    }
+  ],
+  "groups": [
+    {
+      "label": "Hat Creek outfit",
+      "members": [
+        "Newt",
+        "Dish Boggett",
+        "Jasper Fant",
+        "Pea Eye",
+        "Lippy",
+        "Allen O'Brien",
+        "Bert Borum"
+      ],
+      "at": "Hat Creek herd camp west of Austin",
+      "hint": "herd grazing north about twenty miles west of Austin"
+    },
+    {
+      "label": "Augustus and Lorena",
+      "members": [
+        "Augustus",
+        "Lorena"
+      ],
+      "at": "Lorena's camp by the limestone bluff",
+      "hint": "west of Austin, three miles from Clara's orchard"
+    },
+    {
+      "label": "Call",
+      "members": [
+        "Call"
+      ],
+      "at": "Austin",
+      "hint": "riding the Hell Bitch toward Austin to find a cook, not yet arrived"
+    }
+  ]
+}

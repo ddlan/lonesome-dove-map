@@ -1,0 +1,15 @@
+{
+  "chapter": 79,
+  "places": [
+    {"raw_name": "the Republican River", "name": "Republican River", "kind": "river", "type": "event", "characters": ["Call", "Augustus", "Jasper Fant", "Newt", "Dish Boggett"], "note": "Unimpressive from afar; Augustus recalls it took the Pumphrey boy; the herd swims it without loss and Jasper dances a jig in relief.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Stinking Water", "name": "Stinking Water Creek", "kind": "creek", "type": "event", "characters": ["Jasper Fant", "Augustus"], "note": "Crossed by the herd as the hands fret over whether they'll be paid in Ogallala.", "fictional": false, "location_hint": "north of the Republican River on the way to Ogallala, southwest Nebraska", "confidence": "medium"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "event", "characters": ["Needle Nelson", "Augustus"], "note": "The hands hope for a town visit once they reach it; Augustus promises half wages there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Call", "Augustus", "Newt", "Dish Boggett", "Jasper Fant"], "note": "Call asks if Augustus will leave Lorena there; the hands dream of whores and get promised half pay there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Brazos", "name": "Brazos River", "kind": "river", "type": "mention", "characters": ["Call"], "note": "Call broods that Jake was allowed to stray from the herd there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Red", "name": "Red River", "kind": "river", "type": "mention", "characters": ["Soupy Jones"], "note": "Soupy says he got soaked enough down there to last forever.", "fictional": false, "location_hint": "Texas–Indian Territory border river", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Call", "Needle Nelson"], "note": "The hands signed on for Montana; Call fears Indians before reaching it.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit with the herd", "members": ["Call", "Augustus", "Lorena", "Newt", "Deets", "Pea Eye", "Dish Boggett", "Jasper Fant", "Needle Nelson", "Bert Borum", "Po Campo", "Soupy Jones", "Lippy"], "at": "Nebraska", "hint": "north of the Republican, past the Stinking Water, heading for Ogallala on the Platte"}
+  ]
+}

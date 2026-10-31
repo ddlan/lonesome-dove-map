@@ -1,0 +1,19 @@
+{
+  "chapter": 69,
+  "places": [
+    {"raw_name": "Dodge City", "name": "Dodge City", "kind": "town", "type": "event", "characters": ["July Johnson", "Jennie"], "note": "Wild town of saloons and whores; July writes home, gets drunk waiting for Elmira's friend Jennie, and learns Dee Boot is alive.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "event", "characters": ["July Johnson"], "note": "July finds its cow towns as rough as Missourians claimed.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": ["July Johnson", "Jennie"], "note": "July once testified at a trial there; Jennie heard Ellie moved there and wed an Arkansas sheriff.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson"], "note": "July's home town, to which he writes Peach reporting the deaths and that he may not return as sheriff.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Abilene", "name": "Abilene", "kind": "town", "type": "mention", "characters": ["July Johnson", "Jennie"], "note": "Ellie once lived there, leaving Dodge suddenly with mule skinners; July guesses she might be there now.", "fictional": false, "location_hint": "Kansas cattle town", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "city", "type": "mention", "characters": ["July Johnson"], "note": "July recalls getting the letter about Ellie at its post office.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "St. Jo", "name": "St. Joseph", "kind": "town", "type": "mention", "characters": ["July Johnson"], "note": "Where July found Ellie after she left Abilene.", "fictional": false, "location_hint": "St. Joseph, Missouri", "confidence": "medium"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["July Johnson", "Jennie"], "note": "Dee Boot is said to be there; a gambler saw him a couple of months back, and Jennie thinks Ellie is chasing him.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Deadwood", "name": "Deadwood", "kind": "town", "type": "mention", "characters": ["July Johnson"], "note": "The postal clerk guesses his nephew Dee Boot may be there or in Ogallala.", "fictional": false, "location_hint": "Dakota Territory, in the Black Hills", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Jennie"], "note": "Rumor reached Dodge that Ellie married a sheriff from there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Canadian", "name": "Canadian River", "kind": "river", "type": "mention", "characters": ["July Johnson"], "note": "Where little Joe was killed, July tells Jennie.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "July Johnson", "members": ["July Johnson"], "at": "Dodge City", "hint": "riding out of Dodge City alone at night on a new horse, Pete, to keep searching for Elmira"}
+  ]
+}

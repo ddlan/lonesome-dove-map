@@ -1,0 +1,13 @@
+{
+  "chapter": 31,
+  "places": [
+    {"raw_name": "brushy country several miles from the Nueces", "name": "Stampede ground south of the Nueces", "kind": "other", "type": "event", "characters": ["Augustus", "Call", "Deets", "Newt", "Dish Boggett", "Soupy Jones", "Bolivar"], "note": "A night sandstorm then lightning and drenching rain stampede the herd into mesquite thickets; Newt ends lost and soaked, plodding on Mouse.", "fictional": true, "location_hint": "mesquite and chaparral brush country, several miles south of the Nueces River crossing; herd scattered northward in the dark", "confidence": "medium"},
+    {"raw_name": "the Nueces", "name": "Nueces River", "kind": "river", "type": "mention", "characters": ["Call", "Deets"], "note": "Several miles ahead; Deets advises against trying its steep crossing in the dark before the storm.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Call"], "note": "Call recalls sitting out many such south winds there, sand stinging like birdshot.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Call", "Newt"], "note": "Sand storms blew up from there; Newt remembers the welcome dawn after their night raid into it.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Bolivar"], "at": "Stampede ground south of the Nueces", "hint": "wagon stopped in the brush several miles south of the Nueces when the storm struck"},
+    {"label": "Scattered riders with the cattle", "members": ["Newt", "Dish Boggett", "Deets", "Soupy Jones"], "at": "Stampede ground south of the Nueces", "hint": "separated in the dark with stampeded bunches of cattle among mesquite thickets; Newt lost and alone"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 68,
+  "places": [
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "event", "characters": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Eddie Suggs", "Frog Lip"], "note": "Before even leaving it, camped some thirty miles north of Dallas, Jake hears the Suggses plot to steal a herd and kill its cowboys.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Dallas", "name": "Dallas", "kind": "city", "type": "mention", "characters": ["Jake Spoon"], "note": "Where Jake fell in with the Suggs brothers, met in a whorehouse; he fears being jailed there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "city", "type": "mention", "characters": ["Dan Suggs", "Jake Spoon"], "note": "Two outlaws brought in by July Johnson await hanging in jail there; Jake fears being jailed there too.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Doan's Store", "name": "Doan's Store", "kind": "other", "type": "event", "characters": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Eddie Suggs", "Frog Lip", "Lou"], "note": "Trading post where Jake chats with a young nester wife, is clubbed by her old husband, and shoots him dead.", "fictional": false, "location_hint": "on the Texas bank of the Red River, a day's ride north of a camp thirty miles north of Dallas", "confidence": "high"},
+    {"raw_name": "the Red River", "name": "Red River", "kind": "river", "type": "event", "characters": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Eddie Suggs", "Frog Lip"], "note": "A herd crosses a mile west of the store; Jake flees across with the Suggses after the killing.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Territory", "name": "Indian Territory", "kind": "region", "type": "event", "characters": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Eddie Suggs", "Frog Lip"], "note": "The gang rides through without trouble, circling herds; Jake watches for the Hat Creek outfit to rejoin.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "event", "characters": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Eddie Suggs", "Frog Lip"], "note": "The gang extorts four dollars from a German sod-house farmer, and Frog Lip runs his milk cows through the roof.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["Dan Suggs", "Jake Spoon"], "note": "Dan wants to steal a herd near it and sell there; Jake hopes to slip away from the gang in its crowds.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Roy Suggs"], "note": "Roy suggests heading there to rob banks.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": ["Jake Spoon", "Lou"], "note": "Home of the nester families heading to try Texas, including the girl Lou.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Jake Spoon"], "note": "The crowd from the store reminds Jake of people pouring out of saloons there after Benny Johnson died.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake hopes news of his killing might never reach there if he rejoins the Hat Creek outfit.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Jake with the Suggs gang", "members": ["Jake Spoon", "Dan Suggs", "Roy Suggs", "Eddie Suggs", "Frog Lip"], "at": "Kansas", "hint": "riding north through Kansas settler country toward Dodge City"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 19,
+  "places": [
+    {"raw_name": "camp", "name": "Hat Creek cow camp", "kind": "camp", "type": "event", "characters": ["Newt", "Sean O'Brien", "Augustus", "Needle Nelson", "Bert Borum", "Jasper Fant", "Dish Boggett", "Deets", "Pea Eye", "Jake Spoon"], "note": "Newt night-herds and dreams of the north; cowboys gamble future wages by the fire; Deets, uneasy about the hasty drive, builds branding fires with Newt and Pea.", "fictional": true, "location_hint": "valley near the Rio Grande, about five miles from Lonesome Dove, in mesquite and chaparral brush", "confidence": "medium"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "event", "characters": ["Newt", "Sean O'Brien"], "note": "Newt and Sean rest beside it after branding while Sean talks about his family.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Jake Spoon", "Newt", "Deets"], "note": "Jake keeps slipping off to town; Deets is sad to be leaving its steady, quiet life.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande, near the cow camp", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Newt", "Deets"], "note": "The only city Newt has seen, on one of Deets's banking trips.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Matagorda Bay", "name": "Matagorda", "kind": "region", "type": "mention", "characters": ["Newt", "Deets", "Pea Eye"], "note": "Newt saw the ocean there when helping deliver horses with Deets and Pea.", "fictional": false, "location_hint": "Texas Gulf Coast around Matagorda Bay", "confidence": "high"},
+    {"raw_name": "the plains", "name": "Great Plains", "kind": "region", "type": "mention", "characters": ["Newt", "Augustus", "Deets"], "note": "Newt imagines its endless grass, buffalo, elk and bears; Deets recalls water holes drying fast there in summer.", "fictional": false, "location_hint": "the northern plains the drive will cross", "confidence": "low"},
+    {"raw_name": "Ireland", "name": "Ireland", "kind": "country", "type": "mention", "characters": ["Sean O'Brien", "Newt"], "note": "Sean describes his seaside village, carpet-thick grass and few cows; his violent father drowned in a well.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Bert Borum"], "note": "Bert says cheaper women can be had across the river there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Augustus"], "note": "Augustus says the young hands must wait for it, rumored to be a sinful town.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Jasper Fant"], "note": "Jasper compares Ogallala's reputation to it.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Cow camp", "members": ["Newt", "Deets", "Pea Eye", "Augustus", "Sean O'Brien", "Needle Nelson", "Bert Borum", "Jasper Fant", "Dish Boggett"], "at": "Hat Creek cow camp", "hint": "building branding fires and holding the herd near the river about five miles from Lonesome Dove; drive due to start within days"},
+    {"label": "Jake Spoon", "members": ["Jake Spoon"], "at": "Lonesome Dove", "hint": "slipped off from camp to town again"}
+  ]
+}

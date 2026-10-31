@@ -1,0 +1,16 @@
+{
+  "chapter": 91,
+  "places": [
+    {"raw_name": "the Powder River", "name": "Powder River", "kind": "river", "type": "event", "characters": ["Augustus", "Call", "Jasper Fant", "Newt", "Lippy"], "note": "The herd trails up its valley; the hands dislike its water and blame it for cramps. Call later leaves the valley once drought seems past.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Bighorn Mountains", "name": "Bighorn Mountains", "kind": "mountain", "type": "mention", "characters": ["Newt"], "note": "Snow-capped range seen to the west after crossing the Powder; the wounded grizzly flees toward these hills.", "fictional": false, "location_hint": "west of the herd's route along the Powder River", "confidence": "high"},
+    {"raw_name": "Crazy Woman Creek", "name": "Crazy Woman Creek", "kind": "creek", "type": "event", "characters": ["Call", "Augustus", "Dish Boggett", "Newt", "Po Campo", "Soupy Jones", "Needle Nelson", "Jasper Fant", "Pea Eye"], "note": "Crossed soon after leaving the Powder; along a branch of it a grizzly scatters the outfit and fights the Texas bull to a draw.", "fictional": false, "location_hint": "tributary of the Powder River, east of the Bighorn Mountains; the bear fight is on a small stream branching off it", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": [], "note": "Hands regret not buying warmer coats there when they had the chance.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Tennessee", "name": "Tennessee", "kind": "state", "type": "mention", "characters": ["Call", "Augustus"], "note": "Call asks why Augustus left his well-off family there; Augustus says it was too tame.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "The hands are south Texas cowboys unused to snow; spooked horses act as if fleeing back there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Red River", "name": "Red River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Augustus jokes the panicked outfit might run all the way back to it.", "fictional": false, "location_hint": "Texas–Indian Territory border river", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Call"], "note": "Call doubts the mauled bull can walk all the way there.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Newt", "Dish Boggett", "Po Campo", "Pea Eye", "Jasper Fant", "Soupy Jones", "Needle Nelson", "Lippy", "Allen O'Brien", "Bert"], "at": "Crazy Woman Creek", "hint": "trailing northwest beyond Crazy Woman Creek, east of the snowy Bighorn Mountains, about a week after the bear fight"}
+  ]
+}

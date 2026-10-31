@@ -1,0 +1,21 @@
+{
+  "chapter": 29,
+  "places": [
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "event", "characters": ["Roscoe Brown", "Peach", "Charlie Barnes"], "note": "Peach finds Elmira's cabin empty; the town hounds Roscoe, who reluctantly rides off to find July, leaving the army post half a mile away to guard town.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Arkansas River", "name": "Arkansas River", "kind": "river", "type": "event", "characters": ["Roscoe Brown"], "note": "The ferryman tells Roscoe a woman boarded the whiskey traders' boat heading upriver days after July left.", "fictional": false, "location_hint": "at Fort Smith; the whiskey boat went upstream", "confidence": "high"},
+    {"raw_name": "Bents' Fort", "name": "Bent's Fort", "kind": "fort", "type": "mention", "characters": ["Roscoe Brown"], "note": "Destination of the whiskey traders' boat Elmira apparently took.", "fictional": false, "location_hint": "upper Arkansas River, southeastern Colorado", "confidence": "high"},
+    {"raw_name": "Catfish Grove", "name": "Catfish Grove", "kind": "town", "type": "mention", "characters": ["Roscoe Brown"], "note": "Nearest town, unremarkable; a bear once took a baby from a cabin near it.", "fictional": true, "location_hint": "about fourteen miles from Fort Smith, Arkansas", "confidence": "low"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Roscoe Brown", "Peach", "July Johnson"], "note": "July has gone there; Roscoe heads that way at chapter's end to tell him Elmira left.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Roscoe Brown", "Peach", "July Johnson", "Joe"], "note": "July and Joe are believed headed there; Peach tells Roscoe to ask along the way.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mississippi", "name": "Mississippi", "kind": "state", "type": "mention", "characters": [], "note": "Old Mrs. Harkness once taught school somewhere there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Little Rock", "name": "Little Rock", "kind": "city", "type": "mention", "characters": ["Roscoe Brown"], "note": "Roscoe's only prior trip, a miserable ride in cold rain that left him feverish for a month.", "fictional": false, "location_hint": "Arkansas", "confidence": "high"},
+    {"raw_name": "Memphis", "name": "Memphis", "kind": "city", "type": "mention", "characters": ["Roscoe Brown"], "note": "Roscoe's hometown, after which he named his tall white gelding.", "fictional": false, "location_hint": "Tennessee", "confidence": "high"},
+    {"raw_name": "California", "name": "California", "kind": "state", "type": "mention", "characters": ["Peach", "Roscoe Brown"], "note": "Peach jokes Roscoe will end up there if he misses July.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Canada", "name": "Canada", "kind": "country", "type": "mention", "characters": ["Peach"], "note": "Peach says Elmira will reach it before Roscoe gets going.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Roscoe Brown", "members": ["Roscoe Brown"], "at": "Fort Smith", "hint": "just riding out of town on Memphis, heading for Texas to find July"},
+    {"label": "Elmira", "members": ["Elmira"], "at": "Arkansas River", "hint": "apparently aboard a whiskey boat bound upriver toward Bent's Fort, left several days ago"},
+    {"label": "Fort Smith townsfolk", "members": ["Peach", "Charlie Barnes"], "at": "Fort Smith", "hint": "at the jail seeing Roscoe off"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 52,
+  "places": [
+    {"raw_name": "the main trail to Texas from Fort Smith", "name": "Marcy Trail", "kind": "other", "type": "event", "characters": ["Roscoe", "Janey"], "note": "Janey guides Roscoe west along the busy road, meeting soldiers, a big Missouri family, and two menacing outlaws as trees thin out.", "fictional": false, "location_hint": "road from Fort Smith, Arkansas southwest across Indian Territory into north Texas", "confidence": "medium"},
+    {"raw_name": "a big gully", "name": "Gully where Roscoe was robbed", "kind": "other", "type": "event", "characters": ["Roscoe", "Janey", "July Johnson", "Joe", "Hutto", "Jim"], "note": "In a thunderstorm the outlaws Hutto and Jim strip and rob Roscoe; Janey pelts them with rocks until July arrives and captures them.", "fictional": true, "location_hint": "open treeless plain in north Texas, half a mile north of the trail, not far from Indian Territory; about a night's ride from Fort Worth", "confidence": "low"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "event", "characters": ["July Johnson", "Roscoe", "Joe", "Janey", "Hutto", "Jim"], "note": "July delivers the outlaws to the sheriff, tells Roscoe in a saloon he will hunt Elmira first, and boards Janey at a livery stable.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "camped on the plains", "name": "July's camp north of Fort Worth", "kind": "camp", "type": "event", "characters": ["July Johnson", "Roscoe", "Joe", "Janey"], "note": "Camped amid trail herds; by morning Janey has followed them on foot and returns July's boarding money.", "fictional": true, "location_hint": "about twenty miles north of Fort Worth on the plains, with trail herds bedded on both sides", "confidence": "medium"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Roscoe", "July Johnson"], "note": "Roscoe misses its snug jail; soldiers on the trail are heading there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": ["Roscoe"], "note": "Home of a large wagon family heading west to farm.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Territory", "name": "Indian Territory", "kind": "region", "type": "mention", "characters": ["Hutto"], "note": "Hutto argues they are near it, so killing the travelers would go unnoticed.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Roscoe", "July Johnson"], "note": "Roscoe tells the outlaws they are from there; July suggests Roscoe take the children back.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the east Texas trails", "name": "East Texas", "kind": "region", "type": "mention", "characters": ["July Johnson", "Hutto", "Jim"], "note": "Hutto and Jim are known for robbing and sometimes killing settlers there.", "fictional": false, "location_hint": "eastern Texas", "confidence": "medium"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Roscoe"], "note": "Roscoe recalls Elmira's leaving is why he came into it at all.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "July Johnson's party", "members": ["July Johnson", "Roscoe", "Joe", "Janey"], "at": "July's camp north of Fort Worth", "hint": "heading north onto the plains, a day or more beyond Fort Worth, searching for Elmira"},
+    {"label": "Hutto and Jim", "members": ["Hutto", "Jim"], "at": "Fort Worth", "hint": "handed over to the Fort Worth sheriff"}
+  ]
+}

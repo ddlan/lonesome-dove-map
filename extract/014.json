@@ -1,0 +1,19 @@
+{
+  "chapter": 14,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Augustus", "Jake Spoon", "Allen O'Brien", "Sean O'Brien", "Dish Boggett", "Deets"], "note": "Jake joins Augustus drinking on the porch; Augustus teaches the Irishmen to ride and shoot at a cactus; the prime horses are sent back to town to be penned.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande; the Hat Creek house has a porch, wagons and a horse pen", "confidence": "high"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "event", "characters": ["Augustus", "Deets", "Pea Eye", "Dish Boggett", "Newt", "Jake Spoon", "Allen O'Brien", "Sean O'Brien"], "note": "The stolen herd grazes near it; Augustus looks across expecting Pedro Flores at dusk and moves the poorer horses upriver.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Augustus", "Jake Spoon"], "note": "Augustus tells Jake to keep the herd from straying back into it; Jake says Gus has caused him more trouble than all its bandits.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Sabinas", "name": "Sabinas", "kind": "town", "type": "mention", "characters": ["Augustus"], "note": "Augustus had no time there to adjust the Irishmen's stirrups.", "fictional": false, "location_hint": "in northern Mexico, within a night's ride of Lonesome Dove", "confidence": "medium"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Augustus", "Jake Spoon"], "note": "Call is hiring cowboys for the drive there; Jake regrets suggesting it and fears scalping.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake worries a lawman from there may come and take him to hang if he stays.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake fears that staying in Texas likely means hanging.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Augustus"], "note": "Jake worries Lorie will hold him to taking her there; Augustus teases him about it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "California", "name": "California", "kind": "state", "type": "mention", "characters": ["Jake Spoon", "Augustus"], "note": "Jake idly talks of drifting off there with Lorena.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Ireland", "name": "Ireland", "kind": "country", "type": "mention", "characters": ["Allen O'Brien"], "note": "Allen pines for his young wife Sary, whom he left there.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Augustus's horse guard", "members": ["Augustus", "Pea Eye", "Jake Spoon", "Newt", "Allen O'Brien", "Sean O'Brien"], "at": "Rio Grande", "hint": "moving about a hundred poorer horses north and upriver from near Lonesome Dove at dusk, watching for Pedro Flores"},
+    {"label": "Prime horse drovers", "members": ["Deets", "Dish Boggett"], "at": "Lonesome Dove", "hint": "taking the best stock back to town to pen"}
+  ]
+}

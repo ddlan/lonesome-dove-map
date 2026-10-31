@@ -1,0 +1,13 @@
+{
+  "chapter": 76,
+  "places": [
+    {"raw_name": "the house", "name": "Clara's ranch", "kind": "ranch", "type": "event", "characters": ["Elmira", "Luke", "Big Zwey"], "note": "Elmira leaves the ranch at night without her newborn, troubling Zwey.", "fictional": true, "location_hint": "Nebraska, on the Platte about twenty miles from Ogallala", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "event", "characters": ["Elmira", "Luke", "Big Zwey", "Dee Boot", "Leon"], "note": "Small saloon town where the wagon arrives at dawn; Elmira, feverish and bleeding, finds Dee Boot in the jail awaiting hanging.", "fictional": false, "location_hint": "a long street of saloons and stores with shacks on the slope north of the Platte", "confidence": "high"},
+    {"raw_name": "the Platte", "name": "North Platte River", "kind": "river", "type": "mention", "characters": [], "note": "Ogallala's shacks sit on the slope north of it.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Luke"], "note": "Luke tells the cowboys the sick woman came from there.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Elmira with the buffalo hunters", "members": ["Elmira", "Luke", "Big Zwey"], "at": "Ogallala", "hint": "outside the jail, Zwey carrying the fainting Elmira off to find a doctor"},
+    {"label": "Dee Boot", "members": ["Dee Boot"], "at": "Ogallala", "hint": "in a cell at the town jail, due to hang next week"}
+  ]
+}

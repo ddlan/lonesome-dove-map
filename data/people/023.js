@@ -1,0 +1,1 @@
+LD_PEOPLE.add({"n":23,"b":{"Soupy Jones":{"text":"Soupy Jones is a short former Ranger who once served briefly with Call and Augustus, known as a fine cardplayer and the best horseman any of them has seen. Recently widowed in Bastrop, he rides into the Hat Creek camp at dawn, partly curious about his old friend Jake, and is hired for the drive.","kind":"intro"}}});

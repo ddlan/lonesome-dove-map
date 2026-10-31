@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Lorena", "Augustus", "Lippy", "Xavier Wanz"], "note": "Lorena lives above the Dry Bean saloon, cooking at first and then taking customers; Augustus offers her money just to talk.", "fictional": true, "location_hint": "south Texas, north bank of the Rio Grande, flat chaparral; Mexico visible across the river", "confidence": "high"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Lorena"], "note": "Visible from Lorena's window at the Dry Bean.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Lorena", "Lippy"], "note": "Lippy says Lorena could get rich working there, but she finds it no more appealing than Texas.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena's dream destination because it sounds cool; Augustus claims to have been and describes the bay at length.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mobile", "name": "Mobile", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Lorena's family left it when she was twelve, fearing the Yankees.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Vicksburg", "name": "Vicksburg", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Where Lorena's father died.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Baton Rouge", "name": "Baton Rouge", "kind": "city", "type": "mention", "characters": ["Lorena", "Mosby Marlin"], "note": "Lorena's mother died there, leaving her stranded until Mosby Marlin found her.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Gladewater", "name": "Gladewater", "kind": "town", "type": "mention", "characters": ["Lorena", "Mosby Marlin", "Tinkersley"], "note": "Mosby kept Lorena in a bare, mosquito-ridden house near it and began selling her; Tinkersley took her away.", "fictional": false, "location_hint": "east Texas", "confidence": "high"},
+    {"raw_name": "east Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Lorena"], "note": "Lorena spent two miserable years in east Texas; she judges Texan men harshly.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Lorena", "Tinkersley"], "note": "Tinkersley kept Lorena in a hotel there and had her see his gambling companions until his luck soured.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Matamoros", "name": "Matamoros", "kind": "city", "type": "mention", "characters": ["Lorena", "Tinkersley"], "note": "Tinkersley and Lorena set out by stage for it; he abandoned her in Lonesome Dove along the way.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Canada", "name": "Canada", "kind": "country", "type": "mention", "characters": ["Augustus"], "note": "Augustus jokes they could live there just as cheaply as in this heat.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Lorena", "members": ["Lorena", "Augustus"], "at": "Lonesome Dove", "hint": "in Lorena's room above the Dry Bean saloon, heading down to play cards"}
+  ]
+}

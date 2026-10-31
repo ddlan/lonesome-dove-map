@@ -1,0 +1,4797 @@
+[
+ {
+  "name": "Lonesome Dove",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   30,
+   31,
+   34,
+   35,
+   39,
+   40,
+   41,
+   45,
+   46,
+   47,
+   51,
+   54,
+   55,
+   56,
+   59,
+   60,
+   61,
+   70,
+   72,
+   73,
+   74,
+   78,
+   86,
+   87,
+   88,
+   90,
+   92,
+   94,
+   95,
+   96,
+   99,
+   101,
+   102
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Lonesome Dove",
+   "Lonesome Dove (implied by Wanz)",
+   "the Dry Bean",
+   "the town of Lonesome Dove",
+   "town"
+  ],
+  "hints": [
+   "ch1: south Texas, on the north bank of the Rio Grande in chaparral flats; about twelve miles from Pickles Gap",
+   "ch2: south Texas, north bank of the Rio Grande",
+   "ch3: south Texas, north bank of the Rio Grande, flat chaparral; Mexico visible across the river"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Hat Creek",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   4,
+   7,
+   9,
+   102
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Hat Creek"
+  ],
+  "hints": [
+   "ch1: runs past the Hat Creek Cattle Company yard at Lonesome Dove and drains into the Rio Grande",
+   "ch4: between the Hat Creek outfit's wagon yard and the main street of Lonesome Dove",
+   "ch7: runs past the Hat Creek outfit's corrals at Lonesome Dove"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Rio Grande",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   2,
+   3,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   23,
+   24,
+   25,
+   41,
+   46,
+   70,
+   83,
+   90,
+   95,
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "across the river",
+   "the Rio Grande",
+   "the border",
+   "the dern Rio Grande",
+   "the old river",
+   "the river"
+  ],
+  "hints": [
+   "ch24: Texas–Mexico border",
+   "ch90: the river by the outfit's old home in Texas"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Mexico",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   2,
+   3,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   14,
+   16,
+   18,
+   19,
+   20,
+   22,
+   23,
+   24,
+   25,
+   26,
+   31,
+   41,
+   48,
+   71,
+   98,
+   102
+  ],
+  "kinds": [
+   "country"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Mexico",
+   "northern Mexico",
+   "the Mexican border"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Pickles Gap",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   5,
+   6,
+   12,
+   16,
+   22
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Pickles Gap"
+  ],
+  "hints": [
+   "ch1: about twelve miles from Lonesome Dove in the mesquite brush of south Texas",
+   "ch5: about twelve miles from Lonesome Dove in the mesquite brush",
+   "ch6: on the route from San Antonio to Lonesome Dove, about twelve miles from Lonesome Dove; apparently has a telegraph"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Georgia",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   5,
+   7,
+   64,
+   97
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Georgia",
+   "north Georgia"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Tennessee",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   4,
+   42,
+   58,
+   78,
+   91,
+   93,
+   96,
+   97
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Tennessee",
+   "the Tennessee hills"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Texas",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   2,
+   3,
+   4,
+   7,
+   9,
+   10,
+   11,
+   14,
+   15,
+   20,
+   23,
+   25,
+   26,
+   29,
+   37,
+   38,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   50,
+   51,
+   52,
+   54,
+   58,
+   61,
+   64,
+   65,
+   68,
+   70,
+   71,
+   75,
+   80,
+   83,
+   86,
+   87,
+   89,
+   90,
+   91,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100,
+   101,
+   102
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Texas",
+   "Texas / south Texas",
+   "east Texas",
+   "north Texas",
+   "south Texas",
+   "the state of Texas"
+  ],
+  "hints": [
+   "ch38: south bank of the Red River"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Brazos River",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   2,
+   7,
+   25,
+   35,
+   42,
+   54,
+   59,
+   79,
+   84,
+   88,
+   98
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "far up the Brazos",
+   "the Brazos",
+   "the salt fork of the Brazos",
+   "the upper Brazos"
+  ],
+  "hints": [
+   "ch88: Salt Fork of the Brazos, northwest Texas"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Stone House",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   23
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Stone House fight"
+  ],
+  "hints": [
+   "ch1: somewhere upriver on or near the Brazos in north-central Texas; Rangers walked about two hundred miles down the Brazos afterward",
+   "ch23: site of an old Ranger fight, apparently near the Brazos in north-central Texas"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Prairie Dog Town Fork Red River",
+  "first_chapter": 1,
+  "chapters": [
+   1,
+   54
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Prairie Dog Fork of the Red",
+   "the Prairie Dog Fork of the Red River"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Scotland",
+  "first_chapter": 1,
+  "chapters": [
+   1
+  ],
+  "kinds": [
+   "country"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Scotland"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Comanche crossing near Lonesome Dove",
+  "first_chapter": 2,
+  "chapters": [
+   2,
+   11,
+   46
+  ],
+  "kinds": [
+   "crossing"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a crossing on the river",
+   "the Comanche crossing",
+   "the old Comanche crossing"
+  ],
+  "hints": [
+   "ch2: on the Rio Grande a short walk west of Lonesome Dove, near a salt lick",
+   "ch11: on the Rio Grande about a mile upriver from Lonesome Dove",
+   "ch46: on the Rio Grande just outside Lonesome Dove"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Fort Phantom Hill",
+  "first_chapter": 2,
+  "chapters": [
+   2,
+   7,
+   12,
+   15,
+   89
+  ],
+  "kinds": [
+   "fort"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Fort Phantom Hill",
+   "Phantom Hill"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Virginia",
+  "first_chapter": 2,
+  "chapters": [
+   2,
+   97
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Virginia"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "High Plains",
+  "first_chapter": 2,
+  "chapters": [
+   2,
+   22,
+   24,
+   44,
+   48,
+   54
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the high plains",
+   "the plains"
+  ],
+  "hints": [
+   "ch22: open plains north of Texas brush country along the trail",
+   "ch24: open plains of north and west Texas and beyond",
+   "ch48: plains country north of central Texas, ahead of the drive"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "San Francisco",
+  "first_chapter": 3,
+  "chapters": [
+   3,
+   13,
+   14,
+   17,
+   18,
+   20,
+   21,
+   23,
+   30,
+   45,
+   49,
+   61,
+   88
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "San Francisco"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Mobile",
+  "first_chapter": 3,
+  "chapters": [
+   3,
+   42,
+   88
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Mobile",
+   "Mobile, Alabama"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Vicksburg",
+  "first_chapter": 3,
+  "chapters": [
+   3,
+   7
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Vicksburg"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Baton Rouge",
+  "first_chapter": 3,
+  "chapters": [
+   3,
+   21
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Baton Rouge"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Gladewater",
+  "first_chapter": 3,
+  "chapters": [
+   3
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Gladewater"
+  ],
+  "hints": [
+   "ch3: east Texas"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "San Antonio",
+  "first_chapter": 3,
+  "chapters": [
+   3,
+   4,
+   5,
+   7,
+   13,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   25,
+   26,
+   28,
+   29,
+   33,
+   34,
+   40,
+   41,
+   42,
+   43,
+   44,
+   54,
+   89,
+   96,
+   102
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "San Antone",
+   "San Antonio",
+   "San Antonio / San Antone",
+   "the road to San Antonio"
+  ],
+  "hints": [
+   "ch34: reachable in about a day's push from the Nueces camp"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Matamoros",
+  "first_chapter": 3,
+  "chapters": [
+   3,
+   4
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Matamoros"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Canada",
+  "first_chapter": 3,
+  "chapters": [
+   3,
+   6,
+   24,
+   29,
+   63,
+   70,
+   94,
+   98,
+   100
+  ],
+  "kinds": [
+   "country"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Canada",
+   "Canady",
+   "into Canada"
+  ],
+  "hints": [
+   "ch100: thieves caught on the third day out, just north of the border from the Milk River ranch"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Republican River",
+  "first_chapter": 4,
+  "chapters": [
+   4,
+   16,
+   23,
+   66,
+   67,
+   77,
+   78,
+   79,
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Republican",
+   "the Republican River"
+  ],
+  "hints": [
+   "ch77: July camps on a little bluff on its south side, nearly in sight of Nebraska"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Mexico City",
+  "first_chapter": 4,
+  "chapters": [
+   4,
+   10
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Mexico City",
+   "the capital of Mexico"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "New Orleans",
+  "first_chapter": 4,
+  "chapters": [
+   4,
+   42,
+   51,
+   67,
+   71
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "New Orleans"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Philadelphia",
+  "first_chapter": 4,
+  "chapters": [
+   4,
+   96
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Philadelphia"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Abilene",
+  "first_chapter": 4,
+  "chapters": [
+   4,
+   7,
+   27,
+   53,
+   69,
+   71
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Abilene"
+  ],
+  "hints": [
+   "ch4: Kansas cattle town",
+   "ch7: Kansas cattle town",
+   "ch27: Kansas cattle town"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Dodge City",
+  "first_chapter": 4,
+  "chapters": [
+   4,
+   5,
+   7,
+   27,
+   50,
+   53,
+   62,
+   65,
+   66,
+   68,
+   69,
+   70,
+   71,
+   72,
+   77,
+   87
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Dodge",
+   "Dodge City"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "St. Louis",
+  "first_chapter": 4,
+  "chapters": [
+   4,
+   71,
+   75,
+   80,
+   94
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "St. Louis"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Saltillo",
+  "first_chapter": 5,
+  "chapters": [
+   5
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Saltillo"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Brush Country",
+  "first_chapter": 5,
+  "chapters": [
+   5,
+   7,
+   12,
+   16,
+   25
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the bad brush country",
+   "the brush country"
+  ],
+  "hints": [
+   "ch5: south Texas scrub between the Rio Grande and San Antonio",
+   "ch7: south Texas scrub north of the Rio Grande",
+   "ch12: south Texas scrub, northeast of Lonesome Dove"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Matagorda",
+  "first_chapter": 5,
+  "chapters": [
+   5,
+   7,
+   8,
+   12,
+   15,
+   19,
+   35
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Matagorda Bay",
+   "the Matagorda"
+  ],
+  "hints": [
+   "ch5: Texas Gulf Coast around Matagorda Bay",
+   "ch7: Texas Gulf Coast around Matagorda Bay",
+   "ch8: Texas Gulf Coast around Matagorda Bay"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Ogallala",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   7,
+   19,
+   35,
+   45,
+   53,
+   59,
+   61,
+   62,
+   66,
+   67,
+   69,
+   70,
+   75,
+   76,
+   77,
+   79,
+   80,
+   81,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   91
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Ogallala",
+   "Ogallala, Nebraska",
+   "town"
+  ],
+  "hints": [
+   "ch76: a long street of saloons and stores with shacks on the slope north of the Platte",
+   "ch84: small cluster of shacks and frame buildings near the Platte, visible from the slopes north of the river; five or six miles from the herd"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Black Hills",
+  "first_chapter": 6,
+  "chapters": [
+   6
+  ],
+  "kinds": [
+   "mountain"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Black Hills"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Alabama",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   23,
+   37,
+   45
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Alabama"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Arkansas",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   8,
+   11,
+   16,
+   17,
+   18,
+   20,
+   21,
+   25,
+   37,
+   38,
+   45,
+   50,
+   51,
+   52,
+   56,
+   57,
+   58,
+   60,
+   61,
+   64,
+   65,
+   67,
+   68,
+   69,
+   71,
+   75,
+   76,
+   77,
+   80,
+   81,
+   82,
+   87,
+   92,
+   101
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Arkansas",
+   "the pine woods",
+   "toward Arkansas"
+  ],
+  "hints": [
+   "ch38: pine woods between Fort Smith and the Red River"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Fort Smith",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   7,
+   13,
+   14,
+   18,
+   26,
+   27,
+   28,
+   29,
+   36,
+   37,
+   38,
+   43,
+   50,
+   51,
+   52,
+   53,
+   56,
+   58,
+   64,
+   65,
+   68,
+   69,
+   77,
+   81,
+   87,
+   92
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Fort Smith",
+   "Fort Smith (July's cabin on the edge of town)",
+   "Fort Smith, Arkansas"
+  ],
+  "hints": [
+   "ch27: July's cabin sits on the town's edge among pines, about a mile from the river"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Missouri",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   26,
+   27,
+   43,
+   52,
+   68,
+   69,
+   75,
+   82,
+   97,
+   100
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Missouri"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Montana",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   7,
+   9,
+   11,
+   12,
+   14,
+   16,
+   18,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   35,
+   39,
+   41,
+   42,
+   44,
+   46,
+   47,
+   48,
+   53,
+   54,
+   63,
+   64,
+   67,
+   68,
+   73,
+   79,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   90,
+   91,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100,
+   101,
+   102
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Montana",
+   "Montana / Montany",
+   "Montana prairie",
+   "Montany",
+   "the Montana territory",
+   "the great plain"
+  ],
+  "hints": [
+   "ch6: Montana Territory",
+   "ch7: Montana Territory",
+   "ch9: Montana Territory"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Yellowstone River",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   7,
+   17,
+   33,
+   35,
+   44,
+   89,
+   93,
+   94,
+   95,
+   96,
+   98
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Yellowstone",
+   "the Yellowstone River"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Milk River",
+  "first_chapter": 6,
+  "chapters": [
+   6,
+   7,
+   94,
+   98,
+   100,
+   101
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Milk",
+   "the Milk River",
+   "up on the Milk"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Wichita country",
+  "first_chapter": 6,
+  "chapters": [
+   6
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Wichita country"
+  ],
+  "hints": [
+   "ch6: around the Wichita River / Wichita Mountains area of north Texas and southwest Indian Territory"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Fort Worth",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   19,
+   20,
+   42,
+   43,
+   45,
+   48,
+   50,
+   52,
+   59,
+   61,
+   63,
+   64,
+   68,
+   69,
+   72,
+   74,
+   84,
+   94
+  ],
+  "kinds": [
+   "city",
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Fort Worth"
+  ],
+  "hints": [
+   "ch59: herd camp just west of Fort Worth, a couple of miles out",
+   "ch64: Bill's Saloon, a two-story clapboard place on the Trinity River bluffs with a view of passing herds"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Miles City",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   100,
+   101
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Miles City"
+  ],
+  "hints": [
+   "ch94: on the Yellowstone, downstream of the besieged creek's mouth",
+   "ch95: on the Yellowstone, seen from a slope north of the river",
+   "ch96: on the Yellowstone River"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Nebraska",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   35,
+   45,
+   53,
+   59,
+   63,
+   66,
+   71,
+   72,
+   75,
+   77,
+   78,
+   79,
+   80,
+   81,
+   85,
+   86,
+   87,
+   88,
+   89,
+   93,
+   96,
+   97,
+   98,
+   99,
+   100,
+   101
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Nebraska",
+   "Nebrasky",
+   "a Nebraska winter",
+   "western Nebraska"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "North Platte River",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   53,
+   75,
+   76,
+   77,
+   81,
+   82,
+   83,
+   84,
+   85,
+   87,
+   88,
+   89,
+   99,
+   101,
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the North Platte",
+   "the Platte",
+   "the Platte River",
+   "the river"
+  ],
+  "hints": [
+   "ch75: river beside Clara's ranch near Ogallala, Nebraska",
+   "ch81: river beside Clara's ranch",
+   "ch82: river beside Clara's ranch"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Kentucky",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   35,
+   44,
+   100
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Kentucky"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Austin",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   20,
+   35,
+   40,
+   44,
+   48,
+   49,
+   64,
+   82,
+   84,
+   88,
+   102
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Austin"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Washington, D.C.",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   42
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Washington, D.C."
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Kansas",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   8,
+   11,
+   18,
+   26,
+   27,
+   36,
+   40,
+   50,
+   53,
+   56,
+   58,
+   64,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   74,
+   87,
+   89,
+   93,
+   94,
+   95,
+   97,
+   102
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Kansas",
+   "a few miles north of the Arkansas",
+   "northern Kansas",
+   "the Kansas railheads",
+   "the herd's camp south of the Arkansas",
+   "the hot Kansas plains"
+  ],
+  "hints": [
+   "ch70: southern Kansas plains, a few miles south of the Arkansas River, not far from Dodge City",
+   "ch72: a few miles north of the Arkansas River, west of Dodge City",
+   "ch73: plains north of the Arkansas River, west of Dodge City"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Pecos River",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   15,
+   44,
+   54,
+   89,
+   90,
+   102
+  ],
+  "kinds": [
+   "region",
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Pecos",
+   "the Pecos country",
+   "west of the Pecos"
+  ],
+  "hints": [
+   "ch44: country along the Pecos River, west Texas"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Powder River",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   23,
+   63,
+   89,
+   90,
+   91,
+   94,
+   101
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Powder River",
+   "the Powder",
+   "the Powder River"
+  ],
+  "hints": [
+   "ch90: grave on a little rise north of the Salt Creek–Powder River junction, Wyoming"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Arkansas River",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   26,
+   27,
+   28,
+   29,
+   36,
+   39,
+   51,
+   53,
+   58,
+   70,
+   71,
+   72,
+   77
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Arkansas",
+   "the Arkansas River",
+   "the river",
+   "the river / the Arkansas"
+  ],
+  "hints": [
+   "ch26: the river at Fort Smith",
+   "ch28: runs past Fort Smith, with a ferry to the north bank",
+   "ch29: at Fort Smith; the whiskey boat went upstream"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Missouri River",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   94,
+   98,
+   100
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Missouri",
+   "the headwaters of the Missouri"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Columbia River",
+  "first_chapter": 7,
+  "chapters": [
+   7,
+   89
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Columbia",
+   "the Columbia River"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Nueces River",
+  "first_chapter": 8,
+  "chapters": [
+   8,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   47,
+   48,
+   63,
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Nueces",
+   "the Nueces River",
+   "the green Nueces",
+   "the river"
+  ],
+  "hints": [
+   "ch30: reached on Jake and Lorena's second day out, through mesquite and prickly pear, ahead of the herd; they end camped on the north bank",
+   "ch32: north bank of the Nueces where Jake and Lorena camped after crossing",
+   "ch34: Jake and Lorena's camp on the north bank, a short way north of the herd; Gus crosses south to rejoin the outfit"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Sabinas",
+  "first_chapter": 8,
+  "chapters": [
+   8,
+   12,
+   14
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Sabinas"
+  ],
+  "hints": [
+   "ch8: in Mexico, described by Dish as about a day's ride southeast after crossing the Rio Grande from Lonesome Dove",
+   "ch12: in Mexico, within a night's ride of the Flores ranch and Lonesome Dove",
+   "ch14: in northern Mexico, within a night's ride of Lonesome Dove"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Hacienda Flores",
+  "first_chapter": 9,
+  "chapters": [
+   9,
+   10,
+   11
+  ],
+  "kinds": [
+   "ranch"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Pedro Flores's ranch",
+   "Pedro Flores's range",
+   "the Hacienda Flores"
+  ],
+  "hints": [
+   "ch9: in Coahuila, Mexico; headquarters about thirty miles from Lonesome Dove, reached by crossing the Rio Grande and riding southeast",
+   "ch10: northern Mexico (Coahuila), a few hours' trot southeast of the Rio Grande crossing near Lonesome Dove; horse herd lies south of the big camp",
+   "ch11: northern Mexico south of the Rio Grande opposite Lonesome Dove; the main horse herd grazed a mile from headquarters, the smaller herd in a valley south of an old line camp"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Coahuila",
+  "first_chapter": 9,
+  "chapters": [
+   9
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Coahuila"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Wilbarger's herd camp",
+  "first_chapter": 9,
+  "chapters": [
+   9,
+   12,
+   51
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Wilbarger's herd",
+   "home (Wilbarger's)",
+   "the herd"
+  ],
+  "hints": [
+   "ch9: beyond the Nueces River from Lonesome Dove, roughly a night's ride away",
+   "ch12: beyond the Nueces River from Lonesome Dove",
+   "ch51: north Texas plains near July's creek camp east of Fort Worth, heading north toward the Red River"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Yale College",
+  "first_chapter": 9,
+  "chapters": [
+   9,
+   61,
+   72
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Yale College"
+  ],
+  "hints": [
+   "ch9: New Haven, Connecticut",
+   "ch61: New Haven, Connecticut",
+   "ch72: New Haven, Connecticut"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Flores wranglers' burnt-out camp",
+  "first_chapter": 10,
+  "chapters": [
+   10
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "an out camp... burnt out"
+  ],
+  "hints": [
+   "ch10: on Hacienda Flores land, two or three miles south of where the riders turned past the big camp; brush and desert country southeast of the Rio Grande"
+  ],
+  "has_coords": true
+ },
+ {
+  "name": "Ireland",
+  "first_chapter": 10,
+  "chapters": [
+   10,
+   11,
+   12,
+   14,
+   19,
+   35,
+   59,
+   89
+  ],
+  "kinds": [
+   "country"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Ireland",
+   "the green land he had left"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Galveston",
+  "first_chapter": 10,
+  "chapters": [
+   10,
+   11,
+   21,
+   35,
+   45,
+   78
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Galveston"
+  ],
+  "hints": [],
+  "has_coords": true
+ },
+ {
+  "name": "Chaparral plain south of the Rio Grande",
+  "first_chapter": 11,
+  "chapters": [
+   11
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the long chaparral plain"
+  ],
+  "hints": [
+   "ch11: in Mexico, a short way south of the Rio Grande near Lonesome Dove, on the route back from the Flores ranch"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Rainey ranch",
+  "first_chapter": 12,
+  "chapters": [
+   12,
+   16
+  ],
+  "kinds": [
+   "ranch"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the Rainey ranch",
+   "the Raineys'"
+  ],
+  "hints": [
+   "ch12: somewhere in the brush country, apparently northeast of Lonesome Dove",
+   "ch16: south Texas brush country, reached by sundown after the Spettle farm north of Pickles Gap; more than fifteen miles from Lonesome Dove, roughly northeast of it"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Chihuahua",
+  "first_chapter": 12,
+  "chapters": [
+   12
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Chihuahua"
+  ],
+  "hints": [
+   "ch12: northern Mexican state"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Veracruz",
+  "first_chapter": 12,
+  "chapters": [
+   12
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Vera Cruz"
+  ],
+  "hints": [
+   "ch12: Gulf coast port of Mexico"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Boston",
+  "first_chapter": 12,
+  "chapters": [
+   12,
+   72
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Boston",
+   "Boston Harbor"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "United States",
+  "first_chapter": 12,
+  "chapters": [
+   12
+  ],
+  "kinds": [
+   "country"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "America"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "California",
+  "first_chapter": 14,
+  "chapters": [
+   14,
+   21,
+   29,
+   45,
+   65
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "California"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "West Texas",
+  "first_chapter": 15,
+  "chapters": [
+   15
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "west Texas"
+  ],
+  "hints": [
+   "ch15: western part of Texas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Spettle farm",
+  "first_chapter": 16,
+  "chapters": [
+   16
+  ],
+  "kinds": [
+   "ranch"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the Spettle homestead"
+  ],
+  "hints": [
+   "ch16: small poor creek-bottom farm a short way north of Pickles Gap, in the brush country; within a day's ride of Lonesome Dove and of the Rainey ranch"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Eastern United States",
+  "first_chapter": 16,
+  "chapters": [
+   16
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the East"
+  ],
+  "hints": [
+   "ch16: eastern United States"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Clear Fork Brazos River",
+  "first_chapter": 16,
+  "chapters": [
+   16,
+   54
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Clear Fork of the Brazos"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek cow camp",
+  "first_chapter": 17,
+  "chapters": [
+   17,
+   18,
+   19
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "camp",
+   "the cow camp"
+  ],
+  "hints": [
+   "ch17: somewhere near Lonesome Dove, location not given",
+   "ch18: a long valley near the Rio Grande, about five miles from Lonesome Dove, out in the brush",
+   "ch19: valley near the Rio Grande, about five miles from Lonesome Dove, in mesquite and chaparral brush"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Brownsville",
+  "first_chapter": 17,
+  "chapters": [
+   17
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Brownsville"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Denver",
+  "first_chapter": 18,
+  "chapters": [
+   18,
+   20,
+   21,
+   22,
+   34,
+   45,
+   51,
+   61,
+   71,
+   74,
+   102
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Denver"
+  ],
+  "hints": [
+   "ch20: Colorado",
+   "ch21: Colorado",
+   "ch22: Colorado"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Great Plains",
+  "first_chapter": 19,
+  "chapters": [
+   19
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the plains"
+  ],
+  "hints": [
+   "ch19: the northern plains the drive will cross"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Red River",
+  "first_chapter": 20,
+  "chapters": [
+   20,
+   35,
+   38,
+   43,
+   45,
+   50,
+   51,
+   56,
+   59,
+   60,
+   68,
+   79,
+   91
+  ],
+  "kinds": [
+   "region",
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Red",
+   "the Red River",
+   "the Red River country"
+  ],
+  "hints": [
+   "ch20: Texas–Indian Territory boundary river",
+   "ch35: Texas-Indian Territory border river",
+   "ch38: reached after several days riding southwest from Fort Smith through rainy pine woods; broad and muddy, curving down from the north"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Cheyenne",
+  "first_chapter": 20,
+  "chapters": [
+   20
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Cheyenne"
+  ],
+  "hints": [
+   "ch20: Wyoming"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Bighorn Mountains",
+  "first_chapter": 20,
+  "chapters": [
+   20,
+   91,
+   93
+  ],
+  "kinds": [
+   "mountain"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Bighorn Mountains",
+   "the Bighorns"
+  ],
+  "hints": [
+   "ch20: Wyoming/Montana",
+   "ch91: west of the herd's route along the Powder River",
+   "ch93: west of the herd's route into southern Montana"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek herd camp near Lonesome Dove",
+  "first_chapter": 22,
+  "chapters": [
+   22,
+   23,
+   24
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "cow camp / the valley where the herd is strung out",
+   "the camp / the wagon",
+   "the main camp"
+  ],
+  "hints": [
+   "ch22: outfit's cook camp beside a long valley or plain where the gathered herd grazes, a short ride from Lonesome Dove in south Texas brush country",
+   "ch23: near the herd, roughly two miles or a bit more outside Lonesome Dove in the chaparral, within sight of the river toward Mexico",
+   "ch24: herd camp in the mesquite brush a couple of miles outside Lonesome Dove, south Texas border"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Jake and Lorena's camp near Lonesome Dove",
+  "first_chapter": 23,
+  "chapters": [
+   23
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Jake's camp"
+  ],
+  "hints": [
+   "ch23: about half a mile from the Hat Creek main camp and two miles from Lonesome Dove, on stony ground"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Bastrop",
+  "first_chapter": 23,
+  "chapters": [
+   23
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Bastrop"
+  ],
+  "hints": [
+   "ch23: central Texas, east of Austin"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "First day's trail north of Lonesome Dove",
+  "first_chapter": 25,
+  "chapters": [
+   25
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the trail / a little knobby hill"
+  ],
+  "hints": [
+   "ch25: open chaparral flats with scattered mesquite a few miles north of Lonesome Dove; from a low knoll the town, the Rio Grande and Mexico are still visible; south of the brush country and San Antonio"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Texas Gulf Coast",
+  "first_chapter": 25,
+  "chapters": [
+   25
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the coast"
+  ],
+  "hints": [
+   "ch25: Gulf of Mexico shore of south Texas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "St. Joseph",
+  "first_chapter": 27,
+  "chapters": [
+   27,
+   69
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "St. Jo",
+   "St. Jo, Missouri"
+  ],
+  "hints": [
+   "ch27: St. Joseph, Missouri, on the Missouri River",
+   "ch69: St. Joseph, Missouri"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Bent's Fort",
+  "first_chapter": 29,
+  "chapters": [
+   29,
+   53
+  ],
+  "kinds": [
+   "fort"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Bents' Fort"
+  ],
+  "hints": [
+   "ch29: upper Arkansas River, southeastern Colorado",
+   "ch53: trading post on the plains reached by wagon from the whiskey boat's landing"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Catfish Grove",
+  "first_chapter": 29,
+  "chapters": [
+   29
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Catfish Grove"
+  ],
+  "hints": [
+   "ch29: about fourteen miles from Fort Smith, Arkansas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Mississippi",
+  "first_chapter": 29,
+  "chapters": [
+   29,
+   100
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Mississippi"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Little Rock",
+  "first_chapter": 29,
+  "chapters": [
+   29,
+   38,
+   50
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Little Rock"
+  ],
+  "hints": [
+   "ch29: Arkansas",
+   "ch38: Arkansas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Memphis",
+  "first_chapter": 29,
+  "chapters": [
+   29,
+   77
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Memphis"
+  ],
+  "hints": [
+   "ch29: Tennessee"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Stampede ground south of the Nueces",
+  "first_chapter": 31,
+  "chapters": [
+   31,
+   33
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "brushy country several miles from the Nueces",
+   "wet thickets where the herd ended the night"
+  ],
+  "hints": [
+   "ch31: mesquite and chaparral brush country, several miles south of the Nueces River crossing; herd scattered northward in the dark",
+   "ch33: puddled mesquite brush a short distance south of the Nueces crossing; part of the herd a mile or two east"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Louisa Brooks's farm",
+  "first_chapter": 37,
+  "chapters": [
+   37
+  ],
+  "kinds": [
+   "ranch"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Louisa's farm"
+  ],
+  "hints": [
+   "ch37: clearing beside the Army trail from Fort Smith toward Texas, in pine woods of western Arkansas, about two days' slow ride from Fort Smith (first camp was only ten miles out)"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "San Antonio River",
+  "first_chapter": 39,
+  "chapters": [
+   39
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the San Antonio"
+  ],
+  "hints": [
+   "ch39: the next river north of the Nueces crossing on the drive"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Cimarron River",
+  "first_chapter": 39,
+  "chapters": [
+   39,
+   65
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Cimarron"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Platte River",
+  "first_chapter": 39,
+  "chapters": [
+   39
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Platte"
+  ],
+  "hints": [
+   "ch39: Nebraska"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Jake and Lorena's camp near San Antonio",
+  "first_chapter": 40,
+  "chapters": [
+   40
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a little clearing"
+  ],
+  "hints": [
+   "ch40: small clearing about a mile from the Hat Creek herd, roughly an hour's ride from San Antonio and two days short of Austin"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Wagon-wreck creek near San Antonio",
+  "first_chapter": 41,
+  "chapters": [
+   41
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a little creek"
+  ],
+  "hints": [
+   "ch41: small creek just crossed by the herd, before it had passed San Antonio; about a week north of Lonesome Dove"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Bolivar's village",
+  "first_chapter": 41,
+  "chapters": [
+   41
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "his village"
+  ],
+  "hints": [
+   "ch41: in Mexico, about three days' ride beyond the Rio Grande from Lonesome Dove"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Settlements south of San Antonio",
+  "first_chapter": 42,
+  "chapters": [
+   42
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "two settlements"
+  ],
+  "hints": [
+   "ch42: on the ride from the herd into San Antonio, under ten miles apart, south of the city"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Canadian River",
+  "first_chapter": 42,
+  "chapters": [
+   42,
+   45,
+   48,
+   54,
+   55,
+   56,
+   57,
+   58,
+   61,
+   62,
+   63,
+   69,
+   89,
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "north of the Canadian",
+   "the Canadian",
+   "the goddamn Canadian",
+   "the river"
+  ],
+  "hints": [
+   "ch62: at a much-used trail-herd crossing, in Indian Territory",
+   "ch63: trail-herd crossing in Indian Territory"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Buffalo Springs",
+  "first_chapter": 43,
+  "chapters": [
+   43
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Buffalo Springs"
+  ],
+  "hints": [
+   "ch43: in north Texas, west of where Roscoe crossed the Red River"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Indian Territory",
+  "first_chapter": 43,
+  "chapters": [
+   43,
+   52,
+   60,
+   62,
+   67,
+   68,
+   74
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Oklahoma Territory",
+   "the Territory"
+  ],
+  "hints": [
+   "ch43: west of Roscoe's route, north of the Red River",
+   "ch60: just north of the Red River crossing",
+   "ch62: between the Red River and the Canadian River"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Old Sam's cabin",
+  "first_chapter": 43,
+  "chapters": [
+   43
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "old Sam's cabin"
+  ],
+  "hints": [
+   "ch43: wooded clearing in north Texas, about a day and a half south-southwest of the Red River crossing, on Roscoe's course toward San Antonio"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Creek where Janey joins Roscoe",
+  "first_chapter": 43,
+  "chapters": [
+   43
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a creek"
+  ],
+  "hints": [
+   "ch43: about six miles past old Sam's cabin, in heavily wooded north Texas country"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Waco",
+  "first_chapter": 43,
+  "chapters": [
+   43,
+   54
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Waco"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek herd camp west of Austin",
+  "first_chapter": 44,
+  "chapters": [
+   44
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "north of San Antonio"
+  ],
+  "hints": [
+   "ch44: on the trail north of San Antonio after two weeks of mesquite, about twenty miles west of Austin"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Clara's orchard",
+  "first_chapter": 44,
+  "chapters": [
+   44,
+   96
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Clara's orchard",
+   "Clara's orchard / the south Guadalupe"
+  ],
+  "hints": [
+   "ch44: small spring-fed creek feeding the Guadalupe, live oaks on a sizable hill, just north of the wagon road from the herd into Austin, west of Austin",
+   "ch96: Texas, a small grove of live oaks on the south Guadalupe River; Call and Augustus had stopped there briefly"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Guadalupe River",
+  "first_chapter": 44,
+  "chapters": [
+   44,
+   87,
+   96,
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Guadalupe",
+   "the Guadalupe River"
+  ],
+  "hints": [
+   "ch87: central Texas river"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Lorena's camp by the limestone bluff",
+  "first_chapter": 44,
+  "chapters": [
+   44
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a little camp at the foot of a limestone bluff"
+  ],
+  "hints": [
+   "ch44: about three miles beyond Clara's orchard toward Austin, by a pool and trees at the foot of a limestone bluff, west of Austin"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Lorena's camp",
+  "first_chapter": 45,
+  "chapters": [
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Jake's camp",
+   "Lorena's camp",
+   "my own dern camp",
+   "the little pool"
+  ],
+  "hints": [
+   "ch45: camp by a small cold pool on rolling open plain in Texas, near the Hat Creek drive's cow camp; Jake left two days earlier",
+   "ch46: barely a mile from the Hat Creek herd's camp, by a small pool",
+   "ch47: a couple of miles due east of the Hat Creek herd's camp, under trees with a live-oak stand about a hundred yards off"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek outfit's cow camp",
+  "first_chapter": 45,
+  "chapters": [
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "camp",
+   "that cow camp",
+   "the bed-grounds",
+   "the cow camp",
+   "the herd"
+  ],
+  "hints": [
+   "ch45: a short ride from Lorena's pool camp, on the trail north through Texas",
+   "ch46: herd bedded in a little valley with limestone bluffs about a mile to the west; about a mile from Lorena's camp; a day's ride or less from a town",
+   "ch47: open grassy country with ridges and bluffs; Lorena's camp lies a couple of miles to the east"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "New Mexico",
+  "first_chapter": 45,
+  "chapters": [
+   45,
+   89,
+   102
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "New Mexican plain",
+   "New Mexico"
+  ],
+  "hints": [
+   "ch45: New Mexico Territory",
+   "ch89: New Mexico Territory",
+   "ch102: New Mexico Territory"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Creek where Blue Duck's trail vanished",
+  "first_chapter": 46,
+  "chapters": [
+   46
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the creek"
+  ],
+  "hints": [
+   "ch46: about ten miles southeast of the Hat Creek herd's camp"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Town where Call hired a cook",
+  "first_chapter": 46,
+  "chapters": [
+   46
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "town"
+  ],
+  "hints": [
+   "ch46: within a day's ride of the herd's camp; Jake has been there for days"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Llano Estacado",
+  "first_chapter": 46,
+  "chapters": [
+   46,
+   54,
+   59,
+   89,
+   102
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Staked Plains",
+   "the llano",
+   "the llano estacado"
+  ],
+  "hints": [
+   "ch89: high plains of west Texas and eastern New Mexico"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Blue Duck's route through empty hill country",
+  "first_chapter": 49,
+  "chapters": [
+   49
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "rocky hills and ridges"
+  ],
+  "hints": [
+   "ch49: rough, empty country crossed by many creeks, travelled several days and nights from the herd; trees thinning as they go"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Stream where Blue Duck rested",
+  "first_chapter": 49,
+  "chapters": [
+   49
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a sizable stream"
+  ],
+  "hints": [
+   "ch49: about a day's hard ride beyond the herd, through rocky ridge country"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Red-sand river crossing",
+  "first_chapter": 49,
+  "chapters": [
+   49
+  ],
+  "kinds": [
+   "crossing"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a broad riverbed"
+  ],
+  "hints": [
+   "ch49: several days' ride from the herd, where the country flattens into tall grass and long views"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Grassland beyond the sand river",
+  "first_chapter": 49,
+  "chapters": [
+   49
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the high grass"
+  ],
+  "hints": [
+   "ch49: flat tall-grass country a short ride beyond the red-sand river crossing"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "River where July and Joe saw buffalo",
+  "first_chapter": 50,
+  "chapters": [
+   50
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a little river"
+  ],
+  "hints": [
+   "ch50: in increasingly open country in north Texas, south of the Red River, a day's ride or less before Fort Worth"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "July's camp east of Fort Worth",
+  "first_chapter": 50,
+  "chapters": [
+   50,
+   51
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a little creek",
+   "camped"
+  ],
+  "hints": [
+   "ch50: about a half-evening's ride east of Fort Worth, back along the way they came",
+   "ch51: a few hours' ride east of Fort Worth on open north Texas plains, beside a little creek"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Stream where July left Wilbarger",
+  "first_chapter": 51,
+  "chapters": [
+   51
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a fair-sized stream"
+  ],
+  "hints": [
+   "ch51: several miles north of Wilbarger's herd camp, in open country dotted with elm and post oak"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Marcy Trail",
+  "first_chapter": 51,
+  "chapters": [
+   51,
+   52
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the main trail to Texas from Fort Smith",
+   "the trail Captain Marcy laid out"
+  ],
+  "hints": [
+   "ch51: road from Fort Smith, Arkansas southwest into north Texas",
+   "ch52: road from Fort Smith, Arkansas southwest across Indian Territory into north Texas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Colorado",
+  "first_chapter": 51,
+  "chapters": [
+   51,
+   58,
+   63,
+   70,
+   89,
+   102
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Colorado"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Gully where Roscoe was robbed",
+  "first_chapter": 52,
+  "chapters": [
+   52
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a big gully"
+  ],
+  "hints": [
+   "ch52: open treeless plain in north Texas, half a mile north of the trail, not far from Indian Territory; about a night's ride from Fort Worth"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "July's camp north of Fort Worth",
+  "first_chapter": 52,
+  "chapters": [
+   52
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "camped on the plains"
+  ],
+  "hints": [
+   "ch52: about twenty miles north of Fort Worth on the plains, with trail herds bedded on both sides"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "East Texas",
+  "first_chapter": 52,
+  "chapters": [
+   52
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the east Texas trails"
+  ],
+  "hints": [
+   "ch52: eastern Texas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Plains north of Bent's Fort",
+  "first_chapter": 53,
+  "chapters": [
+   53
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the great, empty prairie"
+  ],
+  "hints": [
+   "ch53: open prairie a few days' wagon travel out from Bent's Fort, heading toward Ogallala on the Platte"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Blanco River",
+  "first_chapter": 54,
+  "chapters": [
+   54
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Blanco country"
+  ],
+  "hints": [
+   "ch54: Blanco River country of central Texas, Hill Country west of Austin"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Palo Duro Canyon",
+  "first_chapter": 54,
+  "chapters": [
+   54
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Palo Duro Canyon"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Trinity River",
+  "first_chapter": 54,
+  "chapters": [
+   54,
+   59,
+   64
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Trinity",
+   "the Trinity River bluffs"
+  ],
+  "hints": [
+   "ch64: at Fort Worth"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Wichita River",
+  "first_chapter": 54,
+  "chapters": [
+   54
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Wichita"
+  ],
+  "hints": [
+   "ch54: north Texas, south of the Red River"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Adobe Walls",
+  "first_chapter": 54,
+  "chapters": [
+   54,
+   58,
+   61
+  ],
+  "kinds": [
+   "fort"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Adobe Walls"
+  ],
+  "hints": [
+   "ch54: on the Canadian River in the Texas Panhandle",
+   "ch58: on the Canadian River in the Texas Panhandle",
+   "ch61: on the Canadian River in the Texas Panhandle"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Comanche captive crossing on the Canadian",
+  "first_chapter": 54,
+  "chapters": [
+   54
+  ],
+  "kinds": [
+   "crossing"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the big crossing on the Canadian"
+  ],
+  "hints": [
+   "ch54: on the Canadian River in the Texas Panhandle, north of the Quitaque and west of Adobe Walls; a mile downriver from Aus Frank's bone camp"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Valley of Tears",
+  "first_chapter": 54,
+  "chapters": [
+   54
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Valley of Tears"
+  ],
+  "hints": [
+   "ch54: near the Comanche trading crossing on the Canadian River, Texas Panhandle"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Quitaque",
+  "first_chapter": 54,
+  "chapters": [
+   54,
+   55
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Quitaque"
+  ],
+  "hints": [
+   "ch54: Texas Panhandle, southeast of Palo Duro Canyon",
+   "ch55: Texas Panhandle, southeast of Palo Duro Canyon"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Blue Duck's camp on the Canadian",
+  "first_chapter": 55,
+  "chapters": [
+   55,
+   57
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the camp",
+   "this Canadian"
+  ],
+  "hints": [
+   "ch55: on the open plains along the Canadian River in the Texas Panhandle, near a creek; Gus is expected to come down the river from the west",
+   "ch57: on the plains a short way from the Canadian River, Texas Panhandle, some eight miles downriver (east) of July's canyon-mouth camp"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Augustus's buffalo wallow",
+  "first_chapter": 56,
+  "chapters": [
+   56
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "buffalo wallow"
+  ],
+  "hints": [
+   "ch56: level plain about ten miles south of the Canadian River, Texas Panhandle, a morning's ride east of Aus Frank's bone camp"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "July's canyon-mouth camp on the Canadian",
+  "first_chapter": 56,
+  "chapters": [
+   56,
+   58,
+   61,
+   65
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the Canadian",
+   "the canyon where he had left his party",
+   "the mouth of a canyon",
+   "west of here"
+  ],
+  "hints": [
+   "ch56: on the Canadian River, Texas Panhandle, about a mile upriver from where they first struck it and some seven or eight miles west of the outlaws' campfire",
+   "ch58: canyon mouth sloping to the Canadian River, Texas Panhandle, roughly eight miles west (upriver) of the outlaw camp, a little way upriver from Adobe Walls",
+   "ch61: canyon mouth on the Canadian River, Texas Panhandle, west of Adobe Walls"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Purgatoire River",
+  "first_chapter": 58,
+  "chapters": [
+   58,
+   61,
+   63,
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Purgatoire River, or Picketwire",
+   "the Purgatory",
+   "the Purgatory River"
+  ],
+  "hints": [
+   "ch58: southeastern Colorado",
+   "ch61: southeastern Colorado",
+   "ch63: southeastern Colorado"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "China",
+  "first_chapter": 59,
+  "chapters": [
+   59,
+   63
+  ],
+  "kinds": [
+   "country"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "China"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Treeless plain south of the Red River",
+  "first_chapter": 60,
+  "chapters": [
+   60
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a rolling plain bare of trees"
+  ],
+  "hints": [
+   "ch60: rolling treeless prairie in north Texas, about two days' drive south of the Red River, north of Fort Worth"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Trail herds' crossing on the Canadian",
+  "first_chapter": 61,
+  "chapters": [
+   61
+  ],
+  "kinds": [
+   "crossing"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "four great herds of cattle"
+  ],
+  "hints": [
+   "ch61: on the Canadian River, an afternoon's ride east (downriver) of Adobe Walls, Texas Panhandle/Indian Territory border area"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Augustus and Lorena's ridge camp",
+  "first_chapter": 61,
+  "chapters": [
+   61,
+   63
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a long ridge about two miles to the north",
+   "the tent"
+  ],
+  "hints": [
+   "ch61: on a long ridge about two miles north of the Canadian River, just beyond the herds' crossing east of Adobe Walls",
+   "ch63: a short distance north of the Canadian River crossing, within sight of the outfit's wagon but too far to see detail"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Bill Spettle's grave",
+  "first_chapter": 62,
+  "chapters": [
+   62
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "out in the middle of the plain"
+  ],
+  "hints": [
+   "ch62: open plain in Indian Territory about half a day's drive south of the Canadian River crossing; the main herd ended up about four miles from the river"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Dallas",
+  "first_chapter": 64,
+  "chapters": [
+   64,
+   68
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Dallas"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "July's dead horse",
+  "first_chapter": 65,
+  "chapters": [
+   65
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "where the horse lay"
+  ],
+  "hints": [
+   "ch65: open prairie about three days' ride north of the Cimarron River, four days north of the Canadian; probably southwestern Kansas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "July's spring grove",
+  "first_chapter": 65,
+  "chapters": [
+   65
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a little grove of low trees"
+  ],
+  "hints": [
+   "ch65: on the prairie about two days' walk east of where his horse died, north of the Cimarron; probably southwestern Kansas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Creek on a wagon track",
+  "first_chapter": 65,
+  "chapters": [
+   65
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a running creek"
+  ],
+  "hints": [
+   "ch65: two days' walk east of the spring grove, north of the Cimarron, roughly five days' travel southwest of Dodge City"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Johns's trail herd",
+  "first_chapter": 65,
+  "chapters": [
+   65
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a small cow herd"
+  ],
+  "hints": [
+   "ch65: on the plains a day east of the creek, about four days' bareback ride from Dodge City, likely southwest Kansas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Fort where Elmira joined the hide hunters",
+  "first_chapter": 66,
+  "chapters": [
+   66
+  ],
+  "kinds": [
+   "fort"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the Fort"
+  ],
+  "hints": [
+   "ch66: a fort in Kansas, south of the Republican River, some weeks' wagon travel from Ogallala"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Blue Mounds",
+  "first_chapter": 67,
+  "chapters": [
+   67
+  ],
+  "kinds": [
+   "mountain"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the Blue Mounds"
+  ],
+  "hints": [
+   "ch67: humped low hills just north of the herd, near the southern edge of Kansas after leaving Indian Territory"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Santa Fe",
+  "first_chapter": 67,
+  "chapters": [
+   67,
+   80
+  ],
+  "kinds": [
+   "city",
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Santa Fe",
+   "west of Santa Fe"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Doan's Store",
+  "first_chapter": 68,
+  "chapters": [
+   68
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Doan's Store"
+  ],
+  "hints": [
+   "ch68: on the Texas bank of the Red River, a day's ride north of a camp thirty miles north of Dallas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Deadwood",
+  "first_chapter": 69,
+  "chapters": [
+   69
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Deadwood"
+  ],
+  "hints": [
+   "ch69: Dakota Territory, in the Black Hills"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Wilbarger's night camp north of the Arkansas",
+  "first_chapter": 71,
+  "chapters": [
+   71
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Wilbarger's camp"
+  ],
+  "hints": [
+   "ch71: on open plain a few hours' ride north of the Arkansas River, reached by tracking northwest at night from near Dodge City"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Settlers' tent under a lone tree",
+  "first_chapter": 71,
+  "chapters": [
+   71
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a tent under a single tree"
+  ],
+  "hints": [
+   "ch71: open Kansas plain about two hours' ride north of Wilbarger's camp, north of the Arkansas River"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "New York",
+  "first_chapter": 71,
+  "chapters": [
+   71,
+   72
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "New York",
+   "New York City"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Mississippi River",
+  "first_chapter": 71,
+  "chapters": [
+   71,
+   94
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Mississippi"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Wilbarger's grave on the Arkansas",
+  "first_chapter": 72,
+  "chapters": [
+   72
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Wilbarger's grave"
+  ],
+  "hints": [
+   "ch72: on the bank of the Arkansas River about ten miles east-southeast of the herd's crossing, west of Dodge City"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Hudson River",
+  "first_chapter": 72,
+  "chapters": [
+   72
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Hudson"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Europe",
+  "first_chapter": 72,
+  "chapters": [
+   72
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Old Country"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Plum creek north of the Arkansas",
+  "first_chapter": 73,
+  "chapters": [
+   73
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a little creek"
+  ],
+  "hints": [
+   "ch73: on the Kansas plains about a day's drive north of the Arkansas River crossing, west of Dodge City; flows from mountains to the west"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Rocky Mountains",
+  "first_chapter": 73,
+  "chapters": [
+   73,
+   78,
+   89,
+   98,
+   102
+  ],
+  "kinds": [
+   "mountain"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Rockies",
+   "the Rocky Mountains",
+   "them Rockies",
+   "those mountains you can't see"
+  ],
+  "hints": [
+   "ch73: far to the west of the herd, out of sight",
+   "ch89: seen far to the north of Salt Creek",
+   "ch98: west of the herd's route north of the Missouri"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Knoll where Wilbarger's men were killed",
+  "first_chapter": 74,
+  "chapters": [
+   74
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the little knoll where the buzzards swarmed"
+  ],
+  "hints": [
+   "ch74: open plains on the trail of Wilbarger's stolen horses, a few hours' ride before the burned settlers; the drive is somewhere south of Kansas, near the Territory"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Burned settlers' hanging site",
+  "first_chapter": 74,
+  "chapters": [
+   74
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "where the dead settlers were hanging"
+  ],
+  "hints": [
+   "ch74: on the plains a few hours further along the horsethieves' trail from the knoll, a few hours short of the creek camp"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Suggs camp creek",
+  "first_chapter": 74,
+  "chapters": [
+   74
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a creek"
+  ],
+  "hints": [
+   "ch74: steep-banked creek on rolling prairie with a stand of trees, along the horsethieves' trail; the cattle herd lies somewhere to the west; region between the Territory and Kansas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Clara's ranch",
+  "first_chapter": 75,
+  "chapters": [
+   75,
+   76,
+   77,
+   80,
+   81,
+   82,
+   83,
+   87,
+   88,
+   89,
+   92,
+   95,
+   99,
+   101
+  ],
+  "kinds": [
+   "ranch"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Clara's",
+   "Clara's house",
+   "Clara's house / the ranch",
+   "Clara's place",
+   "Clara's place on the Platte",
+   "a lone frame house south of the Platte"
+  ],
+  "hints": [
+   "ch75: Nebraska, on a slope above the Platte, about twenty miles (over half a day by wagon) from Ogallala; old sod house and a knoll east of the house with three boys' graves",
+   "ch76: Nebraska, on the Platte about twenty miles from Ogallala",
+   "ch77: lone frame house half a mile south of the Platte on the only road along the river, about twenty miles from Ogallala, Nebraska"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Red River of the North",
+  "first_chapter": 75,
+  "chapters": [
+   75
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Red River of the North"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Dakota Territory",
+  "first_chapter": 75,
+  "chapters": [
+   75
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Dakotas"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Montreal",
+  "first_chapter": 75,
+  "chapters": [
+   75
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Montreal"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Dismal River",
+  "first_chapter": 75,
+  "chapters": [
+   75
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Dismal River"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Cincinnati",
+  "first_chapter": 75,
+  "chapters": [
+   75
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Cincinnati"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Wyoming",
+  "first_chapter": 75,
+  "chapters": [
+   75,
+   89,
+   93,
+   97,
+   99,
+   101
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Wyoming",
+   "the barren Wyoming plain"
+  ],
+  "hints": [
+   "ch89: Wyoming Territory",
+   "ch93: Wyoming Territory, south of Montana",
+   "ch99: Wyoming Territory"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "England",
+  "first_chapter": 75,
+  "chapters": [
+   75
+  ],
+  "kinds": [
+   "country"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "England"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek herd camp on the plains",
+  "first_chapter": 78,
+  "chapters": [
+   78
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a plain of grass"
+  ],
+  "hints": [
+   "ch78: endless grass plain, still south of the Republican River, roughly three weeks' drive from Nebraska; west of where Wilbarger's horses were recovered"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Great Smoky Mountains",
+  "first_chapter": 78,
+  "chapters": [
+   78
+  ],
+  "kinds": [
+   "mountain"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Smokies"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Stinking Water Creek",
+  "first_chapter": 79,
+  "chapters": [
+   79
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Stinking Water"
+  ],
+  "hints": [
+   "ch79: north of the Republican River on the way to Ogallala, southwest Nebraska"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Elmira and Zwey's camp east of Ogallala",
+  "first_chapter": 80,
+  "chapters": [
+   80
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "camped a few miles from town"
+  ],
+  "hints": [
+   "ch80: a few miles east of Ogallala on the open plains, on the road toward St. Louis"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Richmond",
+  "first_chapter": 82,
+  "chapters": [
+   82
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Richmond, Virginia"
+  ],
+  "hints": [
+   "ch82: Richmond, Virginia"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Sioux country",
+  "first_chapter": 82,
+  "chapters": [
+   82
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Indian country"
+  ],
+  "hints": [
+   "ch82: plains east of Ogallala, Nebraska, toward which Elmira and Zwey headed"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek herd camp south of the Platte",
+  "first_chapter": 83,
+  "chapters": [
+   83
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the brown prairies toward the Platte"
+  ],
+  "hints": [
+   "ch83: brown prairie about ten miles south of the Platte, within a week of Ogallala, not far from Clara's house; Nebraska"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Illinois",
+  "first_chapter": 83,
+  "chapters": [
+   83
+  ],
+  "kinds": [
+   "state"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Illinois"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek herd camp near Ogallala",
+  "first_chapter": 84,
+  "chapters": [
+   84,
+   85,
+   86
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "camp",
+   "camp north of the river"
+  ],
+  "hints": [
+   "ch84: on rolling slopes north of the Platte, about five or six miles from Ogallala, Nebraska",
+   "ch85: on slopes north of the Platte, a few miles from Ogallala, Nebraska",
+   "ch86: a few miles out of Ogallala, north of the Platte, Nebraska"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Place where Ellie Johnson was killed",
+  "first_chapter": 87,
+  "chapters": [
+   87
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "sixty miles east of town"
+  ],
+  "hints": [
+   "ch87: about sixty miles east of Ogallala, Nebraska, on the plains"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Waterless stretch east of Salt Creek",
+  "first_chapter": 89,
+  "chapters": [
+   89
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the dry plain"
+  ],
+  "hints": [
+   "ch89: pale sandy plain in Wyoming between the last small stream northwest of the Platte and Salt Creek, roughly eighty miles across"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Salt Creek",
+  "first_chapter": 89,
+  "chapters": [
+   89,
+   90
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Salt Creek",
+   "the Salt"
+  ],
+  "hints": [
+   "ch89: Wyoming; a tributary leading to the Powder River, about eighty miles west of the previous water",
+   "ch90: Wyoming; flows to the Powder River"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Starving Indian camp",
+  "first_chapter": 90,
+  "chapters": [
+   90
+  ],
+  "kinds": [
+   "camp"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a draw"
+  ],
+  "hints": [
+   "ch90: in a draw with a little water, barren salt-streaked country with ocher ridges, over a hundred miles southwest of Salt Creek; Augustus guesses the band is Ute"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Deets's grave",
+  "first_chapter": 90,
+  "chapters": [
+   90
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "Deets's grave"
+  ],
+  "hints": [
+   "ch90: on a small rise just north of where Salt Creek joins the Powder River, Wyoming"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Wind River",
+  "first_chapter": 90,
+  "chapters": [
+   90
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Wind River"
+  ],
+  "hints": [
+   "ch90: Wind River country, central Wyoming"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Crazy Woman Creek",
+  "first_chapter": 91,
+  "chapters": [
+   91
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Crazy Woman Creek"
+  ],
+  "hints": [
+   "ch91: tributary of the Powder River, east of the Bighorn Mountains; the bear fight is on a small stream branching off it"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "New York City",
+  "first_chapter": 92,
+  "chapters": [
+   92
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "New York"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Augustus and Pea Eye's creek dugout",
+  "first_chapter": 94,
+  "chapters": [
+   94,
+   95
+  ],
+  "kinds": [
+   "creek"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a good-sized creek / the cave in the riverbank",
+   "the creek / the cave under the riverbank"
+  ],
+  "hints": [
+   "ch94: prairie creek in Montana roughly three or more days' ride and over a hundred miles north of the Yellowstone, short of the Milk River; it apparently drains south toward the Yellowstone near Miles City; Pea walked about four days south from it to the herd",
+   "ch95: prairie creek in Montana north of the Yellowstone, a little over forty miles northwest of Miles City"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Marias River",
+  "first_chapter": 94,
+  "chapters": [
+   94,
+   98
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Marais"
+  ],
+  "hints": [
+   "ch94: northern Montana, tributary of the Missouri",
+   "ch98: between the Missouri and the Milk in Montana"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Seguin",
+  "first_chapter": 94,
+  "chapters": [
+   94
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Seguin"
+  ],
+  "hints": [
+   "ch94: Texas, east of San Antonio"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Musselshell River",
+  "first_chapter": 96,
+  "chapters": [
+   96,
+   97,
+   100
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Musselshell",
+   "the Musselshell River"
+  ],
+  "hints": [
+   "ch96: Montana, north/northwest of Miles City and the Yellowstone"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Salt lick north of Miles City",
+  "first_chapter": 97,
+  "chapters": [
+   97
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the salt lick"
+  ],
+  "hints": [
+   "ch97: about six miles north of Miles City, reached by following game trails"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Fort Benton",
+  "first_chapter": 98,
+  "chapters": [
+   98,
+   100
+  ],
+  "kinds": [
+   "fort"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Fort Benton"
+  ],
+  "hints": [
+   "ch98: on the Missouri River in Montana Territory",
+   "ch100: on the Missouri River in Montana Territory"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Hat Creek ranch (Montana)",
+  "first_chapter": 98,
+  "chapters": [
+   98,
+   100
+  ],
+  "kinds": [
+   "ranch"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "headquarters",
+   "the Hat Creek headquarters"
+  ],
+  "hints": [
+   "ch98: on a timbered creek between the Milk and Missouri rivers, about a day's drive east of where they first struck the Milk; northern Montana near Canada; roughly fifteen miles from a box canyon",
+   "ch100: on a timbered creek beside the Milk River, between the Milk and Missouri, near the Canadian line in northern Montana"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Wild horse box canyon",
+  "first_chapter": 98,
+  "chapters": [
+   98
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "box canyon"
+  ],
+  "hints": [
+   "ch98: about fifteen miles south of the Montana ranch headquarters, between the Milk and Missouri"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Fort Buford",
+  "first_chapter": 98,
+  "chapters": [
+   98
+  ],
+  "kinds": [
+   "fort"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Fort Buford"
+  ],
+  "hints": [
+   "ch98: near the Missouri-Yellowstone confluence"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Chicago",
+  "first_chapter": 98,
+  "chapters": [
+   98
+  ],
+  "kinds": [
+   "city"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Chicago"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Oregon",
+  "first_chapter": 100,
+  "chapters": [
+   100
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Oregon"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Pueblo",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Pueblo"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Raton Pass",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "mountain"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Raton Pass"
+  ],
+  "hints": [
+   "ch102: on the Colorado-New Mexico line"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Sangre de Cristo Mountains",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "mountain"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Sangre de Cristo"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Santa Rosa",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "town"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Santa Rosa"
+  ],
+  "hints": [
+   "ch102: New Mexico, on the Pecos side of the plains"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Bosque Redondo",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "region"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Bosque Redondo"
+  ],
+  "hints": [
+   "ch102: on the Pecos River in eastern New Mexico, near Fort Sumner"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Pecos ambush site",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "a day above Horsehead Crossing"
+  ],
+  "hints": [
+   "ch102: on the Pecos River in west Texas, about a day's travel upstream (north) of Horsehead Crossing"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Horsehead Crossing",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "crossing"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "Horsehead Crossing"
+  ],
+  "hints": [
+   "ch102: Pecos River crossing in west Texas"
+  ],
+  "has_coords": false
+ },
+ {
+  "name": "Colorado River (Texas)",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the Colorado"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "San Saba River",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "river"
+  ],
+  "fictional": false,
+  "raw_names": [
+   "the San Saba"
+  ],
+  "hints": [],
+  "has_coords": false
+ },
+ {
+  "name": "Gus's grave on the Guadalupe",
+  "first_chapter": 102,
+  "chapters": [
+   102
+  ],
+  "kinds": [
+   "other"
+  ],
+  "fictional": true,
+  "raw_names": [
+   "the little hill with the live oaks above the Guadalupe"
+  ],
+  "hints": [
+   "ch102: small hill with live oaks and a pool above the Guadalupe River in the limestone hills; a ridge trail leads down toward San Antonio"
+  ],
+  "has_coords": false
+ }
+]

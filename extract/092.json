@@ -1,0 +1,13 @@
+{
+  "chapter": 92,
+  "places": [
+    {"raw_name": "Clara's house / the ranch", "name": "Clara's ranch", "kind": "ranch", "type": "event", "characters": ["Clara", "Lorena", "July Johnson", "Cholo", "Sally", "Betsey", "Bob Allen", "Martin"], "note": "Lorena settles into home life there; Bob dies in the night and is buried on the ridge above the barn beside his three sons, with German neighbors and a tipsy preacher attending.", "fictional": true, "location_hint": "Allen horse ranch on the North Platte in Nebraska; a river runs by it, a ridge above the barn holds family graves, nearest neighbors are a few German farm families, a town is within a wagon trip", "confidence": "medium"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena"], "note": "Lorena recalls her room there, where letting men in was the price of having it.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson"], "note": "July sometimes longs for his old lawman job there, though Roscoe is gone.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["July Johnson"], "note": "July knows he cannot realistically take baby Martin back there to raise him.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "New York", "name": "New York City", "kind": "city", "type": "mention", "characters": ["Clara"], "note": "Clara muses that in so crowded a place deaths would go less noticed.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Clara's household", "members": ["Clara", "Lorena", "July Johnson", "Cholo", "Sally", "Betsey", "Martin"], "at": "Clara's ranch", "hint": "at the ranch house on the night of Bob's funeral"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "chapter": 62,
+  "places": [
+    {"raw_name": "the Territory", "name": "Indian Territory", "kind": "region", "type": "event", "characters": ["Newt", "Allen O'Brien", "Pea Eye", "Bill Spettle", "Pete Spettle", "Dish Boggett", "Needle Nelson", "Po Campo"], "note": "The herd crosses days of empty grassland, seeing no one; the men fret about Indians and wonder where the next people are.", "fictional": false, "location_hint": "between the Red River and the Canadian River", "confidence": "high"},
+    {"raw_name": "out in the middle of the plain", "name": "Bill Spettle's grave", "kind": "other", "type": "event", "characters": ["Call", "Newt", "Deets", "Dish Boggett", "Bill Spettle", "Pete Spettle"], "note": "Lightning drops thirteen cattle and kills Bill Spettle, stampeding the herd west; he is hastily buried on the muddy plain.", "fictional": true, "location_hint": "open plain in Indian Territory about half a day's drive south of the Canadian River crossing; the main herd ended up about four miles from the river", "confidence": "low"},
+    {"raw_name": "the Canadian", "name": "Canadian River", "kind": "river", "type": "event", "characters": ["Call", "Dish Boggett", "Newt", "Needle Nelson", "Jasper Fant", "Pea Eye", "Allen O'Brien", "Po Campo", "Bert Borum", "Deets"], "note": "The naked crew swims the herd across at a well-used crossing during a fierce hailstorm; afterward Pea Eye spots Gus riding toward them.", "fictional": false, "location_hint": "at a much-used trail-herd crossing, in Indian Territory", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Needle Nelson", "Dish Boggett"], "note": "Needle expects to reach it; Dish says it would be easy to miss if no bigger than Dodge.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["Dish Boggett"], "note": "Dish uses it as a measure of how small a town can be.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Pea Eye", "Deets", "Newt", "Dish Boggett", "Po Campo", "Jasper Fant", "Needle Nelson", "Bert Borum", "Allen O'Brien", "Pete Spettle"], "at": "Canadian River", "hint": "on the north bank of the Canadian just after the hailstorm crossing"},
+    {"label": "Augustus", "members": ["Augustus"], "at": "Canadian River", "hint": "seen riding toward the outfit from across the river"}
+  ]
+}

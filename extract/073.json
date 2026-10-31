@@ -1,0 +1,13 @@
+{
+  "chapter": 73,
+  "places": [
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "event", "characters": ["Dish Boggett", "Lorena", "Lippy", "Jasper", "Soupy Jones", "Po Campo"], "note": "Left in charge, Dish brings Lorena meals and keeps sleepless watch by her tent under the starry sky as the herd eases north.", "fictional": false, "location_hint": "plains north of the Arkansas River, west of Dodge City", "confidence": "high"},
+    {"raw_name": "a little creek", "name": "Plum creek north of the Arkansas", "kind": "creek", "type": "event", "characters": ["Lorena", "Po Campo"], "note": "Small creek lined with scraggly bushes; Po gives Lorena wild plums and says its cold green water is snowmelt.", "fictional": true, "location_hint": "on the Kansas plains about a day's drive north of the Arkansas River crossing, west of Dodge City; flows from mountains to the west", "confidence": "low"},
+    {"raw_name": "those mountains you can't see", "name": "Rocky Mountains", "kind": "mountain", "type": "mention", "characters": ["Po Campo", "Lorena"], "note": "Po points west to unseen mountains as the source of the creek's snow water.", "fictional": false, "location_hint": "far to the west of the herd, out of sight", "confidence": "low"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Dish Boggett", "Lippy", "Lorena"], "note": "Dish recalls his drunken afternoon there; Lippy remembers watching Lorena descend the stairs at the Dry Bean and Gus's card-cut wager.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Dish Boggett"], "note": "Dish daydreams about what might happen with Lorena once they reach it.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek herd under Dish", "members": ["Dish Boggett", "Lorena", "Po Campo", "Lippy", "Jasper", "Soupy Jones"], "at": "Kansas", "hint": "bedded on the plains about a day's drive north of the Arkansas River, past a small plum creek, west of Dodge City"}
+  ]
+}

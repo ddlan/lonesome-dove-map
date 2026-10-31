@@ -1,0 +1,15 @@
+{
+  "chapter": 99,
+  "places": [
+    {"raw_name": "the ranch", "name": "Clara's ranch", "kind": "ranch", "type": "event", "characters": ["Clara", "July Johnson", "Lorena", "Martin", "Cholo", "Sally", "Betsey", "Dish Boggett"], "note": "Over a hard winter July proposes, baby Martin survives a fever, Dish arrives with word of Gus's death, and Lorena sinks into silent grief.", "fictional": true, "location_hint": "Allen horse ranch on the North Platte in Nebraska; Dish reached it by following the Platte through a blizzard", "confidence": "medium"},
+    {"raw_name": "the Platte River", "name": "North Platte River", "kind": "river", "type": "event", "characters": ["Dish Boggett"], "note": "Dish follows it through a January blizzard to reach Clara's place.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "a Nebraska winter", "name": "Nebraska", "kind": "state", "type": "event", "characters": ["Clara", "July Johnson"], "note": "Clara's fanciful caps are ill-suited to its bitter winter.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Wyoming", "name": "Wyoming", "kind": "region", "type": "mention", "characters": ["July Johnson", "Dish Boggett"], "note": "July wishes Dish had gotten lost there on his way down.", "fictional": false, "location_hint": "Wyoming Territory", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["July Johnson", "Dish Boggett"], "note": "July wishes Dish had gone on there; Dish thinks of returning there by spring if Lorena stays cold.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Clara", "Lorena"], "note": "Clara tells Lorena that going along would only have left her stuck there among indifferent men.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Dish Boggett", "Lorena"], "note": "Lorena's silence toward Dish is like the one she kept there, only deeper.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Clara's household", "members": ["Clara", "July Johnson", "Lorena", "Martin", "Cholo", "Sally", "Betsey", "Dish Boggett"], "at": "Clara's ranch", "hint": "through the winter into spring; Dish stays on to help with the colts"}
+  ]
+}

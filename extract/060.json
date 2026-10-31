@@ -1,0 +1,13 @@
+{
+  "chapter": 60,
+  "places": [
+    {"raw_name": "a rolling plain bare of trees", "name": "Treeless plain south of the Red River", "kind": "region", "type": "event", "characters": ["Newt", "Po Campo", "Deets", "Jasper Fant", "Dish Boggett"], "note": "Heavy rain catches the herd two days short of the Red; the crew spends a sodden night on horseback.", "fictional": true, "location_hint": "rolling treeless prairie in north Texas, about two days' drive south of the Red River, north of Fort Worth", "confidence": "low"},
+    {"raw_name": "the Red River", "name": "Red River", "kind": "river", "type": "event", "characters": ["Call", "Deets", "Dish Boggett", "Soupy Jones", "Bert Borum"], "note": "Feared for quicksand, it marks the edge of the outfit's known country; Deets finds a gravel bar downstream and the herd crosses safely.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Oklahoma Territory", "name": "Indian Territory", "kind": "region", "type": "event", "characters": ["Call", "Pea Eye", "Po Campo", "Soupy Jones", "Needle Nelson", "Bert Borum", "Allen O'Brien", "Deets"], "note": "The herd grazes on wet grass north of the Red; the crew camps there with Irish and Spanish songs while Call camps apart.", "fictional": false, "location_hint": "just north of the Red River crossing", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Newt"], "note": "Newt fondly remembers its dry, clear days amid the downpour.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "toward Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Dish Boggett"], "note": "Dish recalls bogging cattle in the Red on an earlier drive, further east toward Arkansas.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Pea Eye", "Deets", "Newt", "Dish Boggett", "Po Campo", "Jasper Fant", "Needle Nelson", "Soupy Jones", "Bert Borum", "Allen O'Brien"], "at": "Indian Territory", "hint": "camped just north of the Red River crossing"}
+  ]
+}

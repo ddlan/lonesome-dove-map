@@ -1,0 +1,14 @@
+{
+  "chapter": 55,
+  "places": [
+    {"raw_name": "this Canadian", "name": "Blue Duck's camp on the Canadian", "kind": "camp", "type": "event", "characters": ["Lorena", "Monkey John", "Dog Face", "Blue Duck", "Ermoke"], "note": "Lorena is held and abused in a filthy camp near a creek; Blue Duck kills a young Kiowa while gambling and sends Ermoke to ambush Gus.", "fictional": true, "location_hint": "on the open plains along the Canadian River in the Texas Panhandle, near a creek; Gus is expected to come down the river from the west", "confidence": "medium"},
+    {"raw_name": "the goddamn Canadian", "name": "Canadian River", "kind": "river", "type": "event", "characters": ["Monkey John", "Dog Face", "Blue Duck", "Lorena"], "note": "The men complain they are stranded on it without horses; Blue Duck expects Gus to come down it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Quitaque", "name": "Quitaque", "kind": "region", "type": "mention", "characters": ["Blue Duck"], "note": "Blue Duck says his pursuer wandered off across it before figuring out the trail.", "fictional": false, "location_hint": "Texas Panhandle, southeast of Palo Duro Canyon", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena"], "note": "Lorena recalls hiding her words there but finding them readily when Jake arrived.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Lorena's captors", "members": ["Lorena", "Monkey John", "Dog Face"], "at": "Blue Duck's camp on the Canadian", "hint": "camp on the Canadian River plains near a creek"},
+    {"label": "Kiowa ambush party", "members": ["Ermoke"], "at": "Canadian River", "hint": "left camp at dawn to find help and ambush Gus coming down the river"},
+    {"label": "Blue Duck", "members": ["Blue Duck"], "at": "Canadian River", "hint": "rode off from the camp at dawn, destination unstated"}
+  ]
+}

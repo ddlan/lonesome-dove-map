@@ -1,0 +1,204 @@
+{
+ "chapter": 51,
+ "places": [
+  {
+   "raw_name": "a little creek",
+   "name": "July's camp east of Fort Worth",
+   "kind": "camp",
+   "type": "event",
+   "characters": [
+    "July Johnson",
+    "Joe"
+   ],
+   "note": "Making coffee by a small creek on misty flats, July and Joe hear a big herd moving out nearby.",
+   "fictional": true,
+   "location_hint": "a few hours' ride east of Fort Worth on open north Texas plains, beside a little creek",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "the herd",
+   "name": "Wilbarger's herd camp",
+   "kind": "camp",
+   "type": "event",
+   "characters": [
+    "July Johnson",
+    "Joe",
+    "Wilbarger"
+   ],
+   "note": "Huge herd strung over miles; the reading boss Wilbarger tells July that Jake was last seen in Lonesome Dove and is coming north, and offers Joe a job.",
+   "fictional": true,
+   "location_hint": "north Texas plains near July's creek camp east of Fort Worth, heading north toward the Red River",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "a fair-sized stream",
+   "name": "Stream where July left Wilbarger",
+   "kind": "creek",
+   "type": "event",
+   "characters": [
+    "July Johnson",
+    "Joe",
+    "Wilbarger"
+   ],
+   "note": "After loping several miles together, they water horses here; July turns back east and Wilbarger rides on alone.",
+   "fictional": true,
+   "location_hint": "several miles north of Wilbarger's herd camp, in open country dotted with elm and post oak",
+   "confidence": "low"
+  },
+  {
+   "raw_name": "the Red River",
+   "name": "Red River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Wilbarger"
+   ],
+   "note": "Wilbarger rides ahead to check whether its water is fit for his cattle.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "north Texas",
+   "name": "Texas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Wilbarger",
+    "July Johnson"
+   ],
+   "note": "Wilbarger complains the state has almost no law and border horsethieves are rampant; his cook plans to marry and settle in north Texas.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the town of Lonesome Dove",
+   "name": "Lonesome Dove",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Wilbarger",
+    "Jake Spoon"
+   ],
+   "note": "Wilbarger says Jake was recently seen there winning money from one of his hands.",
+   "fictional": true,
+   "location_hint": "south Texas border town",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Fort Smith",
+   "name": "Fort Smith",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "July Johnson",
+    "Wilbarger"
+   ],
+   "note": "July explains Jake killed a dentist there; Wilbarger notes a straight trail runs from it into Texas.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the trail Captain Marcy laid out",
+   "name": "Marcy Trail",
+   "kind": "other",
+   "type": "mention",
+   "characters": [
+    "Wilbarger"
+   ],
+   "note": "Wilbarger says Captain Marcy laid out a straight road from Fort Smith into Texas that any deputy could follow.",
+   "fictional": false,
+   "location_hint": "road from Fort Smith, Arkansas southwest into north Texas",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "Arkansas",
+   "name": "Arkansas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "July Johnson",
+    "Wilbarger"
+   ],
+   "note": "July's home state; Wilbarger saw little law there either. July finally turns back toward it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "New Orleans",
+   "name": "New Orleans",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Wilbarger"
+   ],
+   "note": "Wilbarger allows there is some law there, unlike the frontier.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Colorado",
+   "name": "Colorado",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "July Johnson",
+    "Wilbarger"
+   ],
+   "note": "July asks about it; Wilbarger plans to avoid its unreformed Indians and mean outlaws.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Denver",
+   "name": "Denver",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Wilbarger"
+   ],
+   "note": "Wilbarger has been there once and finds it no worse than most frontier towns.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Arkansas",
+   "name": "Arkansas River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "July Johnson",
+    "Elmira"
+   ],
+   "note": "Word has it Elmira went upriver on a boat that sells whiskey.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  }
+ ],
+ "groups": [
+  {
+   "label": "July Johnson and Joe",
+   "members": [
+    "July Johnson",
+    "Joe"
+   ],
+   "at": "Stream where July left Wilbarger",
+   "hint": "turning east from the stream toward Arkansas to look for Roscoe"
+  },
+  {
+   "label": "Wilbarger",
+   "members": [
+    "Wilbarger"
+   ],
+   "at": "Stream where July left Wilbarger",
+   "hint": "riding north alone toward the Red River ahead of his herd"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "chapter": 84,
+  "places": [
+    {"raw_name": "the Platte River", "name": "North Platte River", "kind": "river", "type": "event", "characters": ["Call", "Augustus", "Lorena", "Dish Boggett", "Pea Eye"], "note": "The herd crosses it a little east of Ogallala, then swings northwest and beds down on the slopes north of the river.", "fictional": false, "location_hint": "crossed just east of Ogallala, Nebraska", "confidence": "medium"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "event", "characters": ["Augustus", "Dish Boggett", "Soupy Jones", "Bert Borum", "Jasper Fant", "Needle Nelson", "Allen O'Brien"], "note": "Six hands race in to carouse; Augustus buys Lorena clothes, finds a dull hotel, and knocks down a gambler who struck a young whore.", "fictional": false, "location_hint": "small cluster of shacks and frame buildings near the Platte, visible from the slopes north of the river; five or six miles from the herd", "confidence": "high"},
+    {"raw_name": "camp north of the river", "name": "Hat Creek herd camp near Ogallala", "kind": "camp", "type": "event", "characters": ["Augustus", "Lorena", "Call", "Po Campo", "Pea Eye"], "note": "Call stays with the grazing herd; Lorena refuses to go to town and later sits crying by the tent, fearing Clara.", "fictional": true, "location_hint": "on rolling slopes north of the Platte, about five or six miles from Ogallala, Nebraska", "confidence": "medium"},
+    {"raw_name": "the Brazos", "name": "Brazos River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Augustus remembers coming back from scouts there with Jake and racing into Austin for a night out.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Augustus"], "note": "Where Augustus and Jake used to spend nights on whiskey, cards and women, irritating Clara and Call.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Augustus"], "note": "Augustus considers trailing straight on there without seeing Clara; he buys Lorena a warm coat for its cold weather.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "The last place Lorena could have seen herself in a mirror.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Lorena", "Po Campo", "Pea Eye"], "at": "Hat Creek herd camp near Ogallala", "hint": "bedded on slopes north of the Platte, five or six miles from Ogallala"},
+    {"label": "Hands in town", "members": ["Dish Boggett", "Soupy Jones", "Bert Borum", "Jasper Fant", "Needle Nelson", "Allen O'Brien"], "at": "Ogallala", "hint": "carousing in town for the night"}
+  ]
+}

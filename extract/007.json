@@ -1,0 +1,464 @@
+{
+ "chapter": 7,
+ "places": [
+  {
+   "raw_name": "Lonesome Dove",
+   "name": "Lonesome Dove",
+   "kind": "town",
+   "type": "event",
+   "characters": [
+    "Jake Spoon",
+    "Augustus",
+    "Call",
+    "Dish Boggett",
+    "Bolivar",
+    "Deets"
+   ],
+   "note": "Jake and Augustus drink by the springhouse until Jake naps; at the corrals Call breaks the mare and surprises Augustus by proposing a drive north.",
+   "fictional": true,
+   "location_hint": "south Texas border town on the Rio Grande; the outfit has been there nearly ten years, sent to keep peace on the border during the Civil War",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Hat Creek",
+   "name": "Hat Creek",
+   "kind": "creek",
+   "type": "event",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Augustus walks down its dry bed past the corrals and the new well.",
+   "fictional": true,
+   "location_hint": "runs past the Hat Creek outfit's corrals at Lonesome Dove",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "Fort Smith, Arkansas",
+   "name": "Fort Smith",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon"
+   ],
+   "note": "Jake recalls seeing the dead man in the mud across its wide main street, ironic trouble in such a safe town.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Brazos",
+   "name": "Brazos River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Jake Spoon",
+    "Call",
+    "Deets"
+   ],
+   "note": "Rangers found Deets's heavy sheepskin coat in a deserted cabin there; Jake dreaded crossings; Call recalls camping there with Black Beaver.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Fort Phantom Hill",
+   "name": "Fort Phantom Hill",
+   "kind": "fort",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Jake Spoon"
+   ],
+   "note": "Augustus links the coat's discovery to a fight near there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "San Antonio",
+   "name": "San Antonio",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon",
+    "Augustus",
+    "Call"
+   ],
+   "note": "One of Jake's trail towns; Clara was at school there during the 1856 raid; the outfit's bank account is kept there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Fort Worth",
+   "name": "Fort Worth",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon"
+   ],
+   "note": "A trail town where Jake heard whores' lovesick talk.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Abilene",
+   "name": "Abilene",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon"
+   ],
+   "note": "A trail town Jake passed through.",
+   "fictional": false,
+   "location_hint": "Kansas cattle town",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Dodge",
+   "name": "Dodge City",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon"
+   ],
+   "note": "A trail town Jake passed through.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Ogallala",
+   "name": "Ogallala",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon",
+    "Augustus"
+   ],
+   "note": "Jake glimpsed Clara outside a store there, with her husband Bob, and only tipped his hat.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Miles City",
+   "name": "Miles City",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon"
+   ],
+   "note": "Northernmost of the trail towns Jake lists.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Nebraska",
+   "name": "Nebraska",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Jake Spoon"
+   ],
+   "note": "Clara and Bob Allen live there; Augustus imagines it a hard life.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the North Platte",
+   "name": "North Platte River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon",
+    "Augustus"
+   ],
+   "note": "Clara's family lives on it, Bob trading horses to the Army; Augustus realizes a Montana drive must cross the Platte near her.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Kentucky",
+   "name": "Kentucky",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Jake Spoon"
+   ],
+   "note": "Home of Bob Allen, the horse trader Clara married.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Austin",
+   "name": "Austin",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Clara ran her parents' store there after an 1856 Indian raid killed them.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Vicksburg",
+   "name": "Vicksburg",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "A toeless acquaintance named Harwell later died there in the war.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Washington, D.C.",
+   "name": "Washington, D.C.",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Augustus jokes the pursuing sheriff might get lost and end up there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Matagorda",
+   "name": "Matagorda",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Dish Boggett"
+   ],
+   "note": "Dish grumbles he'd be halfway there if not for Augustus's loan.",
+   "fictional": false,
+   "location_hint": "Texas Gulf Coast around Matagorda Bay",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "Mexico",
+   "name": "Mexico",
+   "kind": "country",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Call"
+   ],
+   "note": "The partners have prospered modestly by bringing Mexican cattle across to sell to traders.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the river",
+   "name": "Rio Grande",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Call"
+   ],
+   "note": "The outfit crosses here to gather stock; Black Beaver once boasted of knowing all the country between the Columbia and this river.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Texas",
+   "name": "Texas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "Augustus"
+   ],
+   "note": "As Rangers they guarded its settlers; the Governor kept their troop on the border during the war.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the brush country",
+   "name": "Brush Country",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Filled with cowboys and traders once the postwar cattle market began, ending the partners' rangering.",
+   "fictional": false,
+   "location_hint": "south Texas scrub north of the Rio Grande",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "the Kansas railheads",
+   "name": "Kansas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "South Texas ranchers trail herds north to its railheads.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "west of the Pecos",
+   "name": "Pecos River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Call"
+   ],
+   "note": "They sometimes talked of rangering beyond it, but Apache country had too few settlers to need Rangers.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Montana",
+   "name": "Montana",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "Augustus",
+    "Jake Spoon"
+   ],
+   "note": "Call proposes driving a herd there; Augustus calls it wilderness but warms to it.",
+   "fictional": false,
+   "location_hint": "Montana Territory",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Powder River",
+   "name": "Powder River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Augustus jokingly proposes meeting Call there with a herd.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Arkansas River",
+   "name": "Arkansas River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "The northern limit of country Call knows firsthand.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Yellowstone",
+   "name": "Yellowstone River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Men Call knew, even Kit Carson, spoke of it as the edge of the known world.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Milk River",
+   "name": "Milk River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "Jake Spoon"
+   ],
+   "note": "Call had never heard of it before Jake mentioned it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the headwaters of the Missouri",
+   "name": "Missouri River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "The Delaware scout Black Beaver had travelled to its headwaters.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Columbia",
+   "name": "Columbia River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Black Beaver claimed to have travelled from it to the Rio Grande.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Georgia",
+   "name": "Georgia",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Augustus jokes that without Rangers the bankers would still be back there eating greens.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  }
+ ],
+ "groups": [
+  {
+   "label": "Hat Creek outfit",
+   "members": [
+    "Call",
+    "Augustus",
+    "Dish Boggett",
+    "Bolivar",
+    "Deets"
+   ],
+   "at": "Lonesome Dove",
+   "hint": "at the outfit's corrals and well"
+  },
+  {
+   "label": "Jake Spoon",
+   "members": [
+    "Jake Spoon"
+   ],
+   "at": "Lonesome Dove",
+   "hint": "asleep in the shade of the outfit's springhouse"
+  }
+ ]
+}

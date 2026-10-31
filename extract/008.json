@@ -1,0 +1,18 @@
+{
+  "chapter": 8,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Newt", "Pea Eye", "Dish Boggett", "Deets", "Call", "Wilbarger", "Chick", "Jake Spoon", "Lorena", "Xavier Wanz", "Lippy"], "note": "Wilbarger rides in seeking horses past Augustus's elaborate livery sign; Dish finds Lorena now taken with Jake at the Dry Bean and drinks heavily.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande; travellers approach from the east along a road past the Hat Creek corrals", "confidence": "high"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "event", "characters": ["Call", "Dish Boggett"], "note": "Call lopes the mare about twenty miles along it; heartsick Dish sits by it for an hour watching a coyote.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Call", "Newt", "Pea Eye", "Dish Boggett"], "note": "Call announces a night raid there; Newt hopes to be taken along; the raider Cortinas is a hero south of the river.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Nueces", "name": "Nueces River", "kind": "river", "type": "mention", "characters": ["Wilbarger"], "note": "Wilbarger has a herd gathered beyond it but lost most of his horses to Mexican raiders.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Wilbarger"], "note": "Destination of Wilbarger's cattle drive.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Sabinas", "name": "Sabinas", "kind": "town", "type": "mention", "characters": ["Dish Boggett", "Chick"], "note": "Dish falsely tells Chick the brothel is there, across the river, to keep him away from Lorena.", "fictional": false, "location_hint": "in Mexico, described by Dish as about a day's ride southeast after crossing the Rio Grande from Lonesome Dove", "confidence": "low"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Jake Spoon", "Xavier Wanz"], "note": "Jake says the Dry Bean's whiskey beats Arkansas liquor; Xavier sneers at the place.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Matagorda", "name": "Matagorda", "kind": "region", "type": "mention", "characters": ["Dish Boggett"], "note": "Dish considers riding back there and abandoning the outfit.", "fictional": false, "location_hint": "Texas Gulf Coast around Matagorda Bay", "confidence": "medium"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Newt", "Pea Eye", "Deets"], "at": "Lonesome Dove", "hint": "resting at the outfit's barn before a night trip into Mexico"},
+    {"label": "Wilbarger's party", "members": ["Wilbarger", "Chick"], "at": "Lonesome Dove", "hint": "at the Hat Creek house asking to buy horses; their herd waits beyond the Nueces"},
+    {"label": "Dry Bean saloon", "members": ["Dish Boggett", "Jake Spoon", "Lorena", "Lippy", "Xavier Wanz"], "at": "Lonesome Dove", "hint": "drinking at the Dry Bean saloon"}
+  ]
+}

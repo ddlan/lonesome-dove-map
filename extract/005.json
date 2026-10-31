@@ -1,0 +1,171 @@
+{
+ "chapter": 5,
+ "places": [
+  {
+   "raw_name": "Lonesome Dove",
+   "name": "Lonesome Dove",
+   "kind": "town",
+   "type": "event",
+   "characters": [
+    "Augustus",
+    "Call",
+    "Newt",
+    "Pea Eye",
+    "Bolivar",
+    "Dish Boggett",
+    "Deets",
+    "Jake Spoon"
+   ],
+   "note": "Augustus bakes biscuits at sunrise; over breakfast Call floats a trail drive and offers Dish work, then spots Deets riding in with Jake Spoon.",
+   "fictional": true,
+   "location_hint": "on the Rio Grande flats with low bluffs to the south; stage road runs north from it through brush toward San Antonio",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the river",
+   "name": "Rio Grande",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Augustus",
+    "Dish Boggett"
+   ],
+   "note": "Sunrise lights the flats along it; Dish imagines taking Lorena for a buggy ride beside it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Mexico",
+   "name": "Mexico",
+   "kind": "country",
+   "type": "mention",
+   "characters": [
+    "Call",
+    "Augustus",
+    "Dish Boggett"
+   ],
+   "note": "Call plans to ride down that night to gather stock, possibly enough for a herd to drive north.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Saltillo",
+   "name": "Saltillo",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call says bedbugs there once bit him worse than the mare did.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Georgia",
+   "name": "Georgia",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Pea Eye"
+   ],
+   "note": "Pea Eye's mother died there when he was six.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Dodge City",
+   "name": "Dodge City",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Newt",
+    "Dish Boggett"
+   ],
+   "note": "Newt admires Dish for having trailed cattle there more than once.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Pickles Gap",
+   "name": "Pickles Gap",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Augustus mocks Call's herd idea by suggesting they drive it there.",
+   "fictional": true,
+   "location_hint": "about twelve miles from Lonesome Dove in the mesquite brush",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "San Antonio",
+   "name": "San Antonio",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Deets",
+    "Call"
+   ],
+   "note": "Deets was sent there three days earlier to deposit money; the stage road north from town leads to it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the brush country",
+   "name": "Brush Country",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call wants a good drive to pay for better land beyond this scrub country, which the stage road runs through.",
+   "fictional": false,
+   "location_hint": "south Texas scrub between the Rio Grande and San Antonio",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "the Matagorda",
+   "name": "Matagorda",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Dish Boggett"
+   ],
+   "note": "Dish has a sure trail job waiting back there but considers staying with the Hat Creek outfit.",
+   "fictional": false,
+   "location_hint": "Texas Gulf Coast around Matagorda Bay",
+   "confidence": "medium"
+  }
+ ],
+ "groups": [
+  {
+   "label": "Hat Creek outfit",
+   "members": [
+    "Augustus",
+    "Call",
+    "Newt",
+    "Pea Eye",
+    "Bolivar",
+    "Dish Boggett"
+   ],
+   "at": "Lonesome Dove",
+   "hint": "on the back porch of the outfit's house"
+  },
+  {
+   "label": "Deets and Jake Spoon",
+   "members": [
+    "Deets",
+    "Jake Spoon"
+   ],
+   "at": "Lonesome Dove",
+   "hint": "riding in along the stage road from San Antonio, just north of town"
+  }
+ ]
+}

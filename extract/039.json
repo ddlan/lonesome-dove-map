@@ -1,0 +1,14 @@
+{
+  "chapter": 39,
+  "places": [
+    {"raw_name": "the San Antonio", "name": "San Antonio River", "kind": "river", "type": "event", "characters": ["Call", "Augustus", "Deets", "Pea Eye", "Newt", "Jasper Fant", "Soupy Jones", "Bolivar", "Lippy"], "note": "The jittery crew dreads moccasins, but Deets finds a shallow crossing a mile or two from camp and the herd, wagon and pigs cross without trouble.", "fictional": false, "location_hint": "the next river north of the Nueces crossing on the drive", "confidence": "high"},
+    {"raw_name": "the Cimarron", "name": "Cimarron River", "kind": "river", "type": "mention", "characters": [], "note": "The hands argue whether water moccasins live that far north.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Arkansas", "name": "Arkansas River", "kind": "river", "type": "mention", "characters": [], "note": "Named in the crew's debate over how far north moccasins range.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Platte", "name": "Platte River", "kind": "river", "type": "mention", "characters": [], "note": "Named in the crew's debate over how far north moccasins range.", "fictional": false, "location_hint": "Nebraska", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Pea Eye"], "note": "Pea Eye's recurring dreams of a big Indian returned as soon as they left it.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Pea Eye", "Augustus", "Call"], "note": "Augustus asks who will buy the cattle there; Call says the point is claiming land before settlers arrive.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Deets", "Pea Eye", "Newt", "Dish Boggett", "Jasper Fant", "Allen O'Brien", "Soupy Jones", "Bert Borum", "Bolivar", "Lippy"], "at": "San Antonio River", "hint": "just across the San Antonio River, about a week after the Nueces crossing"}
+  ]
+}

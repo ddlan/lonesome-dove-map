@@ -1,0 +1,20 @@
+{
+  "chapter": 88,
+  "places": [
+    {"raw_name": "Clara's house", "name": "Clara's ranch", "kind": "ranch", "type": "event", "characters": ["Clara", "Augustus", "Lorena", "July Johnson", "Betsey", "Sally", "Cholo"], "note": "Clara and Augustus talk by her unconscious husband; she invites Lorena to stay, Lorena accepts, and Augustus rides off that night.", "fictional": true, "location_hint": "horse ranch on the Platte in Nebraska, near Ogallala", "confidence": "high"},
+    {"raw_name": "the Platte", "name": "North Platte River", "kind": "river", "type": "mention", "characters": ["Clara", "Augustus"], "note": "Clara urges Augustus to settle along it on cheap land; he rides off toward it.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Cholo", "Augustus", "Lorena"], "note": "Cholo rides there with Augustus to fetch the clothes bought for Lorena.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the salt fork of the Brazos", "name": "Brazos River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Ranger Tom Mustard's horse fell over a cutbank on its salt fork, breaking his back.", "fictional": false, "location_hint": "Salt Fork of the Brazos, northwest Texas", "confidence": "high"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Augustus", "Clara"], "note": "The Rangers carried the paralyzed Tom Mustard toward it; Clara left romance behind when she left it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mobile", "name": "Mobile", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Lorena's happiest memory is a night in her grandmother's house there at age four.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Even in Lorena's dreams of it, nobody had asked her to stay.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena"], "note": "During her years there Lorena seldom spoke with another woman.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Clara", "Augustus", "Lorena"], "note": "Clara calls it no place for a lady; Augustus wants to see one last unsettled country.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Clara", "Augustus"], "note": "Clara asks if he calls it settled; he predicts schoolhouses soon.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Clara's household", "members": ["Clara", "Lorena", "July Johnson", "Betsey", "Sally"], "at": "Clara's ranch", "hint": "Lorena now staying with Clara while the herd goes on"},
+    {"label": "Augustus and Cholo", "members": ["Augustus", "Cholo"], "at": "North Platte River", "hint": "riding at night from Clara's toward the Platte and Ogallala"},
+    {"label": "Call and Newt with horses", "members": ["Call", "Newt"], "at": "Hat Creek herd camp near Ogallala", "hint": "left Clara's earlier with the bought horses, heading back to the herd"}
+  ]
+}

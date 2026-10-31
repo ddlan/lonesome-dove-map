@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Jake Spoon", "Lorena", "Lippy", "Xavier"], "note": "Jake comes sulking into the Dry Bean and takes Lorena upstairs; she resolves to be done with the town and wants to leave tomorrow.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande; Mexico visible from Lorena's window", "confidence": "high"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake, gritty from cattle work, says he should have washed in it.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Jake Spoon", "Call", "Augustus"], "note": "Jake complains his friends expect him to help drive cattle there just because he mentioned it.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena", "Jake Spoon"], "note": "Lorena insists Jake keep his promise to take her there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Red River", "name": "Red River", "kind": "river", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake jokes he'd have to shoot half the lovestruck cowboys before reaching it if Lorena came along.", "fictional": false, "location_hint": "Texas–Indian Territory boundary river", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake considers fleeing across the river but judges it even more violent than Texas.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake reflects that Texans and Mexicans keep hanging each other's people.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Jake Spoon"], "note": "If he must hang, Jake would rather it be there; he wonders if Lorena might kill the Arkansas sheriff for him.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Cheyenne", "name": "Cheyenne", "kind": "town", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake once outwitted a simple-hearted redheaded prostitute there.", "fictional": false, "location_hint": "Wyoming", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Lorena"], "note": "Jake suggests going there to gamble; Lorena refuses because Tinkersley once took her there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Jake Spoon"], "note": "Offered by Jake as an easier alternative to San Francisco.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Jake Spoon"], "note": "Another nearer town Jake proposes instead of San Francisco.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Denver", "name": "Denver", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Lorena"], "note": "Jake talks of reaching it and then crossing over to San Francisco.", "fictional": false, "location_hint": "Colorado", "confidence": "high"},
+    {"raw_name": "the Bighorns", "name": "Bighorn Mountains", "kind": "mountain", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake likens Lorena's remoteness to these mountains, which seem to come no closer however long one rides.", "fictional": false, "location_hint": "Wyoming/Montana", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Jake and Lorena", "members": ["Jake Spoon", "Lorena"], "at": "Lonesome Dove", "hint": "in Lorena's room above the Dry Bean saloon"}
+  ]
+}

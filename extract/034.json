@@ -1,0 +1,13 @@
+{
+  "chapter": 34,
+  "places": [
+    {"raw_name": "the river", "name": "Nueces River", "kind": "river", "type": "event", "characters": ["Lorena", "Jake Spoon", "Augustus"], "note": "Drying out at their north-bank camp, Lorena gets her mare back from Gus; Jake slaps her for refusing San Antonio; Gus swims back across.", "fictional": false, "location_hint": "Jake and Lorena's camp on the north bank, a short way north of the herd; Gus crosses south to rejoin the outfit", "confidence": "high"},
+    {"raw_name": "San Antonio / San Antone", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Lorena", "Augustus"], "note": "Jake wants to gamble there a week; Lorena refuses to go back; Gus warns any lawman would search there first.", "fictional": false, "location_hint": "reachable in about a day's push from the Nueces camp", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "Gus says the runaway mare was heading home there when he found her.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande, south of the Nueces", "confidence": "high"},
+    {"raw_name": "Denver", "name": "Denver", "kind": "city", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake wants to gamble somewhere on the way there.", "fictional": false, "location_hint": "Colorado", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Jake and Lorena", "members": ["Jake Spoon", "Lorena"], "at": "Nueces River", "hint": "packing up camp on the north bank, disagreeing over going to San Antonio"},
+    {"label": "Augustus", "members": ["Augustus"], "at": "Nueces River", "hint": "swam back to the south side, riding through the brush to rejoin the herd"}
+  ]
+}

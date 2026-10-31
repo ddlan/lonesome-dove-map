@@ -1,0 +1,13 @@
+{
+  "chapter": 30,
+  "places": [
+    {"raw_name": "the Nueces River", "name": "Nueces River", "kind": "river", "type": "event", "characters": ["Lorena", "Jake Spoon", "Deets"], "note": "Lorena bathes; Deets pulls the thorn from feverish Jake's thumb, warns of a storm, and swims Lorena's balky mare across to the far bank.", "fictional": false, "location_hint": "reached on Jake and Lorena's second day out, through mesquite and prickly pear, ahead of the herd; they end camped on the north bank", "confidence": "high"},
+    {"raw_name": "the Dry Bean", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena", "Xavier"], "note": "Frightened, Lorena half wishes she had stayed at the Dry Bean or married Xavier.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "medium"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena", "Jake Spoon"], "note": "Lorena knows reaching it means many more river crossings and briefly calls the dream foolish.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Jake and Lorena", "members": ["Jake Spoon", "Lorena"], "at": "Nueces River", "hint": "camped under a big mesquite on the north bank, bracing for a storm from the south"},
+    {"label": "Deets", "members": ["Deets"], "at": "Nueces River", "hint": "recrossing south to guide the herd to the crossing"},
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus"], "at": "Nueces River", "hint": "herd some distance back, south of the Nueces, its dust visible behind Jake and Lorena"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 21,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Jake Spoon", "Lorena", "Xavier"], "note": "Jake goes to buy Lorena a horse; a weeping Xavier begs her to stay and marry him, then pays her and leaves.", "fictional": true, "location_hint": "south Texas border town overlooking mesquite flats", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake is amused that Gus's money will buy Lorena a horse to ride there.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena", "Jake Spoon", "Xavier"], "note": "Lorena tells Xavier they are bound there; Jake thinks her beauty could attract rich men there; Xavier predicts she'll never arrive.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Tinkersley bought Lorena her favorite comb when they first arrived there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Galveston", "name": "Galveston", "kind": "city", "type": "mention", "characters": ["Xavier", "Lorena"], "note": "Xavier proposes they go there and take a boat to California; Lorena wonders why Jake prefers riding.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "California", "name": "California", "kind": "state", "type": "mention", "characters": ["Xavier"], "note": "Xavier dreams of opening a clean restaurant there with Lorena.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Denver", "name": "Denver", "kind": "city", "type": "mention", "characters": ["Lorena", "Jake Spoon"], "note": "Lorena realizes Galveston is closer than Jake's planned route through Denver.", "fictional": false, "location_hint": "Colorado", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Lorena", "Jake Spoon"], "note": "Jake already has trouble there over a shooting.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Baton Rouge", "name": "Baton Rouge", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Lorena's father died there; Xavier's look reminds her of his.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Lorena", "members": ["Lorena"], "at": "Lonesome Dove", "hint": "in her room above the Dry Bean, planning to leave in the afternoon"},
+    {"label": "Jake Spoon", "members": ["Jake Spoon"], "at": "Lonesome Dove", "hint": "around town buying a horse and gear"},
+    {"label": "Xavier", "members": ["Xavier"], "at": "Lonesome Dove", "hint": "at his saloon, the Dry Bean"}
+  ]
+}

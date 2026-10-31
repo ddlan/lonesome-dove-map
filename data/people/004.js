@@ -1,0 +1,1 @@
+LD_PEOPLE.add({"n":4,"b":{"Dish Boggett":{"text":"Dish Boggett is a skilled young cowboy of about twenty-two whose big walrus mustache makes him look older and more solemn. Back in Lonesome Dove after delivering horses to Matamoros and gambling away his pay, he is hopelessly smitten with Lorena. He plans to leave next week with Shanghai Pierce's trail outfit.","kind":"intro"}}});

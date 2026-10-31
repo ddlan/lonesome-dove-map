@@ -1,0 +1,24 @@
+{
+  "chapter": 75,
+  "places": [
+    {"raw_name": "Clara's place on the Platte", "name": "Clara's ranch", "kind": "ranch", "type": "event", "characters": ["Clara", "Sally", "Betsey", "Cholo", "Bob Allen", "Elmira", "Luke", "Big Zwey"], "note": "Clara's horse ranch with a frame house; Bob lies paralyzed there, and Elmira arrives exhausted, gives birth to a boy, then slips away leaving him.", "fictional": true, "location_hint": "Nebraska, on a slope above the Platte, about twenty miles (over half a day by wagon) from Ogallala; old sod house and a knoll east of the house with three boys' graves", "confidence": "high"},
+    {"raw_name": "the Platte", "name": "North Platte River", "kind": "river", "type": "event", "characters": ["Clara", "Elmira", "Luke", "Big Zwey"], "note": "Elmira's wagon arrives along it from the west; Clara once washed her hair in its icy water and watches mists over it.", "fictional": false, "location_hint": "river beside Clara's ranch near Ogallala, Nebraska", "confidence": "medium"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "event", "characters": ["Clara", "Elmira", "Bob Allen"], "note": "Elmira asks if they have reached it yet; Clara followed Bob to its hard plains years ago.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Clara", "Cholo", "Elmira", "Big Zwey"], "note": "Rough town twenty miles off where Clara seldom goes; Jules plays piano there, Cholo shops there, and Elmira hopes to find Dee Boot.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Elmira", "Clara"], "note": "Elmira says she has come all the way from there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Clara", "Bob Allen"], "note": "Clara's piano and house money came from selling her parents' business there; she was once its most courted girl.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "St. Louis", "name": "St. Louis", "kind": "city", "type": "mention", "characters": ["Clara"], "note": "Clara ordered her piano from there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Red River of the North", "name": "Red River of the North", "kind": "river", "type": "mention", "characters": ["Clara"], "note": "Jules the piano player once traded there before smallpox ruined his business.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Dakotas", "name": "Dakota Territory", "kind": "region", "type": "mention", "characters": [], "note": "Jules drifted down through them to Ogallala.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montreal", "name": "Montreal", "kind": "city", "type": "mention", "characters": [], "note": "Jules's grandmother's house was there; Clara's girls remind him of his cousins.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Dismal River", "name": "Dismal River", "kind": "river", "type": "mention", "characters": ["Cholo"], "note": "Cholo survived an April blizzard there thanks to the buffalo coat Clara bought him.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": ["Clara"], "note": "Grandparents of neighbor Maude Jones's children came from there to fetch them.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Cincinnati", "name": "Cincinnati", "kind": "city", "type": "mention", "characters": ["Clara"], "note": "Clara has an aunt there she writes to once or twice a year.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Wyoming", "name": "Wyoming", "kind": "region", "type": "mention", "characters": ["Clara"], "note": "Clara loves watching morning light spread across the plains toward it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "England", "name": "England", "kind": "country", "type": "mention", "characters": ["Clara"], "note": "Clara orders magazines from there and the East.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Clara's household", "members": ["Clara", "Sally", "Betsey", "Cholo", "Bob Allen"], "at": "Clara's ranch", "hint": "at the ranch house on the Platte, Clara caring for Bob and Elmira's newborn boy"},
+    {"label": "Elmira with the buffalo hunters", "members": ["Elmira", "Luke", "Big Zwey"], "at": "Clara's ranch", "hint": "left by wagon at night, heading for Ogallala about twenty miles away"}
+  ]
+}

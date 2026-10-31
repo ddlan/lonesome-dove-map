@@ -1,0 +1,15 @@
+{
+  "chapter": 47,
+  "places": [
+    {"raw_name": "Lorena's camp", "name": "Lorena's camp", "kind": "camp", "type": "event", "characters": ["Newt", "Lorena"], "note": "Lorena sends Newt away; he secretly watches from a live-oak grove nearby, dozes, and loses his horse Mouse during a night stampede.", "fictional": true, "location_hint": "a couple of miles due east of the Hat Creek herd's camp, under trees with a live-oak stand about a hundred yards off", "confidence": "medium"},
+    {"raw_name": "the herd", "name": "Hat Creek outfit's cow camp", "kind": "camp", "type": "event", "characters": ["Newt", "Pea Eye", "Po Campo", "Call", "Augustus"], "note": "The herd stampedes at night toward the bluffs; at dawn Pea finds Newt afoot and the new cook Po Campo walks in with his donkey.", "fictional": true, "location_hint": "open grassy country with ridges and bluffs; Lorena's camp lies a couple of miles to the east", "confidence": "medium"},
+    {"raw_name": "the Nueces", "name": "Nueces River", "kind": "river", "type": "mention", "characters": ["Newt"], "note": "Newt recalls Sean O'Brien's muddy grave back by this river.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Newt", "Augustus"], "note": "Newt longs for the biscuits Augustus baked there before leaving his ovens behind.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Newt"], "note": "Newt fears the cowboys would joke about him all the way there.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Pea Eye"], "at": "Hat Creek outfit's cow camp", "hint": "herd regathered after a night stampede"},
+    {"label": "Newt and Po Campo", "members": ["Newt", "Po Campo"], "at": "Hat Creek outfit's cow camp", "hint": "walking the last few hundred yards to the wagon"},
+    {"label": "Lorena", "members": ["Lorena"], "at": "Lorena's camp", "hint": "alone, waiting for Jake"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "chapter": 22,
+  "places": [
+    {"raw_name": "cow camp / the valley where the herd is strung out", "name": "Hat Creek herd camp near Lonesome Dove", "kind": "camp", "type": "event", "characters": ["Augustus", "Call", "Jake Spoon", "Lorena", "Bolivar", "Newt", "Pea Eye", "Dish Boggett", "Needle Nelson", "Allen O'Brien", "Sean O'Brien", "Jasper Fant"], "note": "Jake and Lorena, in pants, ride in at supper and stun the hands; Jake says they'll travel alongside toward Denver; Call decides to start tomorrow.", "fictional": true, "location_hint": "outfit's cook camp beside a long valley or plain where the gathered herd grazes, a short ride from Lonesome Dove in south Texas brush country", "confidence": "medium"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena", "Jake Spoon", "Lippy"], "note": "Lorena recalls leaving quietly from the empty Dry Bean while Lippy protested his innocence from the steps.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Bolivar", "Call"], "note": "Bolivar's unhappy wife waits at home there; Call keeps raiding across for easy cattle now that Pedro Flores is gone.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake once knew a woman mule skinner there who wore pants, which gave him the idea for Lorena.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Denver", "name": "Denver", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Call"], "note": "Jake announces he and Lorena will try their luck there; Call warns it is a hard trip.", "fictional": false, "location_hint": "Colorado", "confidence": "high"},
+    {"raw_name": "the plains", "name": "High Plains", "kind": "region", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake warns water may get scarce once the drive reaches the plains.", "fictional": false, "location_hint": "open plains north of Texas brush country along the trail", "confidence": "low"},
+    {"raw_name": "Pickles Gap", "name": "Pickles Gap", "kind": "town", "type": "mention", "characters": ["Call"], "note": "Call supposes Newt has at least been taken there.", "fictional": true, "location_hint": "about twelve miles from Lonesome Dove", "confidence": "high"},
+    {"raw_name": "San Antone", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Newt", "Call", "Deets"], "note": "Newt boasts he's been north as far as here, once with Deets; Call says the drive goes much farther.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Bolivar", "Newt", "Pea Eye", "Dish Boggett", "Needle Nelson", "Allen O'Brien", "Sean O'Brien", "Jasper Fant"], "at": "Hat Creek herd camp near Lonesome Dove", "hint": "at the cook fire beside the gathered herd, about to start north"},
+    {"label": "Jake and Lorena", "members": ["Jake Spoon", "Lorena"], "at": "Hat Creek herd camp near Lonesome Dove", "hint": "riding off to make their own camp on a ridge near the herd"}
+  ]
+}

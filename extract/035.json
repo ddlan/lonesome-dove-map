@@ -1,0 +1,21 @@
+{
+  "chapter": 35,
+  "places": [
+    {"raw_name": "the Nueces", "name": "Nueces River", "kind": "river", "type": "event", "characters": ["Call", "Augustus", "Deets", "Newt", "Sean O'Brien", "Allen O'Brien", "Pea Eye", "Dish Boggett", "Jasper Fant", "Bolivar", "Lippy"], "note": "The herd crosses a little downriver through mosquito swarms; Sean rides into a nest of water moccasins and dies, buried under a live oak near the north bank.", "fictional": false, "location_hint": "crossing slightly downriver of the usual one, beyond a mile-wide grassy clearing in the brush; grave about a hundred yards back from the north bank", "confidence": "high"},
+    {"raw_name": "Ireland", "name": "Ireland", "kind": "country", "type": "mention", "characters": ["Sean O'Brien", "Newt", "Call", "Allen O'Brien"], "note": "Sean longs to sail home there; Newt regrets never urging him to go back.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Galveston", "name": "Galveston", "kind": "city", "type": "mention", "characters": ["Newt"], "note": "Newt wishes he had told Sean to go there and find a ship home.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Call", "Augustus"], "note": "Destination of the drive; Augustus closes the burial by telling everyone to go on there.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Matagorda Bay", "name": "Matagorda", "kind": "region", "type": "mention", "characters": ["Call"], "note": "The lead steer Old Dog, bought from the Pumphreys, had led several herds there.", "fictional": false, "location_hint": "Texas Gulf Coast around Matagorda Bay", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Augustus", "Dish Boggett"], "note": "Augustus teases Dish about its women and muses he might stop there to settle near Clara.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Nebrasky", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Augustus", "Dish Boggett"], "note": "Augustus remarks it is a long way off.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kentucky", "name": "Kentucky", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Home of the horse trader Clara chose to marry.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Augustus"], "note": "Augustus recalls Clara telling him of her marriage outside her little store there some sixteen years ago.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Red River", "name": "Red River", "kind": "river", "type": "mention", "characters": ["Dish Boggett"], "note": "Dish wishes they had already reached it, disliking the low country.", "fictional": false, "location_hint": "Texas-Indian Territory border river", "confidence": "high"},
+    {"raw_name": "the Yellowstone", "name": "Yellowstone River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "Augustus jokes he wishes they were already there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "far up the Brazos", "name": "Brazos River", "kind": "river", "type": "mention", "characters": ["Call"], "note": "Call remembers a drying lake far up the river teeming with cottonmouths during a drought summer.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Newt"], "note": "Newt wishes time could run back to when they were still there and Sean was alive.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Deets", "Newt", "Pea Eye", "Dish Boggett", "Allen O'Brien", "Jasper Fant", "Bolivar", "Lippy", "Needle Nelson", "Soupy Jones", "Bert Borum"], "at": "Nueces River", "hint": "just across the Nueces, moving on north from Sean's grave"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "chapter": 70,
+  "places": [
+    {"raw_name": "the Arkansas", "name": "Arkansas River", "kind": "river", "type": "event", "characters": ["Call", "Deets"], "note": "The herd moves toward it on good grass; Call and Deets ride ahead by moonlight to inspect its swift crossing.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the herd's camp south of the Arkansas", "name": "Kansas", "kind": "state", "type": "event", "characters": ["Newt", "Ben Rainey", "Soupy Jones", "Dish Boggett", "Deets", "Po Campo", "Call", "Augustus", "Lorena", "Lippy", "Jasper", "Pea Eye", "Needle Nelson"], "note": "West of the grasshopper damage a cow gores Mouse fatally; next morning Newt breakfasts with Gus and Lorena on the open plain.", "fictional": false, "location_hint": "southern Kansas plains, a few miles south of the Arkansas River, not far from Dodge City", "confidence": "medium"},
+    {"raw_name": "the Rio Grande", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Call", "Deets"], "note": "Call notes it rises in the same mountains as the Arkansas; Deets feels homesick for its warm shallow water.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Colorado", "name": "Colorado", "kind": "state", "type": "mention", "characters": ["Call", "Deets"], "note": "Call gazes upriver toward it, thinking Blue Duck is somewhere up there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Newt", "Deets"], "note": "Newt had worried since leaving it that Lorena blamed him; Deets longs for home.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Canada", "name": "Canada", "kind": "country", "type": "mention", "characters": ["Augustus"], "note": "Augustus jokes Po Campo means to walk all the way there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Lorena"], "note": "The town where Gus's other woman lives; Lorena means to win him before they arrive.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Call"], "note": "Call thinks Jake came back there only to lean on them.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["Call", "Deets"], "note": "Not far off; Call guesses Jake, whose horse's track Deets found, may be heading there to gamble.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek herd", "members": ["Call", "Deets", "Newt", "Dish Boggett", "Soupy Jones", "Ben Rainey", "Po Campo", "Lippy", "Jasper", "Pea Eye", "Needle Nelson"], "at": "Kansas", "hint": "a few miles south of the Arkansas River crossing, not far from Dodge City"},
+    {"label": "Augustus and Lorena", "members": ["Augustus", "Lorena"], "at": "Kansas", "hint": "tent camp near the herd, a few miles south of the Arkansas River"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "chapter": 15,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Deets", "Dish Boggett", "Lorena", "Xavier Wanz", "Jasper Fant", "Lippy"], "note": "Deets guards the penned horses watching the moon while Dish slips off to the Dry Bean, where Lorena wins at cards.", "fictional": true, "location_hint": "south Texas border town; the Hat Creek corral lies about two hundred yards from the Dry Bean saloon; plains around it", "confidence": "high"},
+    {"raw_name": "upriver", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Jasper Fant", "Dish Boggett"], "note": "Jasper Fant is a cowboy from upriver.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "the Matagorda", "name": "Matagorda", "kind": "region", "type": "mention", "characters": ["Deets"], "note": "Deets has often glimpsed the ocean there.", "fictional": false, "location_hint": "Texas Gulf Coast around Matagorda Bay", "confidence": "medium"},
+    {"raw_name": "Fort Phantom Hill", "name": "Fort Phantom Hill", "kind": "fort", "type": "mention", "characters": ["Deets"], "note": "After the terrible battle there, Deets dreamed Indians moved the moon beside a low west Texas hill.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "west Texas", "name": "West Texas", "kind": "region", "type": "mention", "characters": ["Deets"], "note": "Deets pictures its many small low hills in his dream of Indians mounting the moon.", "fictional": false, "location_hint": "western part of Texas", "confidence": "medium"},
+    {"raw_name": "the Pecos", "name": "Pecos River", "kind": "river", "type": "mention", "characters": ["Deets"], "note": "Deets thinks of it as one of the few alkaline rivers.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "south Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Xavier Wanz", "Jasper Fant", "Dish Boggett"], "note": "Xavier notes Mexican women are plentiful across south Texas; Jasper jokes Mexicans could retake Texas with the Captain away.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Horse guard at the pens", "members": ["Deets", "Dish Boggett", "Jasper Fant"], "at": "Lonesome Dove", "hint": "Deets by the water trough in the Hat Creek corral; Dish and Jasper riding back to the pens from the saloon"},
+    {"label": "Dry Bean saloon", "members": ["Lorena", "Xavier Wanz", "Lippy"], "at": "Lonesome Dove", "hint": "playing cards in the Dry Bean saloon"}
+  ]
+}

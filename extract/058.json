@@ -1,0 +1,20 @@
+{
+  "chapter": 58,
+  "places": [
+    {"raw_name": "the canyon where he had left his party", "name": "July's canyon-mouth camp on the Canadian", "kind": "camp", "type": "event", "characters": ["Roscoe", "Joe", "Janey", "July Johnson", "Augustus", "Lorena"], "note": "A big night intruder kills Roscoe, Janey and Joe; July returns to find them, and he and Augustus bury them under rocks on the plain above.", "fictional": true, "location_hint": "canyon mouth sloping to the Canadian River, Texas Panhandle, roughly eight miles west (upriver) of the outlaw camp, a little way upriver from Adobe Walls", "confidence": "medium"},
+    {"raw_name": "the Canadian", "name": "Canadian River", "kind": "river", "type": "event", "characters": ["Roscoe", "Joe", "Janey", "July Johnson", "Augustus", "Lorena"], "note": "Treeless river where the camp lies; July later rides across it into the breaks to the north.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Roscoe", "July Johnson"], "note": "Roscoe wishes he were back there playing dominoes; July longs to undo everything back to their life there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson"], "note": "July grieves that he will return there without his loyal deputy.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Purgatory", "name": "Purgatoire River", "kind": "river", "type": "mention", "characters": ["Augustus", "July Johnson"], "note": "Augustus guesses Blue Duck is heading for this Colorado river, likely to another gang.", "fictional": false, "location_hint": "southeastern Colorado", "confidence": "high"},
+    {"raw_name": "Colorado", "name": "Colorado", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Where the Purgatory river lies, Augustus explains.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Adobe Walls", "name": "Adobe Walls", "kind": "fort", "type": "mention", "characters": ["July Johnson", "Augustus"], "note": "Not far downriver; Augustus advises July to skip it, as his wife won't be there.", "fictional": false, "location_hint": "on the Canadian River in the Texas Panhandle", "confidence": "high"},
+    {"raw_name": "the Arkansas", "name": "Arkansas River", "kind": "river", "type": "mention", "characters": ["Augustus"], "note": "If July's wife went up it, Augustus figures she is in some Kansas town.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Augustus", "July Johnson"], "note": "Augustus suggests July's wife is likely in one of its towns.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Tennessee", "name": "Tennessee", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus reflects he became a Texas Ranger instead of a lawyer there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Where Augustus served as a Ranger.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Augustus and Lorena", "members": ["Augustus", "Lorena"], "at": "Canadian River", "hint": "riding east from the burial site looking for shade, planning to wait for Call and the herd"},
+    {"label": "July Johnson", "members": ["July Johnson"], "at": "Canadian River", "hint": "crossed the Canadian and rode north onto the plains, searching for his wife"}
+  ]
+}

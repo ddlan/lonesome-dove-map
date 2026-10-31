@@ -1,0 +1,15 @@
+{
+  "chapter": 27,
+  "places": [
+    {"raw_name": "Fort Smith (July's cabin on the edge of town)", "name": "Fort Smith", "kind": "town", "type": "event", "characters": ["July Johnson", "Elmira", "Joe"], "note": "At their dirt-floored cabin, July says he'll pursue Jake; Elmira insists he take Joe, secretly pregnant and plotting to leave herself.", "fictional": false, "location_hint": "July's cabin sits on the town's edge among pines, about a mile from the river", "confidence": "high"},
+    {"raw_name": "the river / the Arkansas", "name": "Arkansas River", "kind": "river", "type": "mention", "characters": ["July Johnson", "Elmira"], "note": "Nearly a mile from the cabin; Elmira notes boats go up it almost weekly and could carry her away.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Elmira", "Jake Spoon", "Dee Boot"], "note": "Elmira was stranded there young and knew Jake and Dee Boot there as friends.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["Elmira", "Jake Spoon", "Dee Boot"], "note": "Elmira worked there as a prostitute; Jake teased she'd turn respectable.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Abilene", "name": "Abilene", "kind": "town", "type": "mention", "characters": ["Elmira", "Dee Boot"], "note": "Scene of Elmira's wild years with Dee, his prank pie on a madam, and a girl's grim death on icy stairs.", "fictional": false, "location_hint": "Kansas cattle town", "confidence": "high"},
+    {"raw_name": "St. Jo, Missouri", "name": "St. Joseph", "kind": "town", "type": "mention", "characters": ["Elmira", "July Johnson", "Dee Boot"], "note": "Dee staked Elmira to a fresh start there; she met July watching the trial where he testified.", "fictional": false, "location_hint": "St. Joseph, Missouri, on the Missouri River", "confidence": "high"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": ["Elmira", "July Johnson"], "note": "State where Elmira and July met during a trial.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "July's household", "members": ["July Johnson", "Elmira", "Joe"], "at": "Fort Smith", "hint": "Elmira on a stump outside the cabin; July off on his nightly rounds in town"}
+  ]
+}

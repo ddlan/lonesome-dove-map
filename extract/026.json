@@ -1,0 +1,17 @@
+{
+  "chapter": 26,
+  "places": [
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "event", "characters": ["July Johnson", "Roscoe Brown", "Peach", "Elmira", "Joe"], "note": "Jaundiced Sheriff July and deputy Roscoe sit by the one-cell jail; widowed Peach presses July to pursue Jake Spoon for killing Ben, the mayor.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the river", "name": "Arkansas River", "kind": "river", "type": "mention", "characters": ["Roscoe Brown", "Joe", "July Johnson"], "note": "Roscoe and Joe fish for catfish there; brawling rivermen are the sheriff's biggest headache.", "fictional": false, "location_hint": "the river at Fort Smith", "confidence": "medium"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": ["July Johnson", "Elmira"], "note": "July caught jaundice there at a trial; Elmira was once married there to Dee Boot.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Peach"], "note": "Peach warns the killer will slip off there if July delays.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["July Johnson", "Roscoe Brown"], "note": "July expects to find Jake around there among friends; Roscoe notes those friends are famous Texas Rangers.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Roscoe Brown"], "note": "Roscoe frets about July tangling with Jake's Texas Ranger friends.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Elmira"], "note": "Elmira comes from there, so Fort Smith knows little of her past.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Fort Smith lawmen", "members": ["July Johnson", "Roscoe Brown"], "at": "Fort Smith", "hint": "July heading home from the jail; Roscoe stays on the jail porch"},
+    {"label": "July's household", "members": ["Elmira", "Joe"], "at": "Fort Smith", "hint": "at July's home in town"},
+    {"label": "Peach", "members": ["Peach"], "at": "Fort Smith", "hint": "heading home with her dead rooster"}
+  ]
+}

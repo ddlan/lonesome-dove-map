@@ -1,0 +1,17 @@
+{
+  "chapter": 56,
+  "places": [
+    {"raw_name": "the Red", "name": "Red River", "kind": "river", "type": "mention", "characters": ["Augustus", "Roscoe"], "note": "Blue Duck crossed it and went straight north; Augustus tells Roscoe that getting back south of it means relative safety.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "buffalo wallow", "name": "Augustus's buffalo wallow", "kind": "other", "type": "event", "characters": ["Augustus"], "note": "Ambushed on open prairie, Augustus kills his horse for cover in a shallow wallow amid bones and shoots six attackers before a buffalo-gun sniper pins him.", "fictional": true, "location_hint": "level plain about ten miles south of the Canadian River, Texas Panhandle, a morning's ride east of Aus Frank's bone camp", "confidence": "medium"},
+    {"raw_name": "the Canadian", "name": "Canadian River", "kind": "river", "type": "event", "characters": ["Augustus", "July Johnson", "Roscoe", "Joe", "Janey"], "note": "The party rides to the steep-banked river, spots a campfire downstream, camps upriver at a canyon mouth, and Augustus and July ride toward the fire.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the mouth of a canyon", "name": "July's canyon-mouth camp on the Canadian", "kind": "camp", "type": "event", "characters": ["Roscoe", "Joe", "Janey"], "note": "Where a canyon slopes into the riverbed; Roscoe and the youngsters are left here while the two men ride off.", "fictional": true, "location_hint": "on the Canadian River, Texas Panhandle, about a mile upriver from where they first struck it and some seven or eight miles west of the outlaws' campfire", "confidence": "medium"},
+    {"raw_name": "Fort Smith, Arkansas", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson", "Roscoe"], "note": "July introduces himself as its sheriff; violent death is uncommon there, Roscoe reflects.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["July Johnson", "Augustus"], "note": "July admits robbers are the worst trouble there, so he has never killed anyone.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Augustus", "July Johnson"], "note": "Augustus jokes the outfit expected July to show up there.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus says they are nearly in it.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Augustus and July", "members": ["Augustus", "July Johnson"], "at": "Canadian River", "hint": "within a mile of the outlaws' campfire on the Canadian, about a hundred yards from the river, preparing to charge"},
+    {"label": "July's companions", "members": ["Roscoe", "Joe", "Janey"], "at": "July's canyon-mouth camp on the Canadian", "hint": "waiting at a canyon mouth on the Canadian, several miles upriver from the outlaw camp"}
+  ]
+}

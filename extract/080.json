@@ -1,0 +1,17 @@
+{
+  "chapter": 80,
+  "places": [
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "event", "characters": ["Elmira", "Big Zwey", "Patrick Arandel", "July Johnson"], "note": "Elmira recovers at Dr. Arandel's house, learns Dee was hanged and buried on Boot Hill, rebuffs July's visit, then leaves with Zwey.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "camped a few miles from town", "name": "Elmira and Zwey's camp east of Ogallala", "kind": "camp", "type": "event", "characters": ["Elmira", "Big Zwey"], "note": "First night on the road east; Elmira lies awake unafraid while Zwey worries about warnings of Sioux.", "fictional": true, "location_hint": "a few miles east of Ogallala on the open plains, on the road toward St. Louis", "confidence": "medium"},
+    {"raw_name": "St. Louis", "name": "St. Louis", "kind": "city", "type": "mention", "characters": ["Elmira", "Big Zwey"], "note": "Elmira picks it as a destination simply to get away; Zwey doesn't know the way.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Santa Fe", "name": "Santa Fe", "kind": "city", "type": "mention", "characters": ["Luke", "Big Zwey"], "note": "Luke has gone there after hiring on with traders.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Clara's place", "name": "Clara's ranch", "kind": "ranch", "type": "mention", "characters": ["July Johnson"], "note": "July wept with relief behind Clara's saddle shed on learning Elmira lived; he offers to bring the baby in from there.", "fictional": true, "location_hint": "on the Platte about twenty miles from Ogallala, Nebraska", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Elmira", "July Johnson"], "note": "Elmira half remembers July and her former life there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Big Zwey", "Elmira"], "note": "Zwey says they saw no Indians all the way from there; Elmira feared them the whole trail.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "event", "characters": ["Elmira", "Big Zwey"], "note": "Elmira's fear of Indians lasted until she reached it.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Elmira and Big Zwey", "members": ["Elmira", "Big Zwey"], "at": "Elmira and Zwey's camp east of Ogallala", "hint": "a few miles east of Ogallala, heading east toward St. Louis by wagon"},
+    {"label": "July Johnson", "members": ["July Johnson"], "at": "Ogallala", "hint": "rode off from the doctor's house; staying near Ogallala and Clara's ranch"}
+  ]
+}

@@ -1,0 +1,531 @@
+[
+ {
+  "name": "Augustus",
+  "first_chapter": 1,
+  "chapter_text": "book/chapters/001.txt",
+  "notes_this_chapter": [
+   "ch1 [event] Lonesome Dove: Hot, dusty border town in the chaparral where the Hat Creek Cattle Company keeps its house, lots and the Dry Bean saloon nearby.",
+   "ch1 [event] Hat Creek: Nearly always-dry sandy creek by the outfit's wagon yard; a storm once washed the barn roof down it into the Rio Grande.",
+   "ch1 [event] Rio Grande: Border river beside the town; the outfit crosses it at night to raid Mexican stock, and cattle get chased back and forth across it.",
+   "ch1 [mention] Mexico: Lies across the river; Call bought his biting mare there, and the partners ride in to steal horses and cattle.",
+   "ch1 [mention] Pickles Gap: Tiny settlement founded by a lost Georgian; Call claims it has good shade, Augustus scorns it as even worse than Lonesome Dove.",
+   "ch1 [mention] Tennessee: Augustus, like the barber Dillard Brawley, is a Tennessean; whiskey makes him feel like a cool Tennessee morning.",
+   "ch1 [mention] Texas: Augustus thinks himself the only man in south Texas who can keep Call in proportion.",
+   "ch1 [mention] Prairie Dog Town Fork Red River: Where Comanches trapped Call, Augustus and six Rangers in dug holes; Augustus argued about coon dogs all night before they slipped away.",
+   "ch1 [mention] Scotland: Augustus reminds Call he was born there and brought over as a baby.",
+   "ch1 [end of chapter] with Call, Pea Eye, Newt, Bolivar at Lonesome Dove: at the Hat Creek Cattle Company house in town"
+  ]
+ },
+ {
+  "name": "Pea Eye",
+  "first_chapter": 1,
+  "chapter_text": "book/chapters/001.txt",
+  "notes_this_chapter": [
+   "ch1 [event] Lonesome Dove: Hot, dusty border town in the chaparral where the Hat Creek Cattle Company keeps its house, lots and the Dry Bean saloon nearby.",
+   "ch1 [mention] Brazos River: After Indians took their horses, the Rangers walked nearly two hundred miles down it, fearing Comanches.",
+   "ch1 [mention] Stone House: Site of a smoky Ranger battle with the Keechis where Pea Eye lost hearing in one ear and the horses were stolen.",
+   "ch1 [end of chapter] with Augustus, Call, Newt, Bolivar at Lonesome Dove: at the Hat Creek Cattle Company house in town"
+  ]
+ },
+ {
+  "name": "Call",
+  "first_chapter": 1,
+  "chapter_text": "book/chapters/001.txt",
+  "notes_this_chapter": [
+   "ch1 [event] Lonesome Dove: Hot, dusty border town in the chaparral where the Hat Creek Cattle Company keeps its house, lots and the Dry Bean saloon nearby.",
+   "ch1 [event] Rio Grande: Border river beside the town; the outfit crosses it at night to raid Mexican stock, and cattle get chased back and forth across it.",
+   "ch1 [mention] Mexico: Lies across the river; Call bought his biting mare there, and the partners ride in to steal horses and cattle.",
+   "ch1 [mention] Pickles Gap: Tiny settlement founded by a lost Georgian; Call claims it has good shade, Augustus scorns it as even worse than Lonesome Dove.",
+   "ch1 [mention] Texas: Augustus thinks himself the only man in south Texas who can keep Call in proportion.",
+   "ch1 [mention] Brazos River: After Indians took their horses, the Rangers walked nearly two hundred miles down it, fearing Comanches.",
+   "ch1 [mention] Stone House: Site of a smoky Ranger battle with the Keechis where Pea Eye lost hearing in one ear and the horses were stolen.",
+   "ch1 [mention] Prairie Dog Town Fork Red River: Where Comanches trapped Call, Augustus and six Rangers in dug holes; Augustus argued about coon dogs all night before they slipped away.",
+   "ch1 [mention] Scotland: Augustus reminds Call he was born there and brought over as a baby.",
+   "ch1 [end of chapter] with Augustus, Pea Eye, Newt, Bolivar at Lonesome Dove: at the Hat Creek Cattle Company house in town"
+  ]
+ },
+ {
+  "name": "Bolivar",
+  "first_chapter": 1,
+  "chapter_text": "book/chapters/001.txt",
+  "notes_this_chapter": [
+   "ch1 [event] Lonesome Dove: Hot, dusty border town in the chaparral where the Hat Creek Cattle Company keeps its house, lots and the Dry Bean saloon nearby.",
+   "ch1 [event] Rio Grande: Border river beside the town; the outfit crosses it at night to raid Mexican stock, and cattle get chased back and forth across it.",
+   "ch1 [mention] Mexico: Lies across the river; Call bought his biting mare there, and the partners ride in to steal horses and cattle.",
+   "ch1 [end of chapter] with Augustus, Call, Pea Eye, Newt at Lonesome Dove: at the Hat Creek Cattle Company house in town"
+  ]
+ },
+ {
+  "name": "Newt",
+  "first_chapter": 1,
+  "chapter_text": "book/chapters/001.txt",
+  "notes_this_chapter": [
+   "ch1 [event] Lonesome Dove: Hot, dusty border town in the chaparral where the Hat Creek Cattle Company keeps its house, lots and the Dry Bean saloon nearby.",
+   "ch1 [event] Rio Grande: Border river beside the town; the outfit crosses it at night to raid Mexican stock, and cattle get chased back and forth across it.",
+   "ch1 [mention] Mexico: Lies across the river; Call bought his biting mare there, and the partners ride in to steal horses and cattle.",
+   "ch1 [end of chapter] with Augustus, Call, Pea Eye, Bolivar at Lonesome Dove: at the Hat Creek Cattle Company house in town"
+  ]
+ },
+ {
+  "name": "Lorena",
+  "first_chapter": 2,
+  "chapter_text": "book/chapters/002.txt",
+  "notes_this_chapter": [
+   "ch2 [event] Lonesome Dove: Evening on the outfit's porch; piano music drifts from the Dry Bean saloon, where Lorena lives upstairs."
+  ]
+ },
+ {
+  "name": "Lippy",
+  "first_chapter": 3,
+  "chapter_text": "book/chapters/003.txt",
+  "notes_this_chapter": [
+   "ch3 [event] Lonesome Dove: Lorena lives above the Dry Bean saloon, cooking at first and then taking customers; Augustus offers her money just to talk.",
+   "ch3 [mention] Mexico: Lippy says Lorena could get rich working there, but she finds it no more appealing than Texas."
+  ]
+ },
+ {
+  "name": "Xavier Wanz",
+  "first_chapter": 3,
+  "chapter_text": "book/chapters/003.txt",
+  "notes_this_chapter": [
+   "ch3 [event] Lonesome Dove: Lorena lives above the Dry Bean saloon, cooking at first and then taking customers; Augustus offers her money just to talk."
+  ]
+ },
+ {
+  "name": "Dish Boggett",
+  "first_chapter": 4,
+  "chapter_text": "book/chapters/004.txt",
+  "notes_this_chapter": [
+   "ch4 [event] Lonesome Dove: Augustus walks past the Pumphreys' store to the Dry Bean, plays cards late, and lends Dish two dollars before the cowboy heads up to Lorena.",
+   "ch4 [mention] New Orleans: Xavier's birthplace, where he once worked in a restaurant with tablecloths; Shanghai Pierce goes there to take the train north.",
+   "ch4 [mention] Matamoros: Dish delivered horses there and lost a month's pay gambling before riding about a hundred miles upriver.",
+   "ch4 [mention] Abilene: Trail town where Dish imagines buying Lorena a present.",
+   "ch4 [mention] Dodge City: Dish usually brings back ribbons and combs from there for Mexican girls.",
+   "ch4 [end of chapter] with Lorena, Lippy, Xavier Wanz at Lonesome Dove: at the Dry Bean saloon; Dish upstairs with Lorena, about to leave with a trail outfit next week"
+  ]
+ },
+ {
+  "name": "Deets",
+  "first_chapter": 5,
+  "chapter_text": "book/chapters/005.txt",
+  "notes_this_chapter": [
+   "ch5 [event] Lonesome Dove: Augustus bakes biscuits at sunrise; over breakfast Call floats a trail drive and offers Dish work, then spots Deets riding in with Jake Spoon.",
+   "ch5 [mention] San Antonio: Deets was sent there three days earlier to deposit money; the stage road north from town leads to it.",
+   "ch5 [end of chapter] with Jake Spoon at Lonesome Dove: riding in along the stage road from San Antonio, just north of town"
+  ]
+ },
+ {
+  "name": "Jake Spoon",
+  "first_chapter": 5,
+  "chapter_text": "book/chapters/005.txt",
+  "notes_this_chapter": [
+   "ch5 [event] Lonesome Dove: Augustus bakes biscuits at sunrise; over breakfast Call floats a trail drive and offers Dish work, then spots Deets riding in with Jake Spoon.",
+   "ch5 [end of chapter] with Deets at Lonesome Dove: riding in along the stage road from San Antonio, just north of town"
+  ]
+ },
+ {
+  "name": "July Johnson",
+  "first_chapter": 6,
+  "chapter_text": "book/chapters/006.txt",
+  "notes_this_chapter": [
+   "ch6 [mention] Fort Smith: Under three weeks ago Jake's stray buffalo-rifle shot killed the town's dentist-mayor, brother of Sheriff July Johnson; Jake fled.",
+   "ch6 [mention] Missouri: Sheriff July Johnson was away there testifying against stage robbers when the shooting happened."
+  ]
+ },
+ {
+  "name": "Chick",
+  "first_chapter": 8,
+  "chapter_text": "book/chapters/008.txt",
+  "notes_this_chapter": [
+   "ch8 [event] Lonesome Dove: Wilbarger rides in seeking horses past Augustus's elaborate livery sign; Dish finds Lorena now taken with Jake at the Dry Bean and drinks heavily.",
+   "ch8 [mention] Sabinas: Dish falsely tells Chick the brothel is there, across the river, to keep him away from Lorena.",
+   "ch8 [end of chapter] with Wilbarger at Lonesome Dove: at the Hat Creek house asking to buy horses; their herd waits beyond the Nueces"
+  ]
+ },
+ {
+  "name": "Wilbarger",
+  "first_chapter": 8,
+  "chapter_text": "book/chapters/008.txt",
+  "notes_this_chapter": [
+   "ch8 [event] Lonesome Dove: Wilbarger rides in seeking horses past Augustus's elaborate livery sign; Dish finds Lorena now taken with Jake at the Dry Bean and drinks heavily.",
+   "ch8 [mention] Nueces River: Wilbarger has a herd gathered beyond it but lost most of his horses to Mexican raiders.",
+   "ch8 [mention] Kansas: Destination of Wilbarger's cattle drive.",
+   "ch8 [end of chapter] with Chick at Lonesome Dove: at the Hat Creek house asking to buy horses; their herd waits beyond the Nueces"
+  ]
+ },
+ {
+  "name": "Sean O'Brien",
+  "first_chapter": 10,
+  "chapter_text": "book/chapters/010.txt",
+  "notes_this_chapter": [
+   "ch10 [event] Flores wranglers' burnt-out camp: In a roofless hut by a broken corral, Call, Deets and Newt find two lost, hungry Irish brothers and promise to send horses back for them.",
+   "ch10 [mention] Ireland: The O'Brien brothers are Irish and miss their potatoes.",
+   "ch10 [end of chapter] with Allen O'Brien at Flores wranglers' burnt-out camp: waiting with a hobbled mule and a donkey for horses to be sent back"
+  ]
+ },
+ {
+  "name": "Allen O'Brien",
+  "first_chapter": 10,
+  "chapter_text": "book/chapters/010.txt",
+  "notes_this_chapter": [
+   "ch10 [event] Flores wranglers' burnt-out camp: In a roofless hut by a broken corral, Call, Deets and Newt find two lost, hungry Irish brothers and promise to send horses back for them.",
+   "ch10 [mention] Ireland: The O'Brien brothers are Irish and miss their potatoes.",
+   "ch10 [mention] Galveston: The Irishmen's intended destination; Call says they badly overshot it.",
+   "ch10 [end of chapter] with Sean O'Brien at Flores wranglers' burnt-out camp: waiting with a hobbled mule and a donkey for horses to be sent back"
+  ]
+ },
+ {
+  "name": "Jasper Fant",
+  "first_chapter": 13,
+  "chapter_text": "book/chapters/013.txt",
+  "notes_this_chapter": [
+   "ch13 [event] Lonesome Dove: At the Dry Bean saloon Jake charms Lorena, bathes in her room upstairs and wins her; afterward she stops taking customers.",
+   "ch13 [mention] Rio Grande: Cowboys working along it, including Jasper Fant, hear that Lorena has quit her trade."
+  ]
+ },
+ {
+  "name": "Pete Spettle",
+  "first_chapter": 16,
+  "chapter_text": "book/chapters/016.txt",
+  "notes_this_chapter": [
+   "ch16 [event] Spettle farm: Call hires the two oldest boys of a poor widow's barefoot family; they set off on foot for Lonesome Dove.",
+   "ch16 [end of chapter] with Bill Spettle at Brush Country: walking from their farm north of Pickles Gap toward Lonesome Dove"
+  ]
+ },
+ {
+  "name": "Jimmy Rainey",
+  "first_chapter": 16,
+  "chapter_text": "book/chapters/016.txt",
+  "notes_this_chapter": [
+   "ch16 [event] Rainey ranch: Call eats a huge supper, sleeps in a wagon in the yard, and gets two Rainey sons promised for the drive.",
+   "ch16 [end of chapter] with Maude Rainey, Joe Rainey, Ben Rainey at Rainey ranch: Jimmy and Ben promised to reach Lonesome Dove by week's end"
+  ]
+ },
+ {
+  "name": "Bill Spettle",
+  "first_chapter": 16,
+  "chapter_text": "book/chapters/016.txt",
+  "notes_this_chapter": [
+   "ch16 [event] Spettle farm: Call hires the two oldest boys of a poor widow's barefoot family; they set off on foot for Lonesome Dove.",
+   "ch16 [end of chapter] with Pete Spettle at Brush Country: walking from their farm north of Pickles Gap toward Lonesome Dove"
+  ]
+ },
+ {
+  "name": "Ben Rainey",
+  "first_chapter": 16,
+  "chapter_text": "book/chapters/016.txt",
+  "notes_this_chapter": [
+   "ch16 [event] Rainey ranch: Call eats a huge supper, sleeps in a wagon in the yard, and gets two Rainey sons promised for the drive.",
+   "ch16 [end of chapter] with Maude Rainey, Joe Rainey, Jimmy Rainey at Rainey ranch: Jimmy and Ben promised to reach Lonesome Dove by week's end"
+  ]
+ },
+ {
+  "name": "Needle Nelson",
+  "first_chapter": 17,
+  "chapter_text": "book/chapters/017.txt",
+  "notes_this_chapter": [
+   "ch17 [event] Lonesome Dove: Jake lives with Lorena above the Dry Bean while new hands play cards there; on a hot day Augustus wins a cut of cards and buys Lorena's favors.",
+   "ch17 [mention] San Antonio: Needle Nelson comes from north of it; Lorena considers ordering new dresses from there.",
+   "ch17 [mention] Yellowstone River: Needle frets they'll cross it on ice if they don't start soon; Jasper expects drownings before then.",
+   "ch17 [end of chapter] with Call, Jake Spoon, Dish Boggett, Jasper Fant, Bert Borum at Hat Creek cow camp: gathering and branding cattle near Lonesome Dove ahead of the drive"
+  ]
+ },
+ {
+  "name": "Bert Borum",
+  "first_chapter": 17,
+  "chapter_text": "book/chapters/017.txt",
+  "notes_this_chapter": [
+   "ch17 [event] Lonesome Dove: Jake lives with Lorena above the Dry Bean while new hands play cards there; on a hot day Augustus wins a cut of cards and buys Lorena's favors.",
+   "ch17 [mention] Brownsville: Hometown of the cheerful new hand Bert Borum.",
+   "ch17 [end of chapter] with Call, Jake Spoon, Dish Boggett, Jasper Fant, Needle Nelson at Hat Creek cow camp: gathering and branding cattle near Lonesome Dove ahead of the drive"
+  ]
+ },
+ {
+  "name": "Soupy Jones",
+  "first_chapter": 23,
+  "chapter_text": "book/chapters/023.txt",
+  "notes_this_chapter": [
+   "ch23 [event] Hat Creek herd camp near Lonesome Dove: At dawn Soupy Jones arrives and is hired; Gus's pigs turn up; Augustus hitches the mule wagon while Call culls the remuda.",
+   "ch23 [mention] Bastrop: Soupy has just come from this small town, where his wife died.",
+   "ch23 [end of chapter] with Call, Pea Eye, Newt, Dish Boggett, Jasper Fant, Bolivar at Hat Creek herd camp near Lonesome Dove: preparing to start the herd north"
+  ]
+ },
+ {
+  "name": "Peach",
+  "first_chapter": 26,
+  "chapter_text": "book/chapters/026.txt",
+  "notes_this_chapter": [
+   "ch26 [event] Fort Smith: Jaundiced Sheriff July and deputy Roscoe sit by the one-cell jail; widowed Peach presses July to pursue Jake Spoon for killing Ben, the mayor.",
+   "ch26 [mention] Mexico: Peach warns the killer will slip off there if July delays.",
+   "ch26 [end of chapter] with nobody at Fort Smith: heading home with her dead rooster"
+  ]
+ },
+ {
+  "name": "Joe",
+  "first_chapter": 26,
+  "chapter_text": "book/chapters/026.txt",
+  "notes_this_chapter": [
+   "ch26 [event] Fort Smith: Jaundiced Sheriff July and deputy Roscoe sit by the one-cell jail; widowed Peach presses July to pursue Jake Spoon for killing Ben, the mayor.",
+   "ch26 [mention] Arkansas River: Roscoe and Joe fish for catfish there; brawling rivermen are the sheriff's biggest headache.",
+   "ch26 [end of chapter] with Elmira at Fort Smith: at July's home in town"
+  ]
+ },
+ {
+  "name": "Elmira",
+  "first_chapter": 26,
+  "chapter_text": "book/chapters/026.txt",
+  "notes_this_chapter": [
+   "ch26 [event] Fort Smith: Jaundiced Sheriff July and deputy Roscoe sit by the one-cell jail; widowed Peach presses July to pursue Jake Spoon for killing Ben, the mayor.",
+   "ch26 [mention] Missouri: July caught jaundice there at a trial; Elmira was once married there to Dee Boot.",
+   "ch26 [mention] Kansas: Elmira comes from there, so Fort Smith knows little of her past.",
+   "ch26 [end of chapter] with Joe at Fort Smith: at July's home in town"
+  ]
+ },
+ {
+  "name": "Roscoe Brown",
+  "first_chapter": 26,
+  "chapter_text": "book/chapters/026.txt",
+  "notes_this_chapter": [
+   "ch26 [event] Fort Smith: Jaundiced Sheriff July and deputy Roscoe sit by the one-cell jail; widowed Peach presses July to pursue Jake Spoon for killing Ben, the mayor.",
+   "ch26 [mention] Arkansas River: Roscoe and Joe fish for catfish there; brawling rivermen are the sheriff's biggest headache.",
+   "ch26 [mention] San Antonio: July expects to find Jake around there among friends; Roscoe notes those friends are famous Texas Rangers.",
+   "ch26 [mention] Texas: Roscoe frets about July tangling with Jake's Texas Ranger friends.",
+   "ch26 [end of chapter] with July Johnson at Fort Smith: July heading home from the jail; Roscoe stays on the jail porch"
+  ]
+ },
+ {
+  "name": "Dee Boot",
+  "first_chapter": 27,
+  "chapter_text": "book/chapters/027.txt",
+  "notes_this_chapter": [
+   "ch27 [mention] Kansas: Elmira was stranded there young and knew Jake and Dee Boot there as friends.",
+   "ch27 [mention] Dodge City: Elmira worked there as a prostitute; Jake teased she'd turn respectable.",
+   "ch27 [mention] Abilene: Scene of Elmira's wild years with Dee, his prank pie on a madam, and a girl's grim death on icy stairs.",
+   "ch27 [mention] St. Joseph: Dee staked Elmira to a fresh start there; she met July watching the trial where he testified."
+  ]
+ },
+ {
+  "name": "Fowler",
+  "first_chapter": 36,
+  "chapter_text": "book/chapters/036.txt",
+  "notes_this_chapter": [
+   "ch36 [event] Arkansas River: Elmira rides a whiskey traders' boat slowly upstream as it narrows into the plains; Big Zwey kills a trader in a fight over her and the body is dumped overboard.",
+   "ch36 [end of chapter] with Elmira, Big Zwey at Arkansas River: on a whiskey boat heading upriver from Fort Smith, now out on the plains"
+  ]
+ },
+ {
+  "name": "Big Zwey",
+  "first_chapter": 36,
+  "chapter_text": "book/chapters/036.txt",
+  "notes_this_chapter": [
+   "ch36 [event] Arkansas River: Elmira rides a whiskey traders' boat slowly upstream as it narrows into the plains; Big Zwey kills a trader in a fight over her and the body is dumped overboard.",
+   "ch36 [end of chapter] with Elmira, Fowler at Arkansas River: on a whiskey boat heading upriver from Fort Smith, now out on the plains"
+  ]
+ },
+ {
+  "name": "Janey",
+  "first_chapter": 43,
+  "chapter_text": "book/chapters/043.txt",
+  "notes_this_chapter": [
+   "ch43 [event] Texas: Roscoe worried he'd never find it; once there he finds the settlers unfriendly and heads southwest.",
+   "ch43 [event] Old Sam's cabin: A surly old man takes Roscoe's whiskey, gives him no supper and beats the girl he bought for skunk hides during the night.",
+   "ch43 [event] Creek where Janey joins Roscoe: Runaway Janey packs mud on Roscoe's wasp stings, catches a rabbit and a frog for lunch, and rides on with him.",
+   "ch43 [mention] San Antonio: Soldiers tell Roscoe to hold southwest to reach it; Janey says she walked all the way from there.",
+   "ch43 [mention] Fort Worth: A man called Bill was taking Janey there before trading her away.",
+   "ch43 [mention] Waco: Near there Bill got drunk with old Sam and traded Janey to him.",
+   "ch43 [end of chapter] with Roscoe Brown at Creek where Janey joins Roscoe: riding double southwest toward San Antonio, a few miles past old Sam's cabin in north Texas"
+  ]
+ },
+ {
+  "name": "Blue Duck",
+  "first_chapter": 45,
+  "chapter_text": "book/chapters/045.txt",
+  "notes_this_chapter": [
+   "ch45 [event] Lorena's camp: Lorena waits here for Jake; Augustus swims in the cold water hole, Blue Duck rides in to water his horse, threatens, then leaves.",
+   "ch45 [mention] Canadian River: Blue Duck threatens to mutilate Augustus if he ever comes north of it.",
+   "ch45 [end of chapter] with nobody at Lorena's camp: rode off over a ridge from the pool; destination unknown"
+  ]
+ },
+ {
+  "name": "Po Campo",
+  "first_chapter": 47,
+  "chapter_text": "book/chapters/047.txt",
+  "notes_this_chapter": [
+   "ch47 [event] Hat Creek outfit's cow camp: The herd stampedes at night toward the bluffs; at dawn Pea finds Newt afoot and the new cook Po Campo walks in with his donkey.",
+   "ch47 [end of chapter] with Newt at Hat Creek outfit's cow camp: walking the last few hundred yards to the wagon"
+  ]
+ },
+ {
+  "name": "Ermoke",
+  "first_chapter": 49,
+  "chapter_text": "book/chapters/049.txt",
+  "notes_this_chapter": [
+   "ch49 [event] Red-sand river crossing: Wide riverbed of boggy reddish sand with a thin brown stream; Ermoke and three renegades wait on the far side.",
+   "ch49 [event] Grassland beyond the sand river: Past the river the party stops at sundown and Ermoke's men assault Lorena before riding on by moonlight.",
+   "ch49 [end of chapter] with Blue Duck, Lorena at Grassland beyond the sand river: a short ride past a broad red-sand river, several days from the herd, waiting for moonrise"
+  ]
+ },
+ {
+  "name": "Luke",
+  "first_chapter": 53,
+  "chapter_text": "book/chapters/053.txt",
+  "notes_this_chapter": [
+   "ch53 [event] Arkansas River: Elmira rides the whiskey boat upriver, sensing Big Zwey watching her, until the cargo is unloaded into wagons.",
+   "ch53 [event] Bent's Fort: A shabby, busy trading post reeking of buffalo hides; Elmira lodges in a flea-ridden closet and agrees to let Big Zwey take her to Ogallala.",
+   "ch53 [event] Plains north of Bent's Fort: Elmira drives a patched hide wagon while the men hunt buffalo; she nearly overturns at a steep creek and shelters under the wagon in a storm.",
+   "ch53 [end of chapter] with Elmira, Big Zwey at Plains north of Bent's Fort: a few days out from Bent's Fort by hide wagon, bound for Ogallala"
+  ]
+ },
+ {
+  "name": "Monkey John",
+  "first_chapter": 55,
+  "chapter_text": "book/chapters/055.txt",
+  "notes_this_chapter": [
+   "ch55 [event] Blue Duck's camp on the Canadian: Lorena is held and abused in a filthy camp near a creek; Blue Duck kills a young Kiowa while gambling and sends Ermoke to ambush Gus.",
+   "ch55 [event] Canadian River: The men complain they are stranded on it without horses; Blue Duck expects Gus to come down it.",
+   "ch55 [end of chapter] with Lorena, Dog Face at Blue Duck's camp on the Canadian: camp on the Canadian River plains near a creek"
+  ]
+ },
+ {
+  "name": "Dog Face",
+  "first_chapter": 55,
+  "chapter_text": "book/chapters/055.txt",
+  "notes_this_chapter": [
+   "ch55 [event] Blue Duck's camp on the Canadian: Lorena is held and abused in a filthy camp near a creek; Blue Duck kills a young Kiowa while gambling and sends Ermoke to ambush Gus.",
+   "ch55 [event] Canadian River: The men complain they are stranded on it without horses; Blue Duck expects Gus to come down it.",
+   "ch55 [end of chapter] with Lorena, Monkey John at Blue Duck's camp on the Canadian: camp on the Canadian River plains near a creek"
+  ]
+ },
+ {
+  "name": "Roy Suggs",
+  "first_chapter": 64,
+  "chapter_text": "book/chapters/064.txt",
+  "notes_this_chapter": [
+   "ch64 [event] Dallas: Jake hears the Arkansas sheriff is in Texas, meets the Suggs brothers' regulating and bank-robbing schemes, and rides north with them.",
+   "ch64 [end of chapter] with Jake Spoon, Dan Suggs, Eddie Suggs, Frog Lip at Dallas: riding north from Dallas toward Kansas, at least a day out"
+  ]
+ },
+ {
+  "name": "Dan Suggs",
+  "first_chapter": 64,
+  "chapter_text": "book/chapters/064.txt",
+  "notes_this_chapter": [
+   "ch64 [event] Dallas: Jake hears the Arkansas sheriff is in Texas, meets the Suggs brothers' regulating and bank-robbing schemes, and rides north with them.",
+   "ch64 [mention] Kansas: The Suggs plan to tax trail herds at its river crossings and rob its banks; Jake means to leave them at a Kansas saloon.",
+   "ch64 [end of chapter] with Jake Spoon, Roy Suggs, Eddie Suggs, Frog Lip at Dallas: riding north from Dallas toward Kansas, at least a day out"
+  ]
+ },
+ {
+  "name": "Frog Lip",
+  "first_chapter": 64,
+  "chapter_text": "book/chapters/064.txt",
+  "notes_this_chapter": [
+   "ch64 [event] Dallas: Jake hears the Arkansas sheriff is in Texas, meets the Suggs brothers' regulating and bank-robbing schemes, and rides north with them.",
+   "ch64 [end of chapter] with Jake Spoon, Dan Suggs, Roy Suggs, Eddie Suggs at Dallas: riding north from Dallas toward Kansas, at least a day out"
+  ]
+ },
+ {
+  "name": "Eddie Suggs",
+  "first_chapter": 64,
+  "chapter_text": "book/chapters/064.txt",
+  "notes_this_chapter": [
+   "ch64 [event] Dallas: Jake hears the Arkansas sheriff is in Texas, meets the Suggs brothers' regulating and bank-robbing schemes, and rides north with them.",
+   "ch64 [end of chapter] with Jake Spoon, Dan Suggs, Roy Suggs, Frog Lip at Dallas: riding north from Dallas toward Kansas, at least a day out"
+  ]
+ },
+ {
+  "name": "Sally",
+  "first_chapter": 75,
+  "chapter_text": "book/chapters/075.txt",
+  "notes_this_chapter": [
+   "ch75 [event] Clara's ranch: Clara's horse ranch with a frame house; Bob lies paralyzed there, and Elmira arrives exhausted, gives birth to a boy, then slips away leaving him.",
+   "ch75 [end of chapter] with Clara, Betsey, Cholo, Bob Allen at Clara's ranch: at the ranch house on the Platte, Clara caring for Bob and Elmira's newborn boy"
+  ]
+ },
+ {
+  "name": "Clara",
+  "first_chapter": 75,
+  "chapter_text": "book/chapters/075.txt",
+  "notes_this_chapter": [
+   "ch75 [event] Clara's ranch: Clara's horse ranch with a frame house; Bob lies paralyzed there, and Elmira arrives exhausted, gives birth to a boy, then slips away leaving him.",
+   "ch75 [event] North Platte River: Elmira's wagon arrives along it from the west; Clara once washed her hair in its icy water and watches mists over it.",
+   "ch75 [event] Nebraska: Elmira asks if they have reached it yet; Clara followed Bob to its hard plains years ago.",
+   "ch75 [mention] Ogallala: Rough town twenty miles off where Clara seldom goes; Jules plays piano there, Cholo shops there, and Elmira hopes to find Dee Boot.",
+   "ch75 [mention] Arkansas: Elmira says she has come all the way from there.",
+   "ch75 [mention] Texas: Clara's piano and house money came from selling her parents' business there; she was once its most courted girl.",
+   "ch75 [mention] St. Louis: Clara ordered her piano from there.",
+   "ch75 [mention] Red River of the North: Jules the piano player once traded there before smallpox ruined his business.",
+   "ch75 [mention] Missouri: Grandparents of neighbor Maude Jones's children came from there to fetch them.",
+   "ch75 [mention] Cincinnati: Clara has an aunt there she writes to once or twice a year.",
+   "ch75 [mention] Wyoming: Clara loves watching morning light spread across the plains toward it.",
+   "ch75 [mention] England: Clara orders magazines from there and the East.",
+   "ch75 [end of chapter] with Sally, Betsey, Cholo, Bob Allen at Clara's ranch: at the ranch house on the Platte, Clara caring for Bob and Elmira's newborn boy"
+  ]
+ },
+ {
+  "name": "Cholo",
+  "first_chapter": 75,
+  "chapter_text": "book/chapters/075.txt",
+  "notes_this_chapter": [
+   "ch75 [event] Clara's ranch: Clara's horse ranch with a frame house; Bob lies paralyzed there, and Elmira arrives exhausted, gives birth to a boy, then slips away leaving him.",
+   "ch75 [mention] Ogallala: Rough town twenty miles off where Clara seldom goes; Jules plays piano there, Cholo shops there, and Elmira hopes to find Dee Boot.",
+   "ch75 [mention] Dismal River: Cholo survived an April blizzard there thanks to the buffalo coat Clara bought him.",
+   "ch75 [end of chapter] with Clara, Sally, Betsey, Bob Allen at Clara's ranch: at the ranch house on the Platte, Clara caring for Bob and Elmira's newborn boy"
+  ]
+ },
+ {
+  "name": "Bob Allen",
+  "first_chapter": 75,
+  "chapter_text": "book/chapters/075.txt",
+  "notes_this_chapter": [
+   "ch75 [event] Clara's ranch: Clara's horse ranch with a frame house; Bob lies paralyzed there, and Elmira arrives exhausted, gives birth to a boy, then slips away leaving him.",
+   "ch75 [event] Nebraska: Elmira asks if they have reached it yet; Clara followed Bob to its hard plains years ago.",
+   "ch75 [mention] Texas: Clara's piano and house money came from selling her parents' business there; she was once its most courted girl.",
+   "ch75 [end of chapter] with Clara, Sally, Betsey, Cholo at Clara's ranch: at the ranch house on the Platte, Clara caring for Bob and Elmira's newborn boy"
+  ]
+ },
+ {
+  "name": "Betsey",
+  "first_chapter": 75,
+  "chapter_text": "book/chapters/075.txt",
+  "notes_this_chapter": [
+   "ch75 [event] Clara's ranch: Clara's horse ranch with a frame house; Bob lies paralyzed there, and Elmira arrives exhausted, gives birth to a boy, then slips away leaving him.",
+   "ch75 [end of chapter] with Clara, Sally, Cholo, Bob Allen at Clara's ranch: at the ranch house on the Platte, Clara caring for Bob and Elmira's newborn boy"
+  ]
+ },
+ {
+  "name": "Martin",
+  "first_chapter": 77,
+  "chapter_text": "book/chapters/077.txt",
+  "notes_this_chapter": [
+   "ch77 [end of chapter] with Clara, Sally, Betsey, Cholo, Bob Allen at Clara's ranch: at the ranch house on the Platte road"
+  ]
+ },
+ {
+  "name": "Patrick Arandel",
+  "first_chapter": 80,
+  "chapter_text": "book/chapters/080.txt",
+  "notes_this_chapter": [
+   "ch80 [event] Ogallala: Elmira recovers at Dr. Arandel's house, learns Dee was hanged and buried on Boot Hill, rebuffs July's visit, then leaves with Zwey."
+  ]
+ },
+ {
+  "name": "Old Hugh Auld",
+  "first_chapter": 95,
+  "chapter_text": "book/chapters/095.txt",
+  "notes_this_chapter": [
+   "ch95 [event] Montana: Augustus hobbles southeast across open prairie and collapses; old trapper Hugh Auld finds him, warns the leg must come off, and lends his horse.",
+   "ch95 [mention] Lonesome Dove: Augustus tells the trapper he hails from this small town on the Rio Grande.",
+   "ch95 [end of chapter] with nobody at Montana: on foot somewhere on the plains northwest of Miles City, following Augustus"
+  ]
+ },
+ {
+  "name": "Dr. Mobley",
+  "first_chapter": 96,
+  "chapter_text": "book/chapters/096.txt",
+  "notes_this_chapter": [
+   "ch96 [event] Miles City: In a small room across from a saloon where a sick girl plays piano, Augustus wakes one-legged, refuses a second amputation, gives Call his last wishes, and dies.",
+   "ch96 [mention] Philadelphia: The piano-playing saloon girl reportedly studied music there."
+  ]
+ }
+]

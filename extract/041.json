@@ -1,0 +1,17 @@
+{
+  "chapter": 41,
+  "places": [
+    {"raw_name": "a little creek", "name": "Wagon-wreck creek near San Antonio", "kind": "creek", "type": "event", "characters": ["Lippy", "Newt", "Augustus", "Pea Eye", "Call", "Bolivar", "Jim Rainey", "Bill Spettle"], "note": "Bolivar's accidental shotgun blast stampedes the mules; the wagon flips off a cutbank onto Lippy, who survives, and Bol quits and heads home.", "fictional": true, "location_hint": "small creek just crossed by the herd, before it had passed San Antonio; about a week north of Lonesome Dove", "confidence": "medium"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": [], "note": "The accident happens before the herd has got past the city.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Bolivar", "Newt", "Lippy"], "note": "Bol plans to stop there on his way home to beat the dinner bell a few more times; he remembers easy life there.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Bolivar"], "note": "Bol has never been more than two days' ride from it and fears getting too far north to find his way back.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "his village", "name": "Bolivar's village", "kind": "town", "type": "mention", "characters": ["Bolivar"], "note": "Bol's wife and daughters live there; old men there reminisce about stealing Texas cattle.", "fictional": true, "location_hint": "in Mexico, about three days' ride beyond the Rio Grande from Lonesome Dove", "confidence": "medium"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Bolivar"], "note": "Bol's homeland; echoes of his dinner bell used to fade across into it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Augustus"], "note": "Augustus tells Bol he can rejoin them there if he changes his mind.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Newt", "Bolivar"], "note": "Newt worries they will lose everyone before getting out of it; Bol's friends once stole its cattle.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Newt", "Pea Eye", "Lippy", "Dish Boggett", "Jim Rainey", "Bill Spettle"], "at": "Wagon-wreck creek near San Antonio", "hint": "at the creek with a broken wagon, short of passing San Antonio"},
+    {"label": "Bolivar", "members": ["Bolivar"], "at": "", "hint": "riding south alone from near San Antonio toward Lonesome Dove and his Mexican village"}
+  ]
+}

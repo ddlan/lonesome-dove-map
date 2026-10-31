@@ -1,0 +1,14 @@
+{
+  "chapter": 13,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Lorena", "Jake Spoon", "Lippy", "Xavier Wanz", "Dish Boggett", "Jasper Fant"], "note": "At the Dry Bean saloon Jake charms Lorena, bathes in her room upstairs and wins her; afterward she stops taking customers.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande; the Dry Bean saloon has rooms upstairs and a back porch", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Lorena"], "note": "Jake guesses it is where Lorena belongs and promises to help her get there; they discuss routes.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith, Arkansas", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Jake Spoon", "Lorena"], "note": "Jake tells Lorena he killed a dentist there and is wanted by the law.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Lorena"], "note": "Lorena bought her now-fraying dresses there and has refused offers from men to take her back, since it lies the wrong way.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Jasper Fant"], "note": "Cowboys working along it, including Jasper Fant, hear that Lorena has quit her trade.", "fictional": false, "location_hint": "", "confidence": "medium"}
+  ],
+  "groups": [
+    {"label": "Lorena", "members": ["Lorena", "Lippy", "Xavier Wanz"], "at": "Lonesome Dove", "hint": "at the Dry Bean saloon, waiting for Jake to come back"},
+    {"label": "Jake Spoon", "members": ["Jake Spoon"], "at": "Mexico", "hint": "rode south with Call's party after his afternoon with Lorena"}
+  ]
+}

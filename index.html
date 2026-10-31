@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lonesome Dove Map</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Rye&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="map-wrap">
+  <svg id="base" aria-hidden="true"></svg>
+  <canvas id="fog"></canvas>
+  <svg id="map" aria-label="Map of places in Lonesome Dove"></svg>
+  <svg id="paper" aria-hidden="true"></svg>
+  <div id="vignette"></div>
+</div>
+
+<header id="cartouche">
+  <div class="c-rule"></div>
+  <h1>Lonesome Dove</h1>
+  <div class="c-sub">A Map of the Territories</div>
+  <div class="c-rule"></div>
+  <div id="c-chapter">Part I · Chapter 1</div>
+</header>
+
+<aside id="panel">
+  <button id="panel-toggle" aria-expanded="true" title="Show or hide the ledger">Ledger</button>
+  <div id="panel-body">
+    <section>
+      <h2>Map Options</h2>
+      <label class="opt"><input type="checkbox" id="opt-mentions"> Places only talked about</label>
+      <label class="opt"><input type="checkbox" id="opt-fog" checked> Fog over unknown country</label>
+      <label class="opt"><input type="checkbox" id="opt-trails" checked> Trails of each party</label>
+      <label class="opt sel">Follow
+        <select id="opt-char"><option value="">everyone</option></select>
+      </label>
+      <div id="who-card" hidden></div>
+    </section>
+    <section>
+      <h2 id="this-ch-title">In This Chapter</h2>
+      <ul id="this-ch"></ul>
+    </section>
+    <section id="legend-sec">
+      <h2>Parties</h2>
+      <ul id="legend"></ul>
+    </section>
+  </div>
+</aside>
+
+<footer id="controls">
+  <button id="prev" title="Previous chapter" aria-label="Previous chapter">‹</button>
+  <div id="slider-box">
+    <input type="range" id="slider" min="1" max="102" value="1" aria-label="Chapter">
+    <div id="part-ticks"></div>
+  </div>
+  <button id="next" title="Next chapter" aria-label="Next chapter">›</button>
+  <input type="number" id="ch-num" min="1" max="102" value="1" aria-label="Chapter number">
+</footer>
+
+<div id="popup" hidden>
+  <button id="popup-close" aria-label="Close">×</button>
+  <div id="popup-body"></div>
+</div>
+
+<div id="confirm" hidden>
+  <div class="confirm-card">
+    <p id="confirm-text"></p>
+    <div class="confirm-btns">
+      <button id="confirm-no">Stay put</button>
+      <button id="confirm-yes">Ride ahead</button>
+    </div>
+  </div>
+</div>
+
+<script src="vendor/d3.min.js"></script>
+<script src="data/basemap.js"></script>
+<script src="data/meta.js"></script>
+<script src="people.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

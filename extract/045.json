@@ -1,0 +1,26 @@
+{
+  "chapter": 45,
+  "places": [
+    {"raw_name": "the little pool", "name": "Lorena's camp", "kind": "camp", "type": "event", "characters": ["Lorena", "Augustus", "Blue Duck"], "note": "Lorena waits here for Jake; Augustus swims in the cold water hole, Blue Duck rides in to water his horse, threatens, then leaves.", "fictional": true, "location_hint": "camp by a small cold pool on rolling open plain in Texas, near the Hat Creek drive's cow camp; Jake left two days earlier", "confidence": "medium"},
+    {"raw_name": "that cow camp", "name": "Hat Creek outfit's cow camp", "kind": "camp", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "Augustus urges Lorena to come stay at the drive's camp after Blue Duck appears; she refuses because the men stare.", "fictional": true, "location_hint": "a short ride from Lorena's pool camp, on the trail north through Texas", "confidence": "medium"},
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena considers riding back there; she recalls feeling the same every day while living there.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena's dream destination, which she hears is cool; Augustus warns that life there is still just life.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "California", "name": "California", "kind": "state", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena realizes Jake will not take her there and proposes Augustus go with her instead.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Alabama", "name": "Alabama", "kind": "state", "type": "mention", "characters": ["Lorena"], "note": "Lorena's sickly brother stayed there with their grandmother.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "north of the Canadian", "name": "Canadian River", "kind": "river", "type": "mention", "characters": ["Blue Duck", "Augustus"], "note": "Blue Duck threatens to mutilate Augustus if he ever comes north of it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Red River country", "name": "Red River", "kind": "region", "type": "mention", "characters": ["Augustus"], "note": "Blue Duck's Comancheros used to raid settlers along it, killing adults and stealing horses and children.", "fictional": false, "location_hint": "Red River valley between Texas and Indian Territory", "confidence": "high"},
+    {"raw_name": "New Mexico", "name": "New Mexico", "kind": "region", "type": "mention", "characters": ["Augustus"], "note": "Western end of the range Blue Duck's gang raided.", "fictional": false, "location_hint": "New Mexico Territory", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Eastern end of the range Blue Duck's gang raided.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "Augustus says he is headed there, to a woman named Clara, rather than to California.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "Where Ogallala lies; Lorena scorns Augustus travelling that far for a woman.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Denver", "name": "Denver", "kind": "city", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "Augustus promises Lorena a train ticket to California if they both reach it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "this Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Lorena", "Augustus"], "note": "Lorena fears she will never leave it; Augustus says they are halfway out already.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "mention", "characters": ["Augustus"], "note": "Augustus says Texas does not extend much north of it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Galveston", "name": "Galveston", "kind": "city", "type": "mention", "characters": ["Augustus"], "note": "Augustus has heard of Blue Duck killing there and guesses he may be heading that way.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Lorena", "members": ["Lorena"], "at": "Lorena's camp", "hint": "alone at the pool, still waiting for Jake, near the drive's cow camp"},
+    {"label": "Augustus", "members": ["Augustus"], "at": "Lorena's camp", "hint": "riding back toward the cow camp from Lorena's pool"},
+    {"label": "Blue Duck", "members": ["Blue Duck"], "at": "Lorena's camp", "hint": "rode off over a ridge from the pool; destination unknown"}
+  ]
+}

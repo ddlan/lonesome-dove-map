@@ -1,0 +1,14 @@
+{
+  "chapter": 37,
+  "places": [
+    {"raw_name": "Louisa's farm", "name": "Louisa Brooks's farm", "kind": "ranch", "type": "event", "characters": ["Roscoe Brown", "Louisa Brooks"], "note": "Roscoe helps a widow pull stumps, eats corn bread, refuses her marriage offer, then is seduced at dawn before riding on west, promising to return.", "fictional": true, "location_hint": "clearing beside the Army trail from Fort Smith toward Texas, in pine woods of western Arkansas, about two days' slow ride from Fort Smith (first camp was only ten miles out)", "confidence": "medium"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Roscoe Brown", "Louisa Brooks"], "note": "Roscoe left it to chase July; he feels the townspeople pushed him out and longs for his jail settee.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "event", "characters": ["Roscoe Brown", "Louisa Brooks"], "note": "Louisa likes living there, though it falls short of Alabama; she guesses Elmira disliked it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Alabama", "name": "Alabama", "kind": "state", "type": "mention", "characters": ["Louisa Brooks"], "note": "Louisa's birthplace, where two of her husbands are buried and she ate her fill of chicken.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Roscoe Brown", "Louisa Brooks"], "note": "Where July went; Louisa calls it the most dangerous state and warns Roscoe of Comanches.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Roscoe Brown", "members": ["Roscoe Brown"], "at": "Louisa Brooks's farm", "hint": "just left Louisa's farm, riding west along the Army trail toward Texas"},
+    {"label": "Louisa Brooks", "members": ["Louisa Brooks"], "at": "Louisa Brooks's farm", "hint": "pulling stumps in her field"}
+  ]
+}

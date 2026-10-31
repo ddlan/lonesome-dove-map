@@ -1,0 +1,17 @@
+{
+  "chapter": 2,
+  "places": [
+    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Augustus", "Call", "Pea Eye", "Newt", "Bolivar", "Lorena"], "note": "Evening on the outfit's porch; piano music drifts from the Dry Bean saloon, where Lorena lives upstairs.", "fictional": true, "location_hint": "south Texas, north bank of the Rio Grande", "confidence": "high"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "event", "characters": ["Call"], "note": "Call walks the river alone every night, keeping old Ranger habits and watching for trouble that rarely comes.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "a crossing on the river", "name": "Comanche crossing near Lonesome Dove", "kind": "crossing", "type": "event", "characters": ["Call"], "note": "Old Comanche raiding ford by a salt lick; Call sits on a small bluff there nightly, once turning back a lone rider.", "fictional": true, "location_hint": "on the Rio Grande a short walk west of Lonesome Dove, near a salt lick", "confidence": "medium"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Call"], "note": "Comanches once raided into it via the crossing; a would-be intruder retreated back into it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the upper Brazos", "name": "Brazos River", "kind": "river", "type": "mention", "characters": ["Call"], "note": "Call reflects that few free Comanches remain even to threaten the upper Brazos.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Phantom Hill", "name": "Fort Phantom Hill", "kind": "fort", "type": "mention", "characters": ["Pea Eye", "Augustus"], "note": "Pea Eye recalls Call finding a large band of Indians near there in Ranger days.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus's booming voice is famous across the state.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Virginia", "name": "Virginia", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus spent a year at a college there and still boasts of his Greek and Latin.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the high plains", "name": "High Plains", "kind": "region", "type": "mention", "characters": ["Newt", "Call"], "note": "Newt dreams of riding off with the Captain to this grassy country he has only heard about.", "fictional": false, "location_hint": "", "confidence": "low"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Augustus", "Call", "Pea Eye", "Newt", "Bolivar"], "at": "Lonesome Dove", "hint": "at their house; Augustus heading down to the Dry Bean saloon"}
+  ]
+}

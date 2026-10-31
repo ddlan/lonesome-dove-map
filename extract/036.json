@@ -1,0 +1,11 @@
+{
+  "chapter": 36,
+  "places": [
+    {"raw_name": "the Arkansas", "name": "Arkansas River", "kind": "river", "type": "event", "characters": ["Elmira", "Fowler", "Big Zwey"], "note": "Elmira rides a whiskey traders' boat slowly upstream as it narrows into the plains; Big Zwey kills a trader in a fight over her and the body is dumped overboard.", "fictional": false, "location_hint": "upstream of Fort Smith, where the river leaves the trees and cuts through open plains", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Elmira"], "note": "Elmira slipped away from there unseen to escape being July Johnson's wife.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Elmira"], "note": "Where Elmira was once shown a woman rescued from Indian captivity.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Elmira on the whiskey boat", "members": ["Elmira", "Fowler", "Big Zwey"], "at": "Arkansas River", "hint": "on a whiskey boat heading upriver from Fort Smith, now out on the plains"}
+  ]
+}

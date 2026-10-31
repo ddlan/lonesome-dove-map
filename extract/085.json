@@ -1,0 +1,15 @@
+{
+  "chapter": 85,
+  "places": [
+    {"raw_name": "town", "name": "Ogallala", "kind": "town", "type": "event", "characters": ["Newt", "Ben Rainey", "Jimmy Rainey", "Pete Spettle", "Pea Eye", "Augustus", "Call", "Dish Boggett", "Lippy"], "note": "Boys wander the long street; scout Dixon clubs Dish and quirts Newt, and Call nearly beats him to death by a blacksmith's anvil.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "camp", "name": "Hat Creek herd camp near Ogallala", "kind": "camp", "type": "event", "characters": ["Po Campo", "Jasper Fant", "Needle Nelson", "Soupy Jones", "Augustus", "Call"], "note": "Hungover hands straggle back; Po Campo grudgingly lends the wagon and predicts a dry stretch ahead.", "fictional": true, "location_hint": "on slopes north of the Platte, a few miles from Ogallala, Nebraska", "confidence": "medium"},
+    {"raw_name": "the river", "name": "North Platte River", "kind": "river", "type": "mention", "characters": ["Po Campo"], "note": "Po Campo urges buying a water barrel to fill there before dry country.", "fictional": false, "location_hint": "the river near Ogallala", "confidence": "medium"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Soupy Jones"], "note": "Soupy, hungover, says if this is Nebraska's best he'll pass.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Newt"], "note": "Newt suggests saving candy for Montana, fearing there will be no more towns.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Call", "members": ["Call"], "at": "Ogallala", "hint": "riding out of town toward the herd after the fight"},
+    {"label": "Hands in town", "members": ["Augustus", "Dish Boggett", "Newt", "Ben Rainey", "Jimmy Rainey", "Pete Spettle", "Pea Eye", "Lippy"], "at": "Ogallala", "hint": "on the main street near the livery stable and blacksmith shop"},
+    {"label": "Hat Creek herd", "members": ["Po Campo", "Jasper Fant", "Needle Nelson", "Soupy Jones"], "at": "Hat Creek herd camp near Ogallala", "hint": "north of the Platte a few miles from town"}
+  ]
+}

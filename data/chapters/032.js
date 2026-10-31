@@ -1,0 +1,1 @@
+LD.chapter({"n":32,"places":[],"apps":[{"p":"nueces-river","t":"e","c":["Jake Spoon","Lorena"],"note":"In the lightning storm Lorena's mare bolts; Jake drags her from the mesquite to shelter under the bank as lightning splits their first-camp tree across the water."}],"pos":[{"m":["Jake Spoon","Lorena"],"lat":28.4,"lng":-99.2,"at":"nueces-river","rv":"Nueces"}]});

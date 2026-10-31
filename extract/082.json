@@ -1,0 +1,15 @@
+{
+  "chapter": 82,
+  "places": [
+    {"raw_name": "the lots", "name": "Clara's ranch", "kind": "ranch", "type": "event", "characters": ["July Johnson", "Clara", "Cholo", "Sally", "Betsey", "Martin"], "note": "Clara gelds fifteen colts with Cholo and July, presses July to bond with Martin, and he decides to stay rather than chase Elmira.", "fictional": true, "location_hint": "horse ranch on the Platte about twenty miles from Ogallala, Nebraska", "confidence": "high"},
+    {"raw_name": "the Platte", "name": "North Platte River", "kind": "river", "type": "event", "characters": ["Clara", "July Johnson"], "note": "Clara watches three cranes fly along its silvery course at sunset.", "fictional": false, "location_hint": "river beside Clara's ranch", "confidence": "medium"},
+    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Clara"], "note": "As a girl there, Clara feared Comanche raids that carried off children.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Clara", "July Johnson"], "note": "Clara chides July that he has never lived anywhere but there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Missouri", "name": "Missouri", "kind": "state", "type": "mention", "characters": ["July Johnson"], "note": "July met Elmira around a three-day trial there, about two weeks before marrying.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Richmond, Virginia", "name": "Richmond", "kind": "city", "type": "mention", "characters": ["Clara"], "note": "Clara sometimes dreams of moving there to her aunt and writing books.", "fictional": false, "location_hint": "Richmond, Virginia", "confidence": "high"},
+    {"raw_name": "Indian country", "name": "Sioux country", "kind": "region", "type": "mention", "characters": ["July Johnson", "Clara"], "note": "Elmira has gone into it; Clara says Red Cloud, once fed from their horses, is now fed up.", "fictional": false, "location_hint": "plains east of Ogallala, Nebraska, toward which Elmira and Zwey headed", "confidence": "low"}
+  ],
+  "groups": [
+    {"label": "Clara's household with July", "members": ["Clara", "July Johnson", "Sally", "Betsey", "Cholo", "Martin"], "at": "Clara's ranch", "hint": "July has decided to stay on at the ranch on the Platte"}
+  ]
+}

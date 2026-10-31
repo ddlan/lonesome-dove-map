@@ -1,0 +1,13 @@
+{
+  "chapter": 57,
+  "places": [
+    {"raw_name": "the camp", "name": "Blue Duck's camp on the Canadian", "kind": "camp", "type": "event", "characters": ["Lorena", "Dog Face", "Monkey John", "Blue Duck", "Augustus", "July Johnson"], "note": "Blue Duck abandons Lorena to the Kiowas, who mutilate the dying Dog Face; Augustus and July charge in and Augustus kills the whole gang.", "fictional": true, "location_hint": "on the plains a short way from the Canadian River, Texas Panhandle, some eight miles downriver (east) of July's canyon-mouth camp", "confidence": "medium"},
+    {"raw_name": "the river", "name": "Canadian River", "kind": "river", "type": "event", "characters": ["Blue Duck", "Augustus"], "note": "Blue Duck rides off toward it; Augustus warns that a dangerous man is loose along it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Augustus", "July Johnson"], "note": "Augustus tells shaken July this carnage differs from an Arkansas saloon brawl.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Augustus and Lorena", "members": ["Augustus", "Lorena"], "at": "Blue Duck's camp on the Canadian", "hint": "at the outlaw camp near the Canadian; Lorena too weak to travel fast"},
+    {"label": "July Johnson", "members": ["July Johnson"], "at": "Canadian River", "hint": "riding back west over the ridges toward his party's canyon-mouth camp"},
+    {"label": "Blue Duck", "members": ["Blue Duck"], "at": "Canadian River", "hint": "rode off from the camp toward the river, whereabouts unknown"}
+  ]
+}

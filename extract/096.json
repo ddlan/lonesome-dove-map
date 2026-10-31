@@ -1,0 +1,186 @@
+{
+  "chapter": 96,
+  "places": [
+    {
+      "raw_name": "Miles City",
+      "name": "Miles City",
+      "kind": "town",
+      "type": "event",
+      "characters": [
+        "Augustus",
+        "Call",
+        "Dr. Mobley",
+        "Dora"
+      ],
+      "note": "In a small room across from a saloon where a sick girl plays piano, Augustus wakes one-legged, refuses a second amputation, gives Call his last wishes, and dies.",
+      "fictional": false,
+      "location_hint": "on the Yellowstone River",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "the Musselshell River",
+      "name": "Musselshell River",
+      "kind": "river",
+      "type": "mention",
+      "characters": [
+        "Call",
+        "Augustus",
+        "Pea Eye"
+      ],
+      "note": "Call learns from the old trapper this is where Augustus and Pea were besieged; he found Pea's rifle and gear there.",
+      "fictional": false,
+      "location_hint": "Montana, north/northwest of Miles City and the Yellowstone",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Montana prairie",
+      "name": "Montana",
+      "kind": "region",
+      "type": "event",
+      "characters": [
+        "Augustus",
+        "Call"
+      ],
+      "note": "Seen from the sickroom window; Augustus calls it fresh and fine but foresees it spoiled by their coming.",
+      "fictional": false,
+      "location_hint": "Montana Territory",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Clara's orchard / the south Guadalupe",
+      "name": "Clara's orchard",
+      "kind": "other",
+      "type": "mention",
+      "characters": [
+        "Augustus",
+        "Call",
+        "Clara"
+      ],
+      "note": "A live-oak grove where Augustus and Clara once picnicked; he asks Call to carry his body back and bury him there.",
+      "fictional": true,
+      "location_hint": "Texas, a small grove of live oaks on the south Guadalupe River; Call and Augustus had stopped there briefly",
+      "confidence": "medium"
+    },
+    {
+      "raw_name": "the Guadalupe River",
+      "name": "Guadalupe River",
+      "kind": "river",
+      "type": "mention",
+      "characters": [
+        "Augustus",
+        "Call"
+      ],
+      "note": "River beside the grove Augustus names as his burial place.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "the Yellowstone",
+      "name": "Yellowstone River",
+      "kind": "river",
+      "type": "mention",
+      "characters": [
+        "Augustus"
+      ],
+      "note": "Augustus tells the doctor his half of the herd should be north of it by now.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Nebraska",
+      "name": "Nebraska",
+      "kind": "state",
+      "type": "mention",
+      "characters": [
+        "Call",
+        "Augustus",
+        "Clara",
+        "Lorena"
+      ],
+      "note": "Call reminds Augustus two women there would care for him; Augustus asks Call to stop there and tell them, leaving notes for both.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Texas",
+      "name": "Texas",
+      "kind": "state",
+      "type": "mention",
+      "characters": [
+        "Augustus",
+        "Call"
+      ],
+      "note": "Augustus wants his body hauled back there, where his best happiness was.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "San Antonio",
+      "name": "San Antonio",
+      "kind": "city",
+      "type": "mention",
+      "characters": [
+        "Augustus"
+      ],
+      "note": "Augustus keeps funds in a bank there.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Philadelphia",
+      "name": "Philadelphia",
+      "kind": "city",
+      "type": "mention",
+      "characters": [
+        "Dr. Mobley",
+        "Dora"
+      ],
+      "note": "The piano-playing saloon girl reportedly studied music there.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Lonesome Dove",
+      "name": "Lonesome Dove",
+      "kind": "town",
+      "type": "mention",
+      "characters": [
+        "Augustus",
+        "Call"
+      ],
+      "note": "Augustus made his odd sign there; he wants it set over his grave.",
+      "fictional": true,
+      "location_hint": "south Texas border town on the Rio Grande",
+      "confidence": "high"
+    },
+    {
+      "raw_name": "Tennessee",
+      "name": "Tennessee",
+      "kind": "state",
+      "type": "mention",
+      "characters": [
+        "Augustus"
+      ],
+      "note": "Whiskey and his final mist remind Augustus of its valley mornings.",
+      "fictional": false,
+      "location_hint": "",
+      "confidence": "high"
+    }
+  ],
+  "groups": [
+    {
+      "label": "Call",
+      "members": [
+        "Call"
+      ],
+      "at": "Miles City",
+      "hint": "at Augustus's deathbed in a room across from a saloon"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "chapter": 24,
+  "places": [
+    {"raw_name": "the camp / the wagon", "name": "Hat Creek herd camp near Lonesome Dove", "kind": "camp", "type": "event", "characters": ["Newt", "Call", "Augustus", "Deets", "Lippy", "Dish Boggett", "Pea Eye", "Needle Nelson", "Bert Borum", "Bolivar", "Ben Rainey", "Jasper Fant"], "note": "Hands ready gear in the heat; Lippy is put over the horses; Call culls stock with Deets, names him scout, and keeps a mottled little bull.", "fictional": true, "location_hint": "herd camp in the mesquite brush a couple of miles outside Lonesome Dove, south Texas border", "confidence": "medium"},
+    {"raw_name": "Montana / Montany", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Call", "Augustus"], "note": "Call wants bulls for stocking it; Augustus jokes Call could end up its governor passing laws against cattle thieves.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Call", "Deets"], "note": "Most of the herd was taken from there, though the odd little bull wandered in on his own.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Canada", "name": "Canada", "kind": "country", "type": "mention", "characters": ["Augustus", "Ben Rainey"], "note": "Augustus tells Ben Rainey it is the land of the northern lights.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the border", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Call"], "note": "Call feels no fondness for the border country and wishes they had left long ago.", "fictional": false, "location_hint": "Texas–Mexico border", "confidence": "low"},
+    {"raw_name": "the plains", "name": "High Plains", "kind": "region", "type": "mention", "characters": ["Call"], "note": "Call longs for the dangerous open plains.", "fictional": false, "location_hint": "open plains of north and west Texas and beyond", "confidence": "low"},
+    {"raw_name": "Lonesome Dove (implied by Wanz)", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Augustus", "Call"], "note": "Augustus asks if Call isn't sorry to leave the place they pacified, and wonders how Xavier will manage.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande", "confidence": "medium"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit", "members": ["Call", "Augustus", "Deets", "Newt", "Pea Eye", "Dish Boggett", "Lippy", "Bolivar", "Needle Nelson", "Bert Borum", "Ben Rainey", "Jasper Fant", "Soupy Jones"], "at": "Hat Creek herd camp near Lonesome Dove", "hint": "about to start the herd north once the day's heat eases"}
+  ]
+}

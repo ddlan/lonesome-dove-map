@@ -1,0 +1,17 @@
+{
+  "chapter": 83,
+  "places": [
+    {"raw_name": "the brown prairies toward the Platte", "name": "Hat Creek herd camp south of the Platte", "kind": "camp", "type": "event", "characters": ["Call", "Augustus", "Deets", "Lorena", "Newt", "Jasper Fant", "Needle Nelson", "Lippy", "Po Campo", "Soupy Jones", "Ben Rainey", "Jimmy Rainey", "Captain Weaver", "Dixon"], "note": "Hands talk of Ogallala's whores; Deets grows gloomy about the north; a drunk cavalry captain tries to requisition the outfit's horses and is refused.", "fictional": true, "location_hint": "brown prairie about ten miles south of the Platte, within a week of Ogallala, not far from Clara's house; Nebraska", "confidence": "medium"},
+    {"raw_name": "the Platte", "name": "North Platte River", "kind": "river", "type": "mention", "characters": ["Deets", "Augustus", "Call"], "note": "Deets reports it ten miles ahead, sparking whoops; the herd expects to strike it the next day.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Call", "Augustus", "Jasper Fant", "Lippy", "Needle Nelson", "Newt", "Captain Weaver"], "note": "The hands obsess over visiting its whores; the cavalry says a horse seller lives west of it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Clara's house", "name": "Clara's ranch", "kind": "ranch", "type": "mention", "characters": ["Augustus", "Lorena"], "note": "Augustus knows it is near and promises to introduce Lorena there, though she dreads it.", "fictional": true, "location_hint": "near the Platte by Ogallala, Nebraska", "confidence": "medium"},
+    {"raw_name": "the Rio Grande", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Newt", "Deets", "Augustus"], "note": "Newt recalls a Mexican girl wading it; Deets wishes he were back on the river, where he was once shot.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Augustus", "Call", "Dixon"], "note": "Augustus and Call tell the soldiers they're bound there; the scout sneers they'll never live to see it.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Illinois", "name": "Illinois", "kind": "state", "type": "mention", "characters": ["Augustus"], "note": "Augustus jokingly asks the cavalry if they are in Illinois.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the state of Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Augustus", "Call", "Captain Weaver"], "note": "Augustus boasts of twenty years fighting Comanches there; Weaver says they'll wish they had kept their cattle there.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Hat Creek outfit with the herd", "members": ["Call", "Augustus", "Lorena", "Deets", "Newt", "Pea Eye", "Dish Boggett", "Jasper Fant", "Needle Nelson", "Lippy", "Po Campo", "Soupy Jones", "Ben Rainey", "Jimmy Rainey"], "at": "Hat Creek herd camp south of the Platte", "hint": "about a day's drive south of the Platte, within a week of Ogallala"},
+    {"label": "Captain Weaver's cavalry troop", "members": ["Captain Weaver", "Dixon"], "at": "Hat Creek herd camp south of the Platte", "hint": "rode away from the ridge north of the herd after being refused horses; hunting Red Cloud"}
+  ]
+}

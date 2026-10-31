@@ -1,0 +1,20 @@
+{
+  "chapter": 65,
+  "places": [
+    {"raw_name": "the Canadian", "name": "July's canyon-mouth camp on the Canadian", "kind": "camp", "type": "mention", "characters": ["July Johnson", "Roscoe", "Joe", "Janey"], "note": "July is haunted day and night by the three companions he left buried there.", "fictional": true, "location_hint": "canyon mouth on the Canadian River, Texas Panhandle, west of Adobe Walls", "confidence": "medium"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson", "Roscoe", "Joe"], "note": "July wishes Roscoe and Joe were back where they belonged, but can no longer picture living there himself.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Cimarron", "name": "Cimarron River", "kind": "river", "type": "event", "characters": ["July Johnson"], "note": "July rides north past it; three days beyond, his horse goes lame and the river is too far back to reach on foot.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "where the horse lay", "name": "July's dead horse", "kind": "other", "type": "event", "characters": ["July Johnson"], "note": "A cactus thorn lames July's horse; he shoots it, leaves his saddle, and walks east.", "fictional": true, "location_hint": "open prairie about three days' ride north of the Cimarron River, four days north of the Canadian; probably southwestern Kansas", "confidence": "low"},
+    {"raw_name": "a little grove of low trees", "name": "July's spring grove", "kind": "other", "type": "event", "characters": ["July Johnson"], "note": "After a despairing night contemplating suicide, July finds a small spring-fed pool under trees, drinks, bathes and eats a badger.", "fictional": true, "location_hint": "on the prairie about two days' walk east of where his horse died, north of the Cimarron; probably southwestern Kansas", "confidence": "low"},
+    {"raw_name": "a running creek", "name": "Creek on a wagon track", "kind": "creek", "type": "event", "characters": ["July Johnson"], "note": "July follows a south-running wagon track to a flowing creek but finds no wagon.", "fictional": true, "location_hint": "two days' walk east of the spring grove, north of the Cimarron, roughly five days' travel southwest of Dodge City", "confidence": "low"},
+    {"raw_name": "a small cow herd", "name": "Johns's trail herd", "kind": "camp", "type": "event", "characters": ["July Johnson", "Johns"], "note": "Trail boss Johns sells walking July a poor bay horse for forty dollars and gives him directions.", "fictional": true, "location_hint": "on the plains a day east of the creek, about four days' bareback ride from Dodge City, likely southwest Kansas", "confidence": "low"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["July Johnson"], "note": "July recalls cold boyhood nights under quilts in the family cabin there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "California", "name": "California", "kind": "state", "type": "mention", "characters": ["Johns"], "note": "The puzzled trail boss asks whether July walked in from there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Johns"], "note": "Few men come walking out of it, which makes the trail boss suspicious.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Dodge City", "name": "Dodge City", "kind": "town", "type": "event", "characters": ["July Johnson"], "note": "Sore from riding bareback, July trots into town four days after buying the horse.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "July Johnson", "members": ["July Johnson"], "at": "Dodge City", "hint": "just arrived on a bareback bay bought from the Johns herd"},
+    {"label": "Johns outfit", "members": ["Johns"], "at": "Johns's trail herd", "hint": "small herd six weeks on the trail, about four days' ride southwest of Dodge City"}
+  ]
+}

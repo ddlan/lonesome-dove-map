@@ -1,0 +1,20 @@
+{
+  "chapter": 53,
+  "places": [
+    {"raw_name": "the river", "name": "Arkansas River", "kind": "river", "type": "event", "characters": ["Elmira", "Big Zwey", "Fowler", "Luke"], "note": "Elmira rides the whiskey boat upriver, sensing Big Zwey watching her, until the cargo is unloaded into wagons.", "fictional": false, "location_hint": "river route the whiskey boat followed west toward Bent's Fort", "confidence": "medium"},
+    {"raw_name": "Bents' Fort", "name": "Bent's Fort", "kind": "fort", "type": "event", "characters": ["Elmira", "Fowler", "Big Zwey", "Luke"], "note": "A shabby, busy trading post reeking of buffalo hides; Elmira lodges in a flea-ridden closet and agrees to let Big Zwey take her to Ogallala.", "fictional": false, "location_hint": "trading post on the plains reached by wagon from the whiskey boat's landing", "confidence": "high"},
+    {"raw_name": "the great, empty prairie", "name": "Plains north of Bent's Fort", "kind": "region", "type": "event", "characters": ["Elmira", "Big Zwey", "Luke"], "note": "Elmira drives a patched hide wagon while the men hunt buffalo; she nearly overturns at a steep creek and shelters under the wagon in a storm.", "fictional": true, "location_hint": "open prairie a few days' wagon travel out from Bent's Fort, heading toward Ogallala on the Platte", "confidence": "low"},
+    {"raw_name": "Ogallala", "name": "Ogallala", "kind": "town", "type": "mention", "characters": ["Elmira", "Fowler", "Big Zwey"], "note": "Fowler names it as a northern town on the Platte; Big Zwey offers to take Elmira there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "the Platte", "name": "North Platte River", "kind": "river", "type": "mention", "characters": ["Fowler"], "note": "Fowler says Ogallala lies on it.", "fictional": false, "location_hint": "", "confidence": "medium"},
+    {"raw_name": "Nebraska", "name": "Nebraska", "kind": "state", "type": "mention", "characters": ["Elmira"], "note": "Elmira doubts the rickety hide wagon can reach it.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Fowler"], "note": "Fowler says there are towns there but it is far away.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Elmira", "July Johnson"], "note": "Elmira felt she had to escape it at once, fearing July would return.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["Elmira"], "note": "In the cow towns, she reflects, one could always take a stage from Dodge to elsewhere.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Abilene", "name": "Abilene", "kind": "town", "type": "mention", "characters": ["Elmira"], "note": "Mentioned as the alternative cow town reachable by stage from Dodge.", "fictional": false, "location_hint": "Kansas cattle town", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Elmira", "Fowler"], "note": "Hide haulers could take her there, but Elmira refuses, having been there before.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Elmira with Big Zwey and Luke", "members": ["Elmira", "Big Zwey", "Luke"], "at": "Plains north of Bent's Fort", "hint": "a few days out from Bent's Fort by hide wagon, bound for Ogallala"},
+    {"label": "Fowler", "members": ["Fowler"], "at": "Bent's Fort", "hint": "planning to go back downriver the following week"}
+  ]
+}

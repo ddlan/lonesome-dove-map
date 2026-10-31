@@ -1,0 +1,18 @@
+{
+  "chapter": 50,
+  "places": [
+    {"raw_name": "Fort Worth", "name": "Fort Worth", "kind": "town", "type": "event", "characters": ["July Johnson", "Joe"], "note": "Bustling cow town where July mails his letter home and receives Peach's news that Elmira has left; he rides off without searching the saloons for Jake.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "a little river", "name": "River where July and Joe saw buffalo", "kind": "river", "type": "event", "characters": ["July Johnson", "Joe"], "note": "July and Joe chase a small band of eight buffalo and watch them cross a small river.", "fictional": true, "location_hint": "in increasingly open country in north Texas, south of the Red River, a day's ride or less before Fort Worth", "confidence": "low"},
+    {"raw_name": "camped", "name": "July's camp east of Fort Worth", "kind": "camp", "type": "event", "characters": ["July Johnson", "Joe"], "note": "Heading back east to find Roscoe, they camp on the silent plains; July lies awake longing for Elmira.", "fictional": true, "location_hint": "about a half-evening's ride east of Fort Worth, back along the way they came", "confidence": "medium"},
+    {"raw_name": "the Red River", "name": "Red River", "kind": "river", "type": "mention", "characters": ["July Johnson", "Joe"], "note": "July's letter reports they have crossed it into Texas.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["July Johnson", "Joe", "Jake Spoon"], "note": "July and Joe are now in Texas; July wonders if Jake will skip going on to south Texas.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["July Johnson", "Joe", "Elmira", "Roscoe", "Peach"], "note": "Home they left; Peach writes that Elmira departed soon after, and Roscoe has set out to bring word.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["July Johnson"], "note": "The postal clerk guesses July is from there by his letter's address.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Little Rock", "name": "Little Rock", "kind": "city", "type": "mention", "characters": ["July Johnson", "Peach"], "note": "July's brother Ben found Peach there and lived there two months courting her.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Dodge", "name": "Dodge City", "kind": "town", "type": "mention", "characters": ["July Johnson", "Elmira", "Joe"], "note": "Elmira told July her first man Dee Boot died of smallpox there; Joe doubts he is dead.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["July Johnson"], "note": "July imagines Elmira might have gone toward it, just a few stars north.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "July Johnson and Joe", "members": ["July Johnson", "Joe"], "at": "July's camp east of Fort Worth", "hint": "camped on the plains a couple of hours' ride east of Fort Worth, turning back to look for Roscoe and Elmira"}
+  ]
+}

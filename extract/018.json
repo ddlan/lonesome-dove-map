@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "places": [
+    {"raw_name": "camp", "name": "Hat Creek cow camp", "kind": "camp", "type": "event", "characters": ["Augustus", "Call", "Jake Spoon", "Bolivar", "Allen O'Brien", "Sean O'Brien", "Jasper Fant", "Newt", "Swift Bill Spettle", "Needle Nelson", "Bert Borum", "Pea Eye", "Deets", "Dish Boggett"], "note": "Brush camp where the herd is held and branded; Bolivar's snake stew upsets Jasper; Jake declines the drive and Augustus suggests bringing Lorie.", "fictional": true, "location_hint": "a long valley near the Rio Grande, about five miles from Lonesome Dove, out in the brush", "confidence": "medium"},
+    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "event", "characters": ["Call", "Needle Nelson", "Bert Borum", "Pea Eye", "Deets", "Dish Boggett"], "note": "Each night Call crosses it with a few hands to bring back Mexican longhorns; he rides toward it for the last drag.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Call", "Jake Spoon"], "note": "Source of the two or three hundred wild cattle taken each night; Jake won't ride there tonight.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "town", "name": "Lonesome Dove", "kind": "town", "type": "mention", "characters": ["Augustus", "Jake Spoon"], "note": "Augustus spent the day there; Jake leaves camp to ride back to it.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande, about five miles from the cow camp", "confidence": "high"},
+    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "mention", "characters": ["Jake Spoon", "Augustus"], "note": "Jake says he may stay there instead; Augustus doubts Lorie wants to go back where she came from.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "San Francisco", "name": "San Francisco", "kind": "city", "type": "mention", "characters": ["Augustus", "Jake Spoon"], "note": "Augustus reports Lorie is eager to go there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Montany", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Call", "Augustus", "Jake Spoon"], "note": "Jake, who called it a cowman's paradise, now balks at the drive; Call hopes to start north Monday.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
+    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "mention", "characters": ["Call"], "note": "No one in the outfit has been farther north than this.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Arkansas", "name": "Arkansas", "kind": "state", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake reckons the drive at least beats hanging there.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Denver", "name": "Denver", "kind": "city", "type": "mention", "characters": ["Augustus", "Jake Spoon"], "note": "Augustus suggests stopping there; Jake wishes he had gone there rather than Fort Smith.", "fictional": false, "location_hint": "", "confidence": "high"},
+    {"raw_name": "Fort Smith", "name": "Fort Smith", "kind": "town", "type": "mention", "characters": ["Jake Spoon"], "note": "Jake regrets having gone there instead of Denver.", "fictional": false, "location_hint": "", "confidence": "high"}
+  ],
+  "groups": [
+    {"label": "Night raiding party", "members": ["Call", "Needle Nelson", "Bert Borum", "Pea Eye", "Deets", "Dish Boggett"], "at": "Rio Grande", "hint": "riding from the cow camp to the river to cross into Mexico for a last drag of cattle"},
+    {"label": "Cow camp", "members": ["Augustus", "Bolivar", "Newt", "Allen O'Brien", "Sean O'Brien", "Jasper Fant", "Swift Bill Spettle"], "at": "Hat Creek cow camp", "hint": "holding the herd in a valley near the river about five miles from town"},
+    {"label": "Jake Spoon", "members": ["Jake Spoon"], "at": "Lonesome Dove", "hint": "riding from the cow camp back to town"}
+  ]
+}
