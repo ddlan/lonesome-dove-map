@@ -1,0 +1,203 @@
+{
+ "missed": [
+  {
+   "chapter": 65,
+   "place": "Canadian River",
+   "hits": 2,
+   "decision": "dismiss",
+   "reason": "Refers to the burial site already recorded under its placeholder camp name."
+  }
+ ],
+ "missed_broad": [
+  {
+   "chapter": 4,
+   "place": "Mexico",
+   "hits": 1,
+   "decision": "dismiss",
+   "reason": "Figure of speech, not a place reference."
+  },
+  {
+   "chapter": 11,
+   "place": "United States",
+   "hits": 1,
+   "decision": "dismiss",
+   "reason": "Part of a joke, not a place reference."
+  }
+ ],
+ "unsupported": [
+  {
+   "chapter": 12,
+   "place": "Rio Grande",
+   "raw_name": "the river (upriver)",
+   "type": "mention",
+   "decision": "keep",
+   "reason": "Text says 'upriver' from Lonesome Dove; identified from context."
+  },
+  {
+   "chapter": 51,
+   "place": "Marcy Trail",
+   "raw_name": "the trail Captain Marcy laid out",
+   "type": "mention",
+   "decision": "keep",
+   "reason": "Described rather than named; the name is ours."
+  },
+  {
+   "chapter": 70,
+   "place": "Kansas",
+   "raw_name": "the herd's camp south of the Arkansas",
+   "type": "event",
+   "decision": "keep",
+   "reason": "Camp position inferred from the nearby river crossing."
+  }
+ ],
+ "unknown_named": [
+  {
+   "phrase": "Barlow",
+   "chapters": [
+    94
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Bowie",
+   "chapters": [
+    2
+   ],
+   "decision": "dismiss",
+   "reason": "a knife"
+  },
+  {
+   "phrase": "Chinese",
+   "chapters": [
+    8
+   ],
+   "decision": "dismiss",
+   "reason": "nationality"
+  },
+  {
+   "phrase": "Chiny",
+   "chapters": [
+    6
+   ],
+   "decision": "dismiss",
+   "reason": "figure of speech (digging to China)"
+  },
+  {
+   "phrase": "Down Miles City",
+   "chapters": [
+    95
+   ],
+   "decision": "dismiss",
+   "reason": "known place picked up with an extra word"
+  },
+  {
+   "phrase": "Greasy",
+   "chapters": [
+    101
+   ],
+   "decision": "dismiss",
+   "reason": "a mule"
+  },
+  {
+   "phrase": "Johnny",
+   "chapters": [
+    42
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Lorie",
+   "chapters": [
+    4,
+    7,
+    13,
+    17,
+    20,
+    21,
+    23,
+    32,
+    72,
+    96
+   ],
+   "decision": "dismiss",
+   "reason": "nickname"
+  },
+  {
+   "phrase": "Maggie",
+   "chapters": [
+    46,
+    79
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Mary Cole",
+   "chapters": [
+    12
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Mary Pumphrey",
+   "chapters": [
+    22
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Mc",
+   "chapters": [
+    102
+   ],
+   "decision": "dismiss",
+   "reason": "part of a surname"
+  },
+  {
+   "phrase": "Mouse",
+   "chapters": [
+    11,
+    47,
+    67
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Negroes",
+   "chapters": [
+    89
+   ],
+   "decision": "dismiss",
+   "reason": "people"
+  },
+  {
+   "phrase": "Shanghai Pierce",
+   "chapters": [
+    9
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Shaw",
+   "chapters": [
+    84
+   ],
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Texans",
+   "chapters": [
+    11
+   ],
+   "decision": "dismiss",
+   "reason": "people"
+  }
+ ]
+}

@@ -45,6 +45,32 @@ An AI reader went through every chapter in full, following `scripts/EXTRACTION_R
 
 A test batch of 10 chapters was checked by hand before the rest was processed.
 
+### 2b. Rules-based cross-check
+Reading handles what rules can't: unnamed places ("the river", "a day north of the Nueces"), event vs. mention, who is where, and notes. Rules handle what reading can't promise, which is that nothing named was skipped. `scripts/check_extraction.py` compares the two deterministically, chapter by chapter.
+
+**Missed places.** It flags a known place named in a chapter's text that the chapter's data doesn't include.
+- Matching is case-sensitive and whole-word, using each place's name plus known variant spellings ("San Antone", "St. Jo", "Purgatory", "Staked Plains").
+- Context filters remove false matches:
+  - names of peoples ("the Cheyenne", "Ogallala Sioux") and an animal named after a city
+  - adjectives ("Texas bull", "Texas Ranger")
+  - addresses ("Fort Smith, Arkansas" doesn't count as a separate Arkansas reference)
+  - a different branch of a river ("Fork of the Red River"), "New Mexico" vs. "Mexico", and "the San Antonio" (the river, not the city)
+
+**Unsupported entries.** It flags a real place recorded for a chapter when neither its name, a variant, nor the reader's wording appears in that chapter's text. These are possible inventions, or places identified only from context.
+
+**Places on no list.** It also catches places no reader recorded anywhere, using two patterns:
+- place-shaped names, such as "Fort X", "X Creek", "X Springs" and "X Crossing"
+- capitalized names after words like "in", "to" and "from", minus known places and recorded characters
+
+**Review.** Each flag is checked in context and gets a recorded decision (add, dismiss or keep) with a reason in `scripts/check_decisions.json`. Later runs show only new flags.
+
+**First run.** After tuning out the false-match patterns, 23 flags remained:
+- **4 possible misses:** 1 was real (a passing mention, now added) and 3 were figurative or already covered.
+- **3 unsupported entries:** all correct, identified from context.
+- **17 names on no list:** all people, animals, objects or a figure of speech.
+
+The readers missed no named place that rules could find.
+
 ### 3. Names and coordinates
 - **Merging names:** `scripts/aliases.json` merges plain synonyms and spellings ("New York City" = "New York"). It never merges an unnamed placeholder with a place the book only identifies later, because that would leak the later reveal into earlier chapters.
 - **Character names:** `scripts/char_aliases.json` does the same for characters ("Gus" = "Augustus").
@@ -139,6 +165,7 @@ Following a character shows a short description card. Each blurb is written with
 | Follow sweep | Every name in the Follow menu at several chapters gets a trail, a marker or a "no known whereabouts" note | Pass |
 | Zoom/pan benchmark | Scripted wheel zoom and drag pan, measuring frame times | Steady 60fps |
 | Copied-wording check | Committed files vs. book text (9-word runs) | Clean |
+| Extraction cross-check | Rules-based check for missed, unsupported and unlisted places (`scripts/check_extraction.py`) | 1 miss found and added; 0 flags unreviewed |
 
 The test scripts currently live outside the repo; adding them under `tests/` is an open item.
 
@@ -162,6 +189,7 @@ The build scripts expect the chapter text in `book/chapters/` (not committed; re
 
 ```bash
 python3 scripts/split_chapters.py path/to/book.epub book/chapters
+python3 scripts/check_extraction.py   # rules-based cross-check → extract/_check.json
 python3 scripts/build.py          # → data/chapters/, data/meta.js, REVIEW.md
 python3 scripts/build_people.py   # → data/people/
 ```

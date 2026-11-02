@@ -1,0 +1,136 @@
+{
+ "_note": "Reviewed results of scripts/check_extraction.py. 'add' = entry added to the extract; 'dismiss' = not a real miss; 'keep' = flagged entry confirmed as correct.",
+ "missed": [
+  {
+   "chapter": 10,
+   "place": "Montana",
+   "decision": "add",
+   "reason": "Passing joke about the destination; added as a mention."
+  },
+  {
+   "chapter": 65,
+   "place": "Canadian River",
+   "decision": "dismiss",
+   "reason": "Refers to the burial site already recorded under its placeholder camp name."
+  },
+  {
+   "chapter": 4,
+   "place": "Mexico",
+   "decision": "dismiss",
+   "reason": "Figure of speech, not a place reference."
+  },
+  {
+   "chapter": 11,
+   "place": "United States",
+   "decision": "dismiss",
+   "reason": "Part of a joke, not a place reference."
+  }
+ ],
+ "unsupported": [
+  {
+   "chapter": 12,
+   "place": "Rio Grande",
+   "decision": "keep",
+   "reason": "Text says 'upriver' from Lonesome Dove; identified from context."
+  },
+  {
+   "chapter": 51,
+   "place": "Marcy Trail",
+   "decision": "keep",
+   "reason": "Described rather than named; the name is ours."
+  },
+  {
+   "chapter": 70,
+   "place": "Kansas",
+   "decision": "keep",
+   "reason": "Camp position inferred from the nearby river crossing."
+  }
+ ],
+ "unknown_named": [
+  {
+   "phrase": "Barlow",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Bowie",
+   "decision": "dismiss",
+   "reason": "a knife"
+  },
+  {
+   "phrase": "Chinese",
+   "decision": "dismiss",
+   "reason": "nationality"
+  },
+  {
+   "phrase": "Chiny",
+   "decision": "dismiss",
+   "reason": "figure of speech (digging to China)"
+  },
+  {
+   "phrase": "Down Miles City",
+   "decision": "dismiss",
+   "reason": "known place picked up with an extra word"
+  },
+  {
+   "phrase": "Greasy",
+   "decision": "dismiss",
+   "reason": "a mule"
+  },
+  {
+   "phrase": "Johnny",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Lorie",
+   "decision": "dismiss",
+   "reason": "nickname"
+  },
+  {
+   "phrase": "Maggie",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Mary Cole",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Mary Pumphrey",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Mc",
+   "decision": "dismiss",
+   "reason": "part of a surname"
+  },
+  {
+   "phrase": "Mouse",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Negroes",
+   "decision": "dismiss",
+   "reason": "people"
+  },
+  {
+   "phrase": "Shanghai Pierce",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Shaw",
+   "decision": "dismiss",
+   "reason": "a person"
+  },
+  {
+   "phrase": "Texans",
+   "decision": "dismiss",
+   "reason": "people"
+  }
+ ]
+}

@@ -1,18 +1,179 @@
 {
-  "chapter": 10,
-  "places": [
-    {"raw_name": "the river", "name": "Rio Grande", "kind": "river", "type": "event", "characters": ["Call", "Augustus", "Jake Spoon", "Deets", "Pea Eye", "Newt", "Dish Boggett"], "note": "The outfit crosses it and trots southeast by moonlight; Newt keeps track only by knowing the river lies to his left.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "event", "characters": ["Call", "Augustus", "Jake Spoon", "Deets", "Pea Eye", "Newt", "Dish Boggett"], "note": "Newt's first night raid there; the dark empty brush country holds wild longhorns that bolt from the riders.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Pedro Flores's range", "name": "Hacienda Flores", "kind": "ranch", "type": "event", "characters": ["Call", "Augustus", "Jake Spoon", "Deets", "Pea Eye", "Newt", "Dish Boggett"], "note": "The riders skirt an out camp and the big camp; Augustus calls it northern Mexico's best-armed ranch; the outfit splits to take the horse herd.", "fictional": true, "location_hint": "northern Mexico (Coahuila), a few hours' trot southeast of the Rio Grande crossing near Lonesome Dove; horse herd lies south of the big camp", "confidence": "medium"},
-    {"raw_name": "an out camp... burnt out", "name": "Flores wranglers' burnt-out camp", "kind": "camp", "type": "event", "characters": ["Call", "Deets", "Newt", "Allen O'Brien", "Sean O'Brien"], "note": "In a roofless hut by a broken corral, Call, Deets and Newt find two lost, hungry Irish brothers and promise to send horses back for them.", "fictional": true, "location_hint": "on Hacienda Flores land, two or three miles south of where the riders turned past the big camp; brush and desert country southeast of the Rio Grande", "confidence": "low"},
-    {"raw_name": "Mexico City", "name": "Mexico City", "kind": "city", "type": "mention", "characters": ["Augustus"], "note": "Augustus mocks Call's caution, saying they needn't detour by way of Mexico City.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "mention", "characters": ["Call"], "note": "Call reflects that in his time it was easy to get killed there.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Ireland", "name": "Ireland", "kind": "country", "type": "mention", "characters": ["Sean O'Brien", "Allen O'Brien"], "note": "The O'Brien brothers are Irish and miss their potatoes.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Galveston", "name": "Galveston", "kind": "city", "type": "mention", "characters": ["Allen O'Brien", "Call"], "note": "The Irishmen's intended destination; Call says they badly overshot it.", "fictional": false, "location_hint": "", "confidence": "high"}
-  ],
-  "groups": [
-    {"label": "Call's detail", "members": ["Call", "Deets", "Newt"], "at": "Hacienda Flores", "hint": "loping south from the burnt-out wrangler camp toward the Flores horse herd"},
-    {"label": "Augustus's detail", "members": ["Augustus", "Jake Spoon", "Pea Eye", "Dish Boggett"], "at": "Hacienda Flores", "hint": "sent to take the Flores horse herd, south of the big camp"},
-    {"label": "O'Brien brothers", "members": ["Allen O'Brien", "Sean O'Brien"], "at": "Flores wranglers' burnt-out camp", "hint": "waiting with a hobbled mule and a donkey for horses to be sent back"}
-  ]
+ "chapter": 10,
+ "places": [
+  {
+   "raw_name": "the river",
+   "name": "Rio Grande",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Augustus",
+    "Jake Spoon",
+    "Deets",
+    "Pea Eye",
+    "Newt",
+    "Dish Boggett"
+   ],
+   "note": "The outfit crosses it and trots southeast by moonlight; Newt keeps track only by knowing the river lies to his left.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Mexico",
+   "name": "Mexico",
+   "kind": "country",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Augustus",
+    "Jake Spoon",
+    "Deets",
+    "Pea Eye",
+    "Newt",
+    "Dish Boggett"
+   ],
+   "note": "Newt's first night raid there; the dark empty brush country holds wild longhorns that bolt from the riders.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Pedro Flores's range",
+   "name": "Hacienda Flores",
+   "kind": "ranch",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Augustus",
+    "Jake Spoon",
+    "Deets",
+    "Pea Eye",
+    "Newt",
+    "Dish Boggett"
+   ],
+   "note": "The riders skirt an out camp and the big camp; Augustus calls it northern Mexico's best-armed ranch; the outfit splits to take the horse herd.",
+   "fictional": true,
+   "location_hint": "northern Mexico (Coahuila), a few hours' trot southeast of the Rio Grande crossing near Lonesome Dove; horse herd lies south of the big camp",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "an out camp... burnt out",
+   "name": "Flores wranglers' burnt-out camp",
+   "kind": "camp",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Deets",
+    "Newt",
+    "Allen O'Brien",
+    "Sean O'Brien"
+   ],
+   "note": "In a roofless hut by a broken corral, Call, Deets and Newt find two lost, hungry Irish brothers and promise to send horses back for them.",
+   "fictional": true,
+   "location_hint": "on Hacienda Flores land, two or three miles south of where the riders turned past the big camp; brush and desert country southeast of the Rio Grande",
+   "confidence": "low"
+  },
+  {
+   "raw_name": "Mexico City",
+   "name": "Mexico City",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Augustus mocks Call's caution, saying they needn't detour by way of Mexico City.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Texas",
+   "name": "Texas",
+   "kind": "state",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call reflects that in his time it was easy to get killed there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Ireland",
+   "name": "Ireland",
+   "kind": "country",
+   "type": "mention",
+   "characters": [
+    "Sean O'Brien",
+    "Allen O'Brien"
+   ],
+   "note": "The O'Brien brothers are Irish and miss their potatoes.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Galveston",
+   "name": "Galveston",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Allen O'Brien",
+    "Call"
+   ],
+   "note": "The Irishmen's intended destination; Call says they badly overshot it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Montana",
+   "name": "Montana",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Augustus"
+   ],
+   "note": "Watching skittish wild longhorns bolt, Augustus jokes that cattle this fast could reach it in a week.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high",
+   "added_by": "rules cross-check"
+  }
+ ],
+ "groups": [
+  {
+   "label": "Call's detail",
+   "members": [
+    "Call",
+    "Deets",
+    "Newt"
+   ],
+   "at": "Hacienda Flores",
+   "hint": "loping south from the burnt-out wrangler camp toward the Flores horse herd"
+  },
+  {
+   "label": "Augustus's detail",
+   "members": [
+    "Augustus",
+    "Jake Spoon",
+    "Pea Eye",
+    "Dish Boggett"
+   ],
+   "at": "Hacienda Flores",
+   "hint": "sent to take the Flores horse herd, south of the big camp"
+  },
+  {
+   "label": "O'Brien brothers",
+   "members": [
+    "Allen O'Brien",
+    "Sean O'Brien"
+   ],
+   "at": "Flores wranglers' burnt-out camp",
+   "hint": "waiting with a hobbled mule and a donkey for horses to be sent back"
+  }
+ ]
 }
