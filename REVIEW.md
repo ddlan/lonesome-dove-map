@@ -176,7 +176,7 @@ Things worth a second look, sorted by chapter. Only read up to the chapter you'v
 ## Chapter 61
 - **Trail herds' crossing on the Canadian** (written as "four great herds of cattle") — unsure which place this is
 - **Trail herds' crossing on the Canadian** — position estimated (±12 mi)
-- **Augustus and Lorena's ridge camp** (written as "a long ridge about two miles to the north") — unsure which place this is
+- **Augustus and Lorena's ridge camp** (written as "a ridge north of the river") — unsure which place this is
 - **Augustus and Lorena's ridge camp** — position estimated (±12 mi)
 
 ## Chapter 62

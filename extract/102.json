@@ -1,40 +1,438 @@
 {
-  "chapter": 102,
-  "places": [
-    {"raw_name": "the Platte", "name": "North Platte River", "kind": "river", "type": "event", "characters": ["Call"], "note": "Call heads south from it with the coffin, still stung by Clara's words.", "fictional": false, "location_hint": "", "confidence": "medium"},
-    {"raw_name": "the Republican", "name": "Republican River", "kind": "river", "type": "event", "characters": ["Call"], "note": "Crossed during Call's first week south of Clara's ranch.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Kansas", "name": "Kansas", "kind": "state", "type": "event", "characters": ["Call"], "note": "Call meets eight trail herds in a week; bosses give him wire to patch the buggy, but endless questions drive him west.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "the Rockies", "name": "Rocky Mountains", "kind": "mountain", "type": "mention", "characters": ["Call"], "note": "Trappers Call meets are coming east from them.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Colorado", "name": "Colorado", "kind": "state", "type": "event", "characters": ["Call"], "note": "Call turns west into it to avoid the busy cattle trails.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Denver", "name": "Denver", "kind": "city", "type": "event", "characters": ["Call"], "note": "Call wires Wilbarger's brother about his death; a crowd gathers at the coffin and an undertaker pesters him.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "the Purgatoire River, or Picketwire", "name": "Purgatoire River", "kind": "river", "type": "event", "characters": ["Call", "Charles Goodnight"], "note": "Camped here, Call is visited by Goodnight, who reports Blue Duck captured and due to hang at Santa Rosa.", "fictional": false, "location_hint": "southeastern Colorado", "confidence": "high"},
-    {"raw_name": "Pueblo", "name": "Pueblo", "kind": "town", "type": "mention", "characters": ["Charles Goodnight"], "note": "Goodnight says he has business interests there.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "the Canadian", "name": "Canadian River", "kind": "river", "type": "mention", "characters": ["Charles Goodnight", "Call", "Augustus"], "note": "Goodnight credits Gus with wiping out an outlaw gang there, though Blue Duck slipped away.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Raton Pass", "name": "Raton Pass", "kind": "mountain", "type": "event", "characters": ["Call"], "note": "Call takes the buggy over it down onto the New Mexico plain.", "fictional": false, "location_hint": "on the Colorado-New Mexico line", "confidence": "high"},
-    {"raw_name": "the Sangre de Cristo", "name": "Sangre de Cristo Mountains", "kind": "mountain", "type": "event", "characters": ["Call"], "note": "Snow still caps its peaks to the north as Call descends.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "New Mexican plain", "name": "New Mexico", "kind": "region", "type": "event", "characters": ["Call"], "note": "Call is struck by its vast open reach and later follows the Pecos south through it.", "fictional": false, "location_hint": "New Mexico Territory", "confidence": "high"},
-    {"raw_name": "Santa Rosa", "name": "Santa Rosa", "kind": "town", "type": "event", "characters": ["Call", "Blue Duck", "Sheriff Owensby", "Decker"], "note": "Crowds gather for the hanging; Blue Duck dives from the courthouse's third floor, dragging Deputy Decker to his death, and is strung up dead.", "fictional": false, "location_hint": "New Mexico, on the Pecos side of the plains", "confidence": "high"},
-    {"raw_name": "the Bosque Redondo", "name": "Bosque Redondo", "kind": "region", "type": "event", "characters": ["Call", "Blue Duck"], "note": "Blue Duck murdered two families there before capture; Call passes through following the Pecos.", "fictional": false, "location_hint": "on the Pecos River in eastern New Mexico, near Fort Sumner", "confidence": "high"},
-    {"raw_name": "the llano", "name": "Llano Estacado", "kind": "region", "type": "event", "characters": ["Call", "Blue Duck"], "note": "Blue Duck long terrorized it; in a drought year its grass is brown and shimmering with mirages as Call crosses.", "fictional": false, "location_hint": "", "confidence": "medium"},
-    {"raw_name": "the Pecos", "name": "Pecos River", "kind": "river", "type": "event", "characters": ["Call"], "note": "Call follows it south despite Indian risk; its alkali water sickens him after the buggy wrecks in it.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "a day above Horsehead Crossing", "name": "Pecos ambush site", "kind": "other", "type": "event", "characters": ["Call"], "note": "Call is shot from ambush, wrecks the buggy and coffin in the river, kills one attacker and rigs a travois from Gus's sign.", "fictional": true, "location_hint": "on the Pecos River in west Texas, about a day's travel upstream (north) of Horsehead Crossing", "confidence": "medium"},
-    {"raw_name": "Horsehead Crossing", "name": "Horsehead Crossing", "kind": "crossing", "type": "mention", "characters": ["Call"], "note": "Landmark a day downstream of where Call is ambushed.", "fictional": false, "location_hint": "Pecos River crossing in west Texas", "confidence": "high"},
-    {"raw_name": "the Colorado", "name": "Colorado River (Texas)", "kind": "river", "type": "event", "characters": ["Call"], "note": "After the mule gives out, the dun hauls the travois all the way to it; after that the danger eases.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "the San Saba", "name": "San Saba River", "kind": "river", "type": "mention", "characters": ["Call"], "note": "Call doubts he can even reach it or the Colorado across the dry country.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Austin", "name": "Austin", "kind": "city", "type": "mention", "characters": ["Call"], "note": "Call figures the bullet must stay in him until he reaches it.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "the little hill with the live oaks above the Guadalupe", "name": "Gus's grave on the Guadalupe", "kind": "other", "type": "event", "characters": ["Call", "Augustus"], "note": "Gus's chosen picnic spot; Call buries him with the old company sign as a marker and scratches his initials on it.", "fictional": true, "location_hint": "small hill with live oaks and a pool above the Guadalupe River in the limestone hills; a ridge trail leads down toward San Antonio", "confidence": "medium"},
-    {"raw_name": "the Guadalupe", "name": "Guadalupe River", "kind": "river", "type": "event", "characters": ["Call"], "note": "Call's destination; he digs Gus's grave on a hill above it.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "San Antonio", "name": "San Antonio", "kind": "city", "type": "event", "characters": ["Call"], "note": "Settlers head for it; Call rides there seeking a doctor but skirts the town, unnerved by crowds.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "the green Nueces", "name": "Nueces River", "kind": "river", "type": "event", "characters": ["Call"], "note": "Crossing it, Call recalls the snakes and the Irish boy who died there.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Lonesome Dove", "name": "Lonesome Dove", "kind": "town", "type": "event", "characters": ["Call", "Bolivar", "Dillard Brawley"], "note": "Call returns in August to find Bolivar living in the ruined house and the Dry Bean burned, Wanz dying inside it.", "fictional": true, "location_hint": "south Texas border town on the Rio Grande, in the chaparral south of the Nueces", "confidence": "high"},
-    {"raw_name": "Hat Creek", "name": "Hat Creek", "kind": "creek", "type": "event", "characters": ["Call"], "note": "Call walks across its dry bed into the main street.", "fictional": true, "location_hint": "runs past the Hat Creek outfit's barn at Lonesome Dove", "confidence": "medium"},
-    {"raw_name": "the Rio Grande", "name": "Rio Grande", "kind": "river", "type": "mention", "characters": ["Bolivar"], "note": "Bolivar's evening dinner bell rings out across it.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Mexico", "name": "Mexico", "kind": "country", "type": "mention", "characters": ["Bolivar"], "note": "Bolivar's return home went badly, so he walked back to Lonesome Dove.", "fictional": false, "location_hint": "", "confidence": "high"},
-    {"raw_name": "Montana", "name": "Montana", "kind": "region", "type": "mention", "characters": ["Call"], "note": "Call says the rest of the outfit is there; he is too worn to ride back.", "fictional": false, "location_hint": "Montana Territory", "confidence": "high"},
-    {"raw_name": "Texas", "name": "Texas", "kind": "state", "type": "event", "characters": ["Call"], "note": "Call finally brings Gus home; he remembers first coming there as an orphaned boy in a wagon.", "fictional": false, "location_hint": "", "confidence": "high"}
-  ],
-  "groups": [
-    {"label": "Call", "members": ["Call"], "at": "Lonesome Dove", "hint": "back at the old Hat Creek place, wounded, standing at the ashes of the Dry Bean"},
-    {"label": "Lonesome Dove residents", "members": ["Bolivar", "Dillard Brawley"], "at": "Lonesome Dove", "hint": "Bolivar living in the abandoned Hat Creek house"}
-  ]
+ "chapter": 102,
+ "places": [
+  {
+   "raw_name": "the Platte",
+   "name": "North Platte River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call heads south from it with the coffin, still stung by Clara's words.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "the Republican",
+   "name": "Republican River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Crossed during Call's first week south of Clara's ranch.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Kansas",
+   "name": "Kansas",
+   "kind": "state",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call meets eight trail herds in a week; bosses give him wire to patch the buggy, but endless questions drive him west.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Rockies",
+   "name": "Rocky Mountains",
+   "kind": "mountain",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Trappers Call meets are coming east from them.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Colorado",
+   "name": "Colorado",
+   "kind": "state",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call turns west into it to avoid the busy cattle trails.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Denver",
+   "name": "Denver",
+   "kind": "city",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call wires Wilbarger's brother about his death; a crowd gathers at the coffin and an undertaker pesters him.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Purgatoire River, or Picketwire",
+   "name": "Purgatoire River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Charles Goodnight"
+   ],
+   "note": "Camped here, Call is visited by Goodnight, who reports Blue Duck captured and due to hang at Santa Rosa.",
+   "fictional": false,
+   "location_hint": "southeastern Colorado",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Pueblo",
+   "name": "Pueblo",
+   "kind": "town",
+   "type": "mention",
+   "characters": [
+    "Charles Goodnight"
+   ],
+   "note": "Goodnight says he has business interests there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Canadian",
+   "name": "Canadian River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Charles Goodnight",
+    "Call",
+    "Augustus"
+   ],
+   "note": "Goodnight credits Gus with wiping out an outlaw gang there, though Blue Duck slipped away.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Raton Pass",
+   "name": "Raton Pass",
+   "kind": "mountain",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call takes the buggy over it down onto the New Mexico plain.",
+   "fictional": false,
+   "location_hint": "on the Colorado-New Mexico line",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Sangre de Cristo",
+   "name": "Sangre de Cristo Mountains",
+   "kind": "mountain",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Snow still caps its peaks to the north as Call descends.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "New Mexican plain",
+   "name": "New Mexico",
+   "kind": "region",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call is struck by its vast open reach and later follows the Pecos south through it.",
+   "fictional": false,
+   "location_hint": "New Mexico Territory",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Santa Rosa",
+   "name": "Santa Rosa",
+   "kind": "town",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Blue Duck",
+    "Sheriff Owensby",
+    "Decker"
+   ],
+   "note": "Crowds gather for the hanging; Blue Duck dives from the courthouse's third floor, dragging Deputy Decker to his death, and is strung up dead.",
+   "fictional": false,
+   "location_hint": "New Mexico, on the Pecos side of the plains",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Bosque Redondo",
+   "name": "Bosque Redondo",
+   "kind": "region",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Blue Duck"
+   ],
+   "note": "Blue Duck murdered two families there before capture; Call passes through following the Pecos.",
+   "fictional": false,
+   "location_hint": "on the Pecos River in eastern New Mexico, near Fort Sumner",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the llano",
+   "name": "Llano Estacado",
+   "kind": "region",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Blue Duck"
+   ],
+   "note": "Blue Duck long terrorized it; in a drought year its grass is brown and shimmering with mirages as Call crosses.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "the Pecos",
+   "name": "Pecos River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call follows it south despite Indian risk; its alkali water sickens him after the buggy wrecks in it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "a day above Horsehead Crossing",
+   "name": "Pecos ambush site",
+   "kind": "other",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call is shot from ambush, wrecks the buggy and coffin in the river, kills one attacker and rigs a travois from Gus's sign.",
+   "fictional": true,
+   "location_hint": "on the Pecos River in west Texas, about a day's travel upstream (north) of Horsehead Crossing",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "Horsehead Crossing",
+   "name": "Horsehead Crossing",
+   "kind": "crossing",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Landmark a day downstream of where Call is ambushed.",
+   "fictional": false,
+   "location_hint": "Pecos River crossing in west Texas",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the Colorado",
+   "name": "Colorado River (Texas)",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "After the mule gives out, the dun hauls the travois all the way to it; after that the danger eases.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the San Saba",
+   "name": "San Saba River",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call doubts he can even reach it or the Colorado across the dry country.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Austin",
+   "name": "Austin",
+   "kind": "city",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call figures the bullet must stay in him until he reaches it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "hill above the Guadalupe",
+   "name": "Gus's grave on the Guadalupe",
+   "kind": "other",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Augustus"
+   ],
+   "note": "Gus's chosen picnic spot; Call buries him with the old company sign as a marker and scratches his initials on it.",
+   "fictional": true,
+   "location_hint": "small hill with live oaks and a pool above the Guadalupe River in the limestone hills; a ridge trail leads down toward San Antonio",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "the Guadalupe",
+   "name": "Guadalupe River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call's destination; he digs Gus's grave on a hill above it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "San Antonio",
+   "name": "San Antonio",
+   "kind": "city",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Settlers head for it; Call rides there seeking a doctor but skirts the town, unnerved by crowds.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "the green Nueces",
+   "name": "Nueces River",
+   "kind": "river",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Crossing it, Call recalls the snakes and the Irish boy who died there.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Lonesome Dove",
+   "name": "Lonesome Dove",
+   "kind": "town",
+   "type": "event",
+   "characters": [
+    "Call",
+    "Bolivar",
+    "Dillard Brawley"
+   ],
+   "note": "Call returns in August to find Bolivar living in the ruined house and the Dry Bean burned, Wanz dying inside it.",
+   "fictional": true,
+   "location_hint": "south Texas border town on the Rio Grande, in the chaparral south of the Nueces",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Hat Creek",
+   "name": "Hat Creek",
+   "kind": "creek",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call walks across its dry bed into the main street.",
+   "fictional": true,
+   "location_hint": "runs past the Hat Creek outfit's barn at Lonesome Dove",
+   "confidence": "medium"
+  },
+  {
+   "raw_name": "the Rio Grande",
+   "name": "Rio Grande",
+   "kind": "river",
+   "type": "mention",
+   "characters": [
+    "Bolivar"
+   ],
+   "note": "Bolivar's evening dinner bell rings out across it.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Mexico",
+   "name": "Mexico",
+   "kind": "country",
+   "type": "mention",
+   "characters": [
+    "Bolivar"
+   ],
+   "note": "Bolivar's return home went badly, so he walked back to Lonesome Dove.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Montana",
+   "name": "Montana",
+   "kind": "region",
+   "type": "mention",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call says the rest of the outfit is there; he is too worn to ride back.",
+   "fictional": false,
+   "location_hint": "Montana Territory",
+   "confidence": "high"
+  },
+  {
+   "raw_name": "Texas",
+   "name": "Texas",
+   "kind": "state",
+   "type": "event",
+   "characters": [
+    "Call"
+   ],
+   "note": "Call finally brings Gus home; he remembers first coming there as an orphaned boy in a wagon.",
+   "fictional": false,
+   "location_hint": "",
+   "confidence": "high"
+  }
+ ],
+ "groups": [
+  {
+   "label": "Call",
+   "members": [
+    "Call"
+   ],
+   "at": "Lonesome Dove",
+   "hint": "back at the old Hat Creek place, wounded, standing at the ashes of the Dry Bean"
+  },
+  {
+   "label": "Lonesome Dove residents",
+   "members": [
+    "Bolivar",
+    "Dillard Brawley"
+   ],
+   "at": "Lonesome Dove",
+   "hint": "Bolivar living in the abandoned Hat Creek house"
+  }
+ ]
 }
