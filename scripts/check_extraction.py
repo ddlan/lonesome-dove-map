@@ -24,29 +24,16 @@ aliases = json.loads((S / "aliases.json").read_text())
 alias_lower = {k.lower(): v for k, v in aliases.items()}
 gaz_lower = {k.lower(): k for k in gaz}
 
+# Book-specific tuning lives in book.json → "check".
+BOOK = json.loads((ROOT / "book.json").read_text())
+TOTAL = BOOK["chapters"]
+CK = BOOK.get("check", {})
 # Ways the book (or plain English) refers to a place, beyond its gazetteer name.
-VARIANTS = {
-    "San Antonio": ["San Antone"],
-    "St. Joseph": ["St. Jo", "Saint Jo"],
-    "Purgatoire River": ["Purgatory", "Purgatoire"],
-    "Llano Estacado": ["Staked Plains", "Staked Plain", "Llano"],
-    "Indian Territory": ["the Nations", "Indian Nations", "Oklahoma Territory"],
-    "New York": ["New York City"],
-    "Washington, D.C.": ["Washington City"],
-    "Mexico City": ["Mexico City"],
-    "Fort Phantom Hill": ["Phantom Hill"],
-    "Doan's Store": ["Doan's", "Doans"],
-    "Bent's Fort": ["Bents' Fort", "Bent's Fort"],
-    "Marias River": ["Marais", "Marias"],
-    "Prairie Dog Town Fork Red River": ["Prairie Dog Fork", "Prairie Dog Town Fork"],
-    "Clear Fork Brazos River": ["Clear Fork"],
-    "Colorado River (Texas)": [],
-    "Rio Grande": ["Rio Grande", "Río Grande"],
-}
-# Words that are also ordinary names or too generic to match on their own.
-SKIP_BARE = {"Red", "Milk", "Powder", "Wind", "Salt", "Platte"}
+VARIANTS = CK.get("variants", {})
+# River names that are also ordinary words: "the Red" only counts when not followed by a lowercase word.
+SKIP_BARE = set(CK.get("skip_bare_rivers", []))
 # States whose name is also a river: match the state only when not "the X" / "X River".
-STATE_RIVER = {"Arkansas", "Colorado", "Missouri", "Mississippi", "Canadian"}
+STATE_RIVER = set(CK.get("state_also_river", []))
 
 
 def canon(name):
@@ -59,7 +46,11 @@ def canon(name):
 THE = r"(?<![A-Za-z])[Tt]he "
 # Place names that are also used for peoples, animals or as adjectives: count only after a
 # word that places something somewhere ("in Memphis", "to Cheyenne").
-LOCATIVE_ONLY = {"Cheyenne", "Memphis"}
+LOCATIVE_ONLY = set(CK.get("locative_only", []))
+# Words that turn a place name into something else: "New Mexico" is not Mexico;
+# "Ogallala Sioux" are a people; "Texas bull" / "Texas Ranger" are adjectives.
+NOT_BEFORE = "".join(rf"(?<!{re.escape(w)} )" for w in CK.get("not_before", []))
+NOT_AFTER = rf"(?! (?:{'|'.join(CK['not_followed_by'])}))" if CK.get("not_followed_by") else ""
 LOCATIVE = re.compile(r"\b(?:in|to|from|at|near|of|toward|towards|for|into|outside|reach|reached)\s+$", re.I)
 
 
@@ -77,9 +68,8 @@ def patterns(name, g):
     elif kind == "state" and name in STATE_RIVER:
         out.append(rf"(?<![Tt]he )\b{re.escape(name)}\b(?! River)")
     elif not g.get("fictional"):
-        # "New Mexico" is not Mexico; "the San Antonio" is the river; "Ogallala Sioux" are a people;
-        # "Texas bull" / "Texas Ranger" are adjectives
-        out.append(rf"(?<!New )(?<![Tt]he )\b{re.escape(name)}\b(?! (?:Sioux|bull|Ranger|Rangers|longhorns?|cattle|steers?))")
+        # "the San Antonio" is the river, not the town
+        out.append(rf"{NOT_BEFORE}(?<![Tt]he )\b{re.escape(name)}\b{NOT_AFTER}")
     for v in VARIANTS.get(name, []):
         out.append(rf"\b{re.escape(v)}\b")
     return [re.compile(p) for p in out]
@@ -109,7 +99,7 @@ def named_in(text, name):
 
 
 report = {"missed": [], "missed_broad": [], "unsupported": []}
-for n in range(1, 103):
+for n in range(1, TOTAL + 1):
     text = (ROOT / "book" / "chapters" / f"{n:03d}.txt").read_text().replace("\u2019", "'")
     ext = json.loads((ROOT / "extract" / f"{n:03d}.json").read_text())
     have = {canon(p.get("name")) for p in ext.get("places", [])}
@@ -144,7 +134,7 @@ known = " | ".join(list(gaz) + list(aliases) + [v for vs in VARIANTS.values() fo
 for f in sorted((ROOT / "extract").glob("[0-9]*.json")):
     known += " | " + " | ".join(p.get("raw_name", "") for p in json.loads(f.read_text()).get("places", [])).lower()
 unknown = {}
-for n in range(1, 103):
+for n in range(1, TOTAL + 1):
     text = (ROOT / "book" / "chapters" / f"{n:03d}.txt").read_text().replace("\u2019", "'")
     for m in SHAPES.finditer(text):
         phrase = re.sub(r"^(?:The|A|An|And|But|Then|When|If)\s+", "", m.group(0))
@@ -159,12 +149,9 @@ for f in sorted((ROOT / "extract").glob("[0-9]*.json")):
         for c in p.get("characters", []): people.update(c.split())
     for g in d.get("groups", []):
         for c in g.get("members", []): people.update(c.split())
-COMMON = {"I", "God", "Lord", "Captain", "Mister", "Mr", "Mrs", "Miss", "Ma", "Pa", "Indians", "Indian", "Mexicans",
-          "Mexican", "Christ", "Jesus", "Hell", "Heaven", "Sunday", "Saturday", "Rangers", "Ranger", "Army", "Yankees",
-          "Comanches", "Kiowas", "Sioux", "Cheyenne", "Crow", "Crows", "Blackfeet", "Pawnee", "Pawnees", "Arapahoe",
-          "Irish", "Irishman", "Dutch", "German", "Germans", "French", "English", "Spanish", "Greek", "Latin", "Bible"}
+COMMON = set(CK.get("not_place_words", []))
 LOC = re.compile(r"\b(?:in|to|from|at|toward|towards|into|near|outside|reached|reach)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)")
-for n in range(1, 103):
+for n in range(1, TOTAL + 1):
     text = (ROOT / "book" / "chapters" / f"{n:03d}.txt").read_text().replace("\u2019", "'")
     for m in LOC.finditer(text):
         phrase = m.group(1)

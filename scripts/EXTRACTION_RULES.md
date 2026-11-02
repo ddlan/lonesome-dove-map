@@ -1,6 +1,7 @@
 # Place extraction rules
 
-You are extracting geographic places from one chapter of the novel *Lonesome Dove* to build a spoiler-safe map.
+You are extracting geographic places from one chapter of a novel (the one named in `book.json`) to build a spoiler-safe map.
+The examples below come from the first book this was used for, *Lonesome Dove*; apply the same ideas to whatever book you are reading.
 The chapter text is at `book/chapters/NNN.txt`. Write your output to `extract/NNN.json` (3-digit chapter number).
 
 ## Hard rules

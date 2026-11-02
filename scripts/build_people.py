@@ -1,4 +1,4 @@
-"""Package character blurbs into per-chapter files: data/people/001.js ... 102.js
+"""Package character blurbs into per-chapter files: data/people/001.js, 002.js, ...
 
 Blurbs come from scripts/blurbs/out/*.json: {"Name": {"ch": N, "text": "..."}}.
 Each blurb goes into the file for its chapter, so the app (people.js) never
@@ -9,7 +9,8 @@ import json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-TOTAL = 102
+BOOK = json.loads((ROOT / "book.json").read_text())  # settings specific to this book
+TOTAL = BOOK["chapters"]
 by_ch = {n: {} for n in range(1, TOTAL + 1)}
 for f in sorted((ROOT / "scripts" / "blurbs" / "out").glob("*.json")):
     kind = "intro" if f.stem.startswith("intro") else "update"

@@ -1,4 +1,5 @@
-/* Lonesome Dove Map — spoiler-safe chapter map.
+/* Spoiler-safe chapter map. Book settings (title, map view, labels) come from data/meta.js,
+   which build.py writes from book.json.
    Chapter data lives in data/chapters/NNN.js and is only loaded up to the chosen chapter. */
 (() => {
 "use strict";
@@ -6,9 +7,21 @@
 const META = window.LD_META;
 const BM = window.BASEMAP;
 const TOTAL = META.total;
+const MAPCFG = META.map || {};
+const WORD = Object.assign({ jump_confirm: "Jump ahead to chapter {n}? This shows places past chapter {furthest}, the furthest you've marked.",
+  jump_yes: "Jump ahead", jump_no: "Stay here" }, META.wording);
+if (META.title) {
+  document.title = META.title + " Map";
+  d3.select("#cartouche h1").text(META.title);
+  d3.select("#map").attr("aria-label", "Map of places in " + META.title);
+}
+d3.select("#cartouche .c-sub").text(META.subtitle || "");
+d3.select("#confirm-yes").text(WORD.jump_yes);
+d3.select("#confirm-no").text(WORD.jump_no);
+const KEY = (META.id || "book") + "-";  // separate saved progress per book on a shared site
 const store = {
-  get(k, d) { try { const v = localStorage.getItem("ld-" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
-  set(k, v) { try { localStorage.setItem("ld-" + k, JSON.stringify(v)); } catch {} },
+  get(k, d) { try { const v = localStorage.getItem(KEY + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(KEY + k, JSON.stringify(v)); } catch {} },
 };
 
 /* ---------- chapter loading (only files 1..X are ever requested) ---------- */
@@ -43,15 +56,20 @@ if (urlCh >= 1 && urlCh <= TOTAL) state.ch = urlCh;  // a ?ch=N link counts as "
 state.furthest = Math.max(state.furthest, state.ch);
 
 const partOf = n => { let p = 1; for (const [num, start] of META.parts) if (n >= start) p = num; return p; };
-const roman = ["", "I", "II", "III", "IV"];
+const roman = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 /* ---------- svg scaffolding ---------- */
 const svg = d3.select("#map");
 const W = () => window.innerWidth || svg.node().clientWidth, H = () => window.innerHeight || svg.node().clientHeight;
 
-const projection = d3.geoConicConformal().parallels([27, 47]).rotate([101, 0]);
-const frame = { type: "MultiPoint", coordinates: [[-117, 18.5], [-84, 18.5], [-84, 50], [-117, 50]] };
+const PJ = MAPCFG.projection || { type: "conicConformal", parallels: [27, 47], rotate: [101, 0] };
+const projection = ({ conicConformal: d3.geoConicConformal, conicEqualArea: d3.geoConicEqualArea, mercator: d3.geoMercator,
+  equirectangular: d3.geoEquirectangular, azimuthalEqualArea: d3.geoAzimuthalEqualArea }[PJ.type] || d3.geoConicConformal)();
+if (PJ.parallels && projection.parallels) projection.parallels(PJ.parallels);
+if (PJ.rotate) projection.rotate(PJ.rotate);
+const [[fx0, fy0], [fx1, fy1]] = MAPCFG.frame || [[-117, 18.5], [-84, 50]];
+const frame = { type: "MultiPoint", coordinates: [[fx0, fy0], [fx1, fy0], [fx1, fy1], [fx0, fy1]] };
 projection.fitExtent([[20, 20], [Math.max(W(), 400) - 20, Math.max(H(), 400) - 20]], frame);
 const path = d3.geoPath(projection);
 
@@ -141,9 +159,7 @@ function drawBase() {
   drawRegionLabels();
 }
 
-const RIVERS = ["Rio Grande", "Pecos", "Nueces", "Colorado", "Brazos", "Trinity", "Red", "Canadian", "North Canadian", "Cimarron",
-  "Arkansas", "Smoky Hill", "Republican", "Platte", "North Platte", "South Platte", "Niobrara", "Missouri", "Yellowstone",
-  "Powder", "Bighorn", "Tongue", "Musselshell", "Milk", "Mississippi", "Snake", "Sabine", "Washita", "Concho", "Belle Fourche", "Cheyenne", "Little Missouri"];
+const RIVERS = MAPCFG.river_labels || [];
 function drawRiverLabels() {
   const best = {};
   for (const f of BM.rivers.features) {
@@ -162,21 +178,16 @@ function drawRiverLabels() {
       .text(n === "Rio Grande" ? "Rio Grande" : n + " R.");
   });
 }
-const REGIONS = [
-  ["TEXAS", -99.2, 31.2, 22], ["MEXICO", -103.5, 26.2, 26], ["INDIAN TERRITORY", -97.2, 35.4, 12], ["KANSAS", -98.6, 38.6, 16],
-  ["NEBRASKA", -99.8, 41.6, 16], ["COLORADO", -105.6, 39.1, 15], ["WYOMING TERR.", -107.6, 43.1, 13], ["MONTANA TERRITORY", -109.6, 47.1, 15],
-  ["DAKOTA TERRITORY", -100.4, 46.2, 14], ["NEW MEXICO TERR.", -106.1, 34.3, 13], ["ARIZONA TERR.", -111.7, 34.3, 13], ["UTAH TERR.", -111.6, 39.4, 13],
-  ["IDAHO TERR.", -114.6, 44.4, 12], ["ARKANSAS", -92.4, 34.9, 13], ["MISSOURI", -92.5, 38.4, 13], ["LOUISIANA", -92.2, 31.1, 12],
-  ["IOWA", -93.4, 42.1, 12], ["MINNESOTA", -94.4, 46.3, 12], ["NEVADA", -116.6, 39.3, 12], ["DOMINION OF CANADA", -104, 51.4, 15],
-];
-const WATERS = [["GULF OF MEXICO", -90.5, 25.4, 16], ["PACIFIC OCEAN", -121.5, 27.5, 18]];
+const REGIONS = MAPCFG.region_labels || [];
+const WATERS = MAPCFG.sea_labels || [];
 function drawRegionLabels() {
   const g = gLabels.append("g").attr("id", "region-labels");
   g.selectAll("text.region-label").data(REGIONS).join("text").attr("class", "region-label")
     .attr("transform", d => `translate(${projection([d[1], d[2]])})`).attr("data-s", d => d[3]).text(d => d[0]);
   g.selectAll("text.sea-label").data(WATERS).join("text").attr("class", "water-label sea-label")
     .attr("transform", d => `translate(${projection([d[1], d[2]])})`).attr("data-s", d => d[3]).text(d => d[0]);
-  const mt = BM.mountains.features.filter(f => /ROCKY|SIERRA MADRE O|Black Hills|Wasatch|Front Range|Ouachita|Bitterroot/.test(f.properties.NAME));
+  const mtRe = MAPCFG.mountain_labels ? new RegExp(MAPCFG.mountain_labels) : null;
+  const mt = mtRe ? BM.mountains.features.filter(f => mtRe.test(f.properties.NAME)) : [];
   g.selectAll("text.mtn-label").data(mt).join("text").attr("class", "mtn-label")
     .attr("transform", d => `translate(${path.centroid(d)})`).attr("data-s", d => /[A-Z]{4}/.test(d.properties.NAME) ? 13 : 10)
     .text(d => d.properties.NAME.toUpperCase().replace("MTS.", "MOUNTAINS"));
@@ -545,7 +556,7 @@ function renderFog() {
 /* ---------- panel ---------- */
 function renderPanel() {
   const x = state.ch;
-  d3.select("#c-chapter").text(`Part ${roman[partOf(x)]} · Chapter ${x}`);
+  d3.select("#c-chapter").text(META.parts.length > 1 ? `Part ${roman[partOf(x)]} · Chapter ${x}` : `Chapter ${x}`);
   d3.select("#this-ch-title").text(`In Chapter ${x}`);
   const c = chapters[x];
   const items = (c?.apps || []).filter(a => a.t === "e" || state.mentions)
@@ -665,7 +676,7 @@ function fitToEvents() {
 /* ---------- chapter controls ---------- */
 const slider = document.getElementById("slider"), num = document.getElementById("ch-num");
 slider.max = num.max = TOTAL;
-d3.select("#part-ticks").selectAll("span").data(META.parts).join("span")
+d3.select("#part-ticks").selectAll("span").data(META.parts.length > 1 ? META.parts : []).join("span")
   .style("left", d => ((d[1] - 1) / (TOTAL - 1) * 100) + "%").text(d => "Part " + roman[d[0]]);
 
 async function setChapter(n, { ask = true } = {}) {
@@ -685,7 +696,7 @@ async function setChapter(n, { ask = true } = {}) {
 }
 function confirmJump(n) {
   return new Promise(res => {
-    d3.select("#confirm-text").text(`Ride ahead to chapter ${n}? This shows places past chapter ${state.furthest}, the furthest you've marked.`);
+    d3.select("#confirm-text").text(WORD.jump_confirm.replace("{n}", n).replace("{furthest}", state.furthest));
     const box = document.getElementById("confirm");
     box.hidden = false;
     const done = v => { box.hidden = true; res(v); };

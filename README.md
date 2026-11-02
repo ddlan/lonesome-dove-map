@@ -80,6 +80,8 @@ The readers missed no named place that rules could find.
 - **Review list:** `REVIEW.md` lists low-confidence identifications and estimated positions, sorted by chapter.
 
 ### 4. Build
+Book-wide settings (chapter count, parts, map view and labels) come from `book.json`; see [Using this for another book](#using-this-for-another-book).
+
 `scripts/build.py` combines the above into **one data file per chapter**: `data/chapters/NNN.js`. Each file holds only:
 - places that first appear in that chapter
 - that chapter's appearances and notes
@@ -188,13 +190,48 @@ To keep zooming smooth:
 The build scripts expect the chapter text in `book/chapters/` (not committed; regenerate it from your own copy of the book).
 
 ```bash
-python3 scripts/split_chapters.py path/to/book.epub book/chapters
-python3 scripts/check_extraction.py   # rules-based cross-check → extract/_check.json
-python3 scripts/build.py          # → data/chapters/, data/meta.js, REVIEW.md
-python3 scripts/build_people.py   # → data/people/
+python3 -I scripts/split_chapters.py path/to/book.epub book/chapters
+python3 -I scripts/check_extraction.py   # rules-based cross-check → extract/_check.json
+python3 -I scripts/build.py              # → data/chapters/, data/meta.js, REVIEW.md
+python3 -I scripts/build_people.py       # → data/people/
+python3 -I scripts/build_basemap.py path/to/natural_earth   # → data/basemap.js (only when the map area changes)
 ```
 
 Place extraction, coordinates and blurbs were produced by AI agents following the rules above; the scripts only package their output.
+
+---
+
+## Using this for another book
+
+The app and scripts are not tied to *Lonesome Dove*. Everything specific to the book is in **`book.json`**:
+
+| Setting | What it controls |
+|---|---|
+| `id` | Key for saved progress in the browser. Give each book its own, so two maps on one site don't share a bookmark. |
+| `title`, `subtitle` | The cartouche and page title |
+| `chapters`, `parts` | Chapter count and where each part starts (one part hides the part labels) |
+| `epub.chapter_file` | Pattern that finds chapter files inside the EPUB, in reading order |
+| `wording` | The jump-ahead prompt and its buttons ("Ride ahead" / "Stay put") |
+| `map.bbox`, `countries`, `state_*` | The area cut from Natural Earth for the base map, which borders to draw, and states to merge for the era |
+| `map.projection`, `frame` | Map projection and the opening view |
+| `map.region_labels`, `sea_labels`, `river_labels`, `mountain_labels` | Which names are lettered on the base map |
+| `build.river_names` | Book river names that differ from Natural Earth's, for routing trails along rivers |
+| `check.*` | Cross-check tuning: spelling variants, and words that make a place name mean something else |
+
+**Steps for a new book:**
+1. Copy this repo. Delete `extract/`, `data/chapters/`, `data/people/`, `scripts/blurbs/` and `REVIEW.md`, and empty `scripts/gazetteer.json`, `aliases.json`, `char_aliases.json`, `deaths.json`, `canonical_names.txt` and `check_decisions.json`.
+2. Edit `book.json`. Set `chapters` after splitting if you're not sure of the count; the splitter warns when they differ.
+3. `split_chapters.py` your EPUB. If no chapters are found, open the EPUB (it's a zip) and adjust `epub.chapter_file` to match its chapter file names.
+4. Have an AI reader go through each chapter with `scripts/EXTRACTION_RULES.md`, producing `extract/NNN.json`.
+5. Fill `scripts/gazetteer.json` with coordinates. `build.py` lists any name still missing in `extract/_missing.json`.
+6. Run the cross-check, review its flags into `check_decisions.json`, then build. If the setting is outside the current map area, rebuild the base map first.
+7. Optionally record deaths and write blurbs; both are skipped when absent.
+
+**Limits:**
+- **Invented worlds.** The map uses real longitude and latitude on a Natural Earth base map. A fantasy world would need an image base map with positions measured on the picture; the app doesn't support that yet.
+- **Story order.** Trails assume events happen in the order you read them. Books with flashbacks or several timelines would need a "when" field per event.
+- **Borders.** Base map borders are modern. `state_merge` can join states (here North and South Dakota), but historic borders that cut across modern ones aren't drawn.
+- **Style.** Fonts, colors and paper texture (`style.css`) are themed for the Old West and would need restyling for other settings.
 
 ## Credits
 

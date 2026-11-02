@@ -9,9 +9,10 @@ import json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+BOOK = json.loads((ROOT / "book.json").read_text())  # settings specific to this book
+TOTAL = BOOK["chapters"]
+
 S = ROOT / "scripts"
-TOTAL = 102
-PARTS = [[1, 1], [2, 26], [3, 75]]
 
 gaz = json.loads((S / "gazetteer.json").read_text())
 aliases = json.loads((S / "aliases.json").read_text()) if (S / "aliases.json").exists() else {}
@@ -38,7 +39,7 @@ def char(c):
 
 
 # book river name -> river name in the Natural Earth base map, where they differ
-RIVER_NAMES = {"Clear Fork Brazos River": "Clear Fk.  Brazos", "Colorado River (Texas)": "Colorado"}
+RIVER_NAMES = BOOK.get("build", {}).get("river_names", {})
 
 
 def slug(s):
@@ -125,8 +126,14 @@ for n in range(1, TOTAL + 1):
         payload["died"] = died
     (out_dir / f"{n:03d}.js").write_text("LD.chapter(" + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ");\n")
 
-(ROOT / "data" / "meta.js").write_text(
-    "window.LD_META=" + json.dumps({"total": TOTAL, "parts": PARTS}) + ";\n")
+# display settings for the app (no story content)
+meta = {"total": TOTAL, "parts": BOOK.get("parts", [[1, 1]])}
+for k in ("id", "title", "subtitle", "wording"):
+    if k in BOOK:
+        meta[k] = BOOK[k]
+m = BOOK.get("map", {})
+meta["map"] = {k: m[k] for k in ("projection", "frame", "region_labels", "sea_labels", "river_labels", "mountain_labels") if k in m}
+(ROOT / "data" / "meta.js").write_text("window.LD_META=" + json.dumps(meta, ensure_ascii=False) + ";\n")
 
 for name, n in missing.items():
     review.append((n, f"**{name}** — no coordinates yet, not shown on the map"))

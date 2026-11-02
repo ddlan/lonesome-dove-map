@@ -1,0 +1,80 @@
+{
+  "_about": "Everything specific to one book. Scripts read this file; build.py copies the display settings into data/meta.js for the app.",
+
+  "id": "ld",
+  "_id_note": "Short unique key for saved progress in the browser. Use a different one per book.",
+  "title": "Lonesome Dove",
+  "subtitle": "A Map of the Territories",
+  "author": "Larry McMurtry",
+  "chapters": 102,
+  "parts": [[1, 1], [2, 26], [3, 75]],
+
+  "epub": {
+    "_note": "Regex for the EPUB's chapter files; group 1 is the chapter number, in reading order.",
+    "chapter_file": "ch(\\d{3})\\.html$"
+  },
+
+  "wording": {
+    "jump_confirm": "Ride ahead to chapter {n}? This shows places past chapter {furthest}, the furthest you've marked.",
+    "jump_yes": "Ride ahead",
+    "jump_no": "Stay put"
+  },
+
+  "map": {
+    "_note": "bbox and countries clip the Natural Earth base map (scripts/build_basemap.py). projection/frame set the opening view.",
+    "bbox": [-126, 14, -78, 54],
+    "countries": ["United States of America", "Mexico", "Canada"],
+    "state_country": "USA",
+    "state_exclude": ["AK", "HI"],
+    "state_merge": {"ND": "DK", "SD": "DK"},
+    "projection": {"type": "conicConformal", "parallels": [27, 47], "rotate": [101, 0]},
+    "frame": [[-117, 18.5], [-84, 50]],
+    "region_labels": [
+      ["TEXAS", -99.2, 31.2, 22], ["MEXICO", -103.5, 26.2, 26], ["INDIAN TERRITORY", -97.2, 35.4, 12], ["KANSAS", -98.6, 38.6, 16],
+      ["NEBRASKA", -99.8, 41.6, 16], ["COLORADO", -105.6, 39.1, 15], ["WYOMING TERR.", -107.6, 43.1, 13], ["MONTANA TERRITORY", -109.6, 47.1, 15],
+      ["DAKOTA TERRITORY", -100.4, 46.2, 14], ["NEW MEXICO TERR.", -106.1, 34.3, 13], ["ARIZONA TERR.", -111.7, 34.3, 13], ["UTAH TERR.", -111.6, 39.4, 13],
+      ["IDAHO TERR.", -114.6, 44.4, 12], ["ARKANSAS", -92.4, 34.9, 13], ["MISSOURI", -92.5, 38.4, 13], ["LOUISIANA", -92.2, 31.1, 12],
+      ["IOWA", -93.4, 42.1, 12], ["MINNESOTA", -94.4, 46.3, 12], ["NEVADA", -116.6, 39.3, 12], ["DOMINION OF CANADA", -104, 51.4, 15]
+    ],
+    "sea_labels": [["GULF OF MEXICO", -90.5, 25.4, 16], ["PACIFIC OCEAN", -121.5, 27.5, 18]],
+    "river_labels": ["Rio Grande", "Pecos", "Nueces", "Colorado", "Brazos", "Trinity", "Red", "Canadian", "North Canadian", "Cimarron",
+      "Arkansas", "Smoky Hill", "Republican", "Platte", "North Platte", "South Platte", "Niobrara", "Missouri", "Yellowstone",
+      "Powder", "Bighorn", "Tongue", "Musselshell", "Milk", "Mississippi", "Snake", "Sabine", "Washita", "Concho", "Belle Fourche", "Cheyenne", "Little Missouri"],
+    "mountain_labels": "ROCKY|SIERRA MADRE O|Black Hills|Wasatch|Front Range|Ouachita|Bitterroot"
+  },
+
+  "build": {
+    "_note": "Book river name -> river name in the Natural Earth base map, where they differ.",
+    "river_names": {"Clear Fork Brazos River": "Clear Fk.  Brazos", "Colorado River (Texas)": "Colorado"}
+  },
+
+  "check": {
+    "_note": "Tuning for scripts/check_extraction.py. See the README's cross-check section.",
+    "variants": {
+      "San Antonio": ["San Antone"],
+      "St. Joseph": ["St. Jo", "Saint Jo"],
+      "Purgatoire River": ["Purgatory", "Purgatoire"],
+      "Llano Estacado": ["Staked Plains", "Staked Plain", "Llano"],
+      "Indian Territory": ["the Nations", "Indian Nations", "Oklahoma Territory"],
+      "New York": ["New York City"],
+      "Washington, D.C.": ["Washington City"],
+      "Mexico City": ["Mexico City"],
+      "Fort Phantom Hill": ["Phantom Hill"],
+      "Doan's Store": ["Doan's", "Doans"],
+      "Bent's Fort": ["Bents' Fort", "Bent's Fort"],
+      "Marias River": ["Marais", "Marias"],
+      "Prairie Dog Town Fork Red River": ["Prairie Dog Fork", "Prairie Dog Town Fork"],
+      "Clear Fork Brazos River": ["Clear Fork"],
+      "Rio Grande": ["Rio Grande", "Río Grande"]
+    },
+    "skip_bare_rivers": ["Red", "Milk", "Powder", "Wind", "Salt", "Platte"],
+    "state_also_river": ["Arkansas", "Colorado", "Missouri", "Mississippi", "Canadian"],
+    "locative_only": ["Cheyenne", "Memphis"],
+    "not_before": ["New"],
+    "not_followed_by": ["Sioux", "bull", "Ranger", "Rangers", "longhorns?", "cattle", "steers?"],
+    "not_place_words": ["I", "God", "Lord", "Captain", "Mister", "Mr", "Mrs", "Miss", "Ma", "Pa", "Indians", "Indian", "Mexicans",
+      "Mexican", "Christ", "Jesus", "Hell", "Heaven", "Sunday", "Saturday", "Rangers", "Ranger", "Army", "Yankees",
+      "Comanches", "Kiowas", "Sioux", "Cheyenne", "Crow", "Crows", "Blackfeet", "Pawnee", "Pawnees", "Arapahoe",
+      "Irish", "Irishman", "Dutch", "German", "Germans", "French", "English", "Spanish", "Greek", "Latin", "Bible"]
+  }
+}
